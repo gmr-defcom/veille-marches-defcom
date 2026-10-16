@@ -2,7 +2,8 @@
 """
 Collecte hebdomadaire des avis de marchés de défense — GMR DEFCOM.
 
-Sources : BOAMP, TED, DECP (données essentielles de la commande publique), OCCAR.
+Sources : BOAMP, TED, DECP (données essentielles de la commande publique).
+(L'OCCAR refuse la lecture automatique de sa page : fonction conservée mais non utilisée.)
 Résultat : donnees/derniere-semaine.json (+ une copie datée dans donnees/archives/).
 
 Chaque source est interrogée séparément : si l'une est en panne, les autres
@@ -117,9 +118,10 @@ def ted():
 def decp():
     base = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/decp-2022-marches-valides/records"
     # 110090016 = SIREN du ministère des Armées (DGA, SCA, SIMMT, bases… sont des établissements de ce SIREN)
-    where = ("datepublicationdonnees>=date'%s' AND (acheteur_id like \"110090016*\" OR nature like \"*fense*\" "
-             "OR codecpv like \"353*\" OR codecpv like \"354*\" OR codecpv like \"355*\" "
-             "OR codecpv like \"356*\" OR codecpv like \"357*\")" % debut.isoformat())
+    filtre = ('startswith(acheteur_id, "110090016") OR nature = "Marché de défense ou de sécurité" '
+              'OR startswith(codecpv, "353") OR startswith(codecpv, "354") OR startswith(codecpv, "355") '
+              'OR startswith(codecpv, "356") OR startswith(codecpv, "357")')
+    where = "datepublicationdonnees >= date'%s' AND (%s)" % (debut.isoformat(), filtre)
     champs = ("id,nature,objet,codecpv,procedure,techniques,modalitesexecution,acheteur_id,titulaire_id_1,"
               "montant,dureemois,datenotification,datepublicationdonnees,offresrecues,idaccordcadre,source")
     avis, offset, total = [], 0, None
@@ -133,6 +135,17 @@ def decp():
         offset += len(lot)
         if not lot or offset >= total or offset >= 200:
             break
+    diagnostic = None
+    if not avis:  # aide au réglage : combien de fiches publiées sur la période, toutes origines confondues ?
+        try:
+            q = urllib.parse.urlencode({"select": "count(*) as n", "where": "datepublicationdonnees >= date'%s'"
+                                        % debut.isoformat()})
+            diagnostic = {"fiches_publiees_sur_la_periode": http_json(base + "?" + q).get("results")}
+            q = urllib.parse.urlencode({"select": "nature, count(*) as n", "group_by": "nature",
+                                        "where": "datepublicationdonnees >= date'%s'" % debut.isoformat()})
+            diagnostic["par_nature"] = http_json(base + "?" + q).get("results")
+        except Exception as e:
+            diagnostic = {"erreur": str(e)[:200]}
     noms = {}
     for a in avis:
         for cle in ("acheteur_id", "titulaire_id_1"):
@@ -143,7 +156,10 @@ def decp():
         a["titulaire_nom"] = noms.get((a.get("titulaire_id_1") or "").strip(), "")
         a["lien"] = ("https://data.economie.gouv.fr/explore/dataset/decp-2022-marches-valides/table/?q=%s"
                      % urllib.parse.quote(a.get("id") or ""))
-    return {"total": total, "avis": avis}
+    r = {"total": total, "avis": avis}
+    if diagnostic:
+        r["diagnostic"] = diagnostic
+    return r
 
 
 def nom_entreprise(siret):
@@ -215,7 +231,7 @@ def main():
         "periode": {"du": debut.isoformat(), "au": aujourdhui.isoformat()},
         "sources": {},
     }
-    for nom, fonction in (("BOAMP", boamp), ("TED", ted), ("DECP", decp), ("OCCAR", occar)):
+    for nom, fonction in (("BOAMP", boamp), ("TED", ted), ("DECP", decp)):
         try:
             r = fonction()
             resultat["sources"][nom] = {"statut": "ok", **r}
