@@ -2,8 +2,9 @@
 """
 Collecte hebdomadaire des avis de marchés de défense — GMR DEFCOM.
 
-Sources : BOAMP, TED, DECP (données essentielles de la commande publique).
-(L'OCCAR refuse la lecture automatique de sa page : fonction conservée mais non utilisée.)
+Sources utilisées : BOAMP et TED.
+(Fonctions DECP et OCCAR conservées mais non utilisées : la base DECP ne contient pas, à ce jour,
+les fiches du ministère des Armées, et l'OCCAR refuse la lecture automatique de sa page.)
 Résultat : donnees/derniere-semaine.json (+ une copie datée dans donnees/archives/).
 
 Chaque source est interrogée séparément : si l'une est en panne, les autres
@@ -231,7 +232,7 @@ def main():
         "periode": {"du": debut.isoformat(), "au": aujourdhui.isoformat()},
         "sources": {},
     }
-    for nom, fonction in (("BOAMP", boamp), ("TED", ted), ("DECP", decp)):
+    for nom, fonction in (("BOAMP", boamp), ("TED", ted)):
         try:
             r = fonction()
             resultat["sources"][nom] = {"statut": "ok", **r}
