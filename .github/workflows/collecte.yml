@@ -1,0 +1,29 @@
+name: Collecte hebdomadaire
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"     # chaque lundi à 4 h UTC (6 h à Paris en été, 5 h en hiver)
+  workflow_dispatch:         # bouton « Run workflow » pour un lancement manuel
+
+permissions:
+  contents: write
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collecter BOAMP, TED, DECP et OCCAR
+        run: python3 collecte.py
+
+      - name: Enregistrer le résultat dans le dépôt
+        if: always()
+        run: |
+          git config user.name "collecte-automatique"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p donnees
+          git add donnees
+          git diff --cached --quiet || git commit -m "Collecte du $(date -u +%Y-%m-%d)"
+          git push
