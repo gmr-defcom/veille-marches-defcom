@@ -28,6 +28,12 @@ debut = aujourdhui - timedelta(days=JOURS)
 
 
 # ---------------------------------------------------------------- outils réseau
+NAVIGATEUR = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/126.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"}
+
+
 def http(url, data=None, headers=None, essais=3):
     h = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9"}
     h.update(headers or {})
@@ -110,21 +116,22 @@ def ted():
 # puis on retrouve les noms via l'annuaire public des entreprises.
 def decp():
     base = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/decp-2022-marches-valides/records"
-    where = ("datepublicationdonnees>=date'%s' AND (nature like \"*défense*\" OR codecpv like \"353*\" "
-             "OR codecpv like \"354*\" OR codecpv like \"355*\" OR codecpv like \"356*\" OR codecpv like \"357*\")"
-             % debut.isoformat())
+    # 110090016 = SIREN du ministère des Armées (DGA, SCA, SIMMT, bases… sont des établissements de ce SIREN)
+    where = ("datepublicationdonnees>=date'%s' AND (acheteur_id like \"110090016*\" OR nature like \"*fense*\" "
+             "OR codecpv like \"353*\" OR codecpv like \"354*\" OR codecpv like \"355*\" "
+             "OR codecpv like \"356*\" OR codecpv like \"357*\")" % debut.isoformat())
     champs = ("id,nature,objet,codecpv,procedure,techniques,modalitesexecution,acheteur_id,titulaire_id_1,"
               "montant,dureemois,datenotification,datepublicationdonnees,offresrecues,idaccordcadre,source")
     avis, offset, total = [], 0, None
     while True:
-        q = urllib.parse.urlencode({"select": champs, "where": where, "order_by": "datepublicationdonnees desc",
+        q = urllib.parse.urlencode({"select": champs, "where": where, "order_by": "montant desc",
                                     "limit": 100, "offset": offset})
         j = http_json(base + "?" + q)
         total = j.get("total_count", 0)
         lot = j.get("results", [])
         avis += lot
         offset += len(lot)
-        if not lot or offset >= total or offset >= 300:
+        if not lot or offset >= total or offset >= 200:
             break
     noms = {}
     for a in avis:
@@ -185,7 +192,7 @@ class _Occar(HTMLParser):
 def occar():
     url = "https://www.occar.int/business-opportunities/current-advertisements"
     p = _Occar()
-    p.feed(http(url))
+    p.feed(http(url, headers=NAVIGATEUR))
     blocs = [b for b in p.blocs if not re.search(r"current advertisements|menu|footer", b["titre"], re.I)]
     etat_f = os.path.join(DOSSIER, "occar-etat.json")
     deja = set()
