@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-16T14:44:19+00:00",
+ "genere_le": "2026-10-16T14:50:16+00:00",
  "periode": {
   "du": "2026-10-09",
   "au": "2026-10-16"
@@ -40845,12 +40845,47 @@
   "DECP": {
    "statut": "ok",
    "total": 0,
-   "avis": []
-  },
-  "OCCAR": {
-   "statut": "indisponible",
-   "erreur": "https://www.occar.int/business-opportunities/current-advertisements : HTTP Error 403: Forbidden",
-   "avis": []
+   "avis": [],
+   "diagnostic": {
+    "fiches_publiees_sur_la_periode": [
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     },
+     {
+      "n": 643
+     }
+    ],
+    "par_nature": [
+     {
+      "nature": "Marché",
+      "n": 643
+     }
+    ]
+   }
   }
  }
 }
