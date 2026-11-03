@@ -1,0 +1,55 @@
+COLLECTE DU 2026-11-03 (période du 2026-10-27 au 2026-11-03)
+- Actualités (Google Actualités) : ok, 97 retenus
+- Journal officiel (DILA) : ok, 6 retenus
+- Journal officiel de l'Union : ok, 5 retenus
+- Justice administrative : ok, 0 retenus
+- Conseil constitutionnel : ok, 0 retenus
+- Cour de justice et Tribunal de l'UE : ok, 0 retenus
+
+=== ACTUALITÉS (presse et sites officiels ; présélection des 30 mieux classées, 67 autres non transmises) ===
+[ACT-d89ecf8dd23b] 2026-11-02 | Presse | Ministère des Armées | La DGA livre le premier Rafale destiné aux essais du centre DGA Essais en vol
+[ACT-45e66a046212] 2026-11-01 | Presse | Zone Militaire | La Direction générale de l’armement lance un appel d’offres pour industrialiser son drone naval kamikaze «SMOKERS
+[ACT-ea9586c95de1] 2026-10-31 | Ministère des Armées / DGA | Ministère des Armées | Rapport au Parlement 2026 sur les exportations d’armement de la France
+[ACT-aee6663075bb] 2026-10-30 | Commission européenne — DG Industrie de défense et espace | defence-industry-space.ec.europa.eu | Defence Industry and Space - defence-industry-space.ec.europa.eu | chapeau : Defence Industry and Space defence-industry-space.ec.europa.eu
+[ACT-5119098313b4] 2026-10-29 | Commission européenne — DG Industrie de défense et espace | https://defence-industry-space.ec.europa.eu/ | Commission invites Member States to use €21.3 billion under SAFE to boost Defence Readiness and support to Ukraine - https://defence-industry-space.ec.europa.eu/
+[ACT-d83049244a87] 2026-11-03 | Presse | Lavoixdefrance.fr | La France a conçu en seulement 6 mois son propre drone naval kamikaze et prévoit 36 millions d’euros pour lancer sa production industrielle
+[ACT-3df62557e002] 2026-11-02 | Presse | Le Journal de l'Aviation | La DGA livre un Rafale destiné aux essais du futur standard F5
+[ACT-96fb61313d52] 2026-11-02 | Presse | Air&Cosmos | Rafale F5 : la DGA livre un premier appareil pour les essais en vol
+[ACT-e66f321e77f8] 2026-11-02 | Presse | Economie Matin | Drones navals : la DGA cherche un industriel capable de produire jusqu’à 50 SMOKERS par an
+[ACT-e919485be362] 2026-11-01 | Presse | Forum Militaire | Même les États-Unis sont admiratifs de la cadence de production de Naval Group qui vient de livrer la deuxième FDI grecque seulement 10 mois après la première
+[ACT-f4d4c0b5e01f] 2026-11-01 | Presse | Armees.com | Drones navals SMOKERS : la DGA prépare une production pouvant atteindre 50 unités par an
+[ACT-b276a3a18fc9] 2026-10-31 | Presse | France 3 Régions | "Du gagnant-gagnant pour nos industries" : à Lorient, la France livre une nouvelle frégate à la Grèce
+[ACT-c0d31b7e6e6a] 2026-10-30 | Presse | Air&Cosmos | « C’est une nouvelle façon de faire des programmes dans le futur » : le DGA Patrick Pailloux invité d’Air&Défense, en partenariat avec Air & Cosmos
+[ACT-6091c25851c1] 2026-10-29 | Presse | Ministère des Armées | La DGA lance l’acquisition de 16 remorqueurs-pousseurs nouvelle génération
+[ACT-723d9e79772e] 2026-10-29 | Presse | Mer et Marine | Entretien avec le responsable du programme Rafale à la DGA : « Le standard F5 constitue une véritable rénovation à mi-vie
+[ACT-1ec5393c86a6] 2026-10-28 | Presse | North Atlantic Treaty Organization | NATO | Pour une montée en puissance de la production industrielle de défense | OTAN Sujet
+[ACT-5cf588eceaba] 2026-10-28 | Presse | L'Usine Nouvelle | Sauvetage des Forges de Tarbes : «Nous dialoguons avec quatre candidats industriels pour reprendre le savoir-faire de l’entreprise», indique la ministre des Armées
+[ACT-125bc1b7e1e0] 2026-10-30 | Ministère des Armées / DGA | Ministère des Armées | Les domaines de la DGA
+[ACT-3e0be6e6a3b7] 2026-10-30 | Ministère des Armées / DGA | Ministère des Armées | Commandement de l’Appui Terrestre Numérique et Cyber
+[ACT-561d57599a8e] 2026-10-30 | Commission européenne — DG Industrie de défense et espace | https://defence-industry-space.ec.europa.eu/ | Commission launches High-Level Dialogue with the European refining sector - https://defence-industry-space.ec.europa.eu/
+[ACT-3bdbd3aa5ca8] 2026-10-29 | Ministère des Armées / DGA | Ministère des Armées | Dronisation et ruptures technologiques : les innovations de la DGA et de l’AID à Euronaval 2026
+[ACT-6351b83ad2f5] 2026-10-27 | Commission européenne — DG Industrie de défense et espace | https://defence-industry-space.ec.europa.eu/ | ENDR Conference ”European Young Professionals Defence Summit 2026”, Malmö (Sweden), 27 – 28 October 2026 - https://defence-industry-space.ec.europa.eu/
+[ACT-5b3d983830a5] 2026-11-03 | Presse | Demócrata | L’électricité pour la grande industrie en Espagne coûte 30 % de plus qu’en France, selon AEGE
+[ACT-ee716c1b9963] 2026-11-03 | Presse | Le Journal des Entreprises | Piriou remporte un marché de 16 remorqueurs pour la Marine nationale, dont quatre fermes
+[ACT-8eb976aa3fe6] 2026-11-03 | Presse | Enderi | Safran retenu pour trois programmes de dissuasion nucléaire
+[ACT-334a2953f84f] 2026-11-03 | Presse | Serie News | Armement européen sur Arte : des milliards investis pour dissuader la Russie, mais pour quelle défense ?
+[ACT-f741f41487ef] 2026-11-03 | Presse | Armees.com | La DGA reçoit le Rafale B374 pour les essais du standard F5
+[ACT-a86f84351bc8] 2026-11-02 | Presse | Idéal Investisseur | Crédit Agricole et la BEI débloquent 400 M€ pour les PME et ETI de la défense
+[ACT-ab25b825acfb] 2026-11-02 | Presse | Capital.fr | L’expertise au service de l’industrie française et européenne
+[ACT-dc465f276d25] 2026-11-02 | Presse | Mer et Marine | Entretien avec l’IGA François Watteau, directeur de l’Unité de management Combat naval à la DGA
+
+=== TEXTES PUBLIÉS AU JOURNAL OFFICIEL (rubrique Actualités) ===
+[JORF-ECOR2628541A] JORF | ARRETE | publié le 2026-10-30 | Arrêté du 29 octobre 2026 précisant les modalités de calcul de l'avantage prévu à l'article 3 du décret n° 2026-981 du 23 octobre 2026 relatif aux conditions économiques de libération de stocks stratégiques de gazole | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[JORF-ECOC2628565A] JORF | ARRETE | publié le 2026-10-30 | Arrêté du 29 octobre 2026 relatif à la prise en compte, dans les prix maximum des gazoles routiers et non routiers en Guadeloupe, en Guyane, en Martinique, à La Réunion et à Mayotte, de l'avantage résultant des conditions économiques de libération de stocks stratégiques de gazole | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[JORF-ECOC2627493A] JORF | ARRETE | publié le 2026-10-29 | Arrêté du 26 octobre 2026 relatif à l'information des consommateurs sur la baisse des prix résultant de la libération des stocks stratégiques de gazole | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[JORF-ECOR2628883A] JORF | ARRETE | publié le 2026-10-29 | Arrêté du 28 octobre 2026 modifiant l'arrêté du 27 octobre 2026 portant application du décret n° 2026-981 du 23 octobre 2026 et fixant les modalités de répartition des stocks stratégiques cédés sur injonction | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[JORF-ECOR2628328D] JORF | DECRET | publié le 2026-10-28 | Décret n° 2026-998 du 27 octobre 2026 modifiant les articles D. 1336-47 et D. 1336-49 du code de la défense relatif à l'obligation de stockage stratégique de produits pétroliers | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[JORF-ECOR2628456A] JORF | ARRETE | publié le 2026-10-28 | Arrêté du 27 octobre 2026 portant application du décret n° 2026-981 du 23 octobre 2026 et fixant les modalités de répartition des stocks stratégiques cédés sur injonction | Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique
+[UE-32026R2387] JOUE | Règlement UE | adopté le 2026-10-21 | Règlement (UE) 2026/2387 du Parlement européen et du Conseil du 21 octobre 2026 concernant l’établissement du programme pour l’innovation agile et rapide dans le domaine de la défense (AGILE) et modifiant les règlements (UE) 2024/795 et (UE) 2026/467 (Texte présentant de l'intérêt pour l'EEE)
+[UE-32026L2383] JOUE | Directive UE | adopté le 2026-10-21 | Directive (UE) 2026/2383 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les directives 2009/43/CE et 2009/81/CE en ce qui concerne la simplification des transferts intra-UE de produits liés à la défense et la simplification des marchés publics dans les domaines de la sécurité et de la défense
+[UE-32026R2382] JOUE | Règlement UE | adopté le 2026-10-21 | Règlement (UE) 2026/2382 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les règlements (CE) n° 1907/2006, (CE) n° 1272/2008, (UE) n° 528/2012, (UE) 2019/1021 et (UE) 2021/697 en ce qui concerne la préparation de la défense et facilitant les investissements dans le domaine de la défense et les conditions pour l’industrie de la défense
+[UE-32026R2381] JOUE | Règlement UE | adopté le 2026-10-21 | Règlement (UE) 2026/2381 du Parlement européen et du Conseil du 21 octobre 2026 relatif à l’accélération des procédures d’octroi des autorisations pour les projets en matière de préparation de la défense
+[UE-32025R2643R(01)] JOUE | Règlement UE | adopté le 2026-10-12 | Rectificatif au règlement (UE) 2025/2643 du Parlement européen et du Conseil du 16 décembre 2025 relatif à l’établissement du programme pour l’industrie européenne de la défense et d’un cadre de mesures visant à assurer la disponibilité des produits de défense et l’approvisionnement en de tels produits en temps utile («règlement EDIP») (JO L, 2025/2643, 29.12.2025)
+
+=== JURISPRUDENCE ===
+(aucune décision correspondant aux critères n'a été mise en ligne cette semaine)

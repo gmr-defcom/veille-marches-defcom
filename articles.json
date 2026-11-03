@@ -1,0 +1,92 @@
+[
+ {
+  "ref": "ACT-45e66a046212",
+  "rubrique": "actualites",
+  "etiquette": "Programme",
+  "titre": "Drone naval SMOKERS : la DGA lance un appel d’offres pour son industrialisation",
+  "texte": "La Direction générale de l’armement a lancé un appel d’offres en vue d’industrialiser SMOKERS, drone naval dit « kamikaze » conçu en France. D’autres titres de presse parus le même jour indiquent que le drone a été conçu en six mois, que l’industriel recherché devra pouvoir en produire jusqu’à cinquante par an et qu’une enveloppe de 36 millions d’euros est prévue pour lancer la production. L’opération illustre le passage, par la voie d’une mise en concurrence, d’un démonstrateur développé sous l’égide de l’État à une production en série confiée à l’industrie. S’agissant d’un équipement destiné à être utilisé comme arme, le marché relèvera a priori du régime des marchés de défense ou de sécurité (art. L1113-1, 1° CCP).",
+  "theme": "drones"
+ },
+ {
+  "ref": "ACT-6091c25851c1",
+  "rubrique": "actualites",
+  "etiquette": "Programme",
+  "titre": "La DGA lance l’acquisition de 16 remorqueurs-pousseurs de nouvelle génération",
+  "texte": "Le ministère des Armées annonce que la Direction générale de l’armement lance l’acquisition de seize remorqueurs-pousseurs de nouvelle génération, destinés au soutien des forces navales. Selon la presse régionale du 3 novembre 2026, le chantier Piriou a remporté ce marché, dont quatre unités en commande ferme. Cette structure, qui distingue une commande ferme et des unités supplémentaires, correspond a priori à un marché assorti de tranches ou d’options, permettant à l’acheteur d’étaler ses engagements dans le temps.",
+  "theme": "naval"
+ },
+ {
+  "ref": "UE-32026L2383",
+  "rubrique": "actualites",
+  "etiquette": "Directive UE",
+  "titre": "Directive (UE) 2026/2383 modifiant les directives 2009/43/CE et 2009/81/CE (simplification)",
+  "texte": "Directive (UE) 2026/2383 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les directives 2009/43/CE et 2009/81/CE en ce qui concerne la simplification des transferts intra-UE de produits liés à la défense et la simplification des marchés publics dans les domaines de la sécurité et de la défense, publiée au Journal officiel de l’Union européenne. Le texte modifie simultanément les deux directives qui structurent le marché européen de la défense : celle relative aux transferts intra-UE de produits liés à la défense et celle qui coordonne la passation des marchés de défense et de sécurité. Il appellera une transposition en droit français, notamment dans les dispositions du code de la commande publique consacrées aux marchés de défense ou de sécurité, qui transposent la directive 2009/81/CE.",
+  "theme": "juridique"
+ },
+ {
+  "ref": "UE-32026R2387",
+  "rubrique": "actualites",
+  "etiquette": "Règlement UE",
+  "titre": "Règlement (UE) 2026/2387 établissant le programme pour l’innovation agile et rapide dans la défense (AGILE)",
+  "texte": "Règlement (UE) 2026/2387 du Parlement européen et du Conseil du 21 octobre 2026 concernant l’établissement du programme pour l’innovation agile et rapide dans le domaine de la défense (AGILE) et modifiant les règlements (UE) 2024/795 et (UE) 2026/467, publié au Journal officiel de l’Union européenne. Le texte crée un nouveau programme de l’Union consacré à l’innovation de défense, dont l’intitulé souligne la recherche de rapidité et d’agilité. Il s’ajoute aux instruments européens de soutien à l’industrie de défense, tels que le Fonds européen de la défense (règlement (UE) 2021/697) et le programme EDIP (règlement (UE) 2025/2643). Les financements accordés au titre de tels programmes, exécutés sur le budget de l’Union, obéissent au règlement financier (règlement (UE, Euratom) 2024/2509).",
+  "theme": "juridique"
+ },
+ {
+  "ref": "UE-32026R2382",
+  "rubrique": "actualites",
+  "etiquette": "Règlement UE",
+  "titre": "Règlement (UE) 2026/2382 sur la préparation de la défense et les investissements dans le domaine de la défense",
+  "texte": "Règlement (UE) 2026/2382 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les règlements (CE) n° 1907/2006, (CE) n° 1272/2008, (UE) n° 528/2012, (UE) 2019/1021 et (UE) 2021/697 en ce qui concerne la préparation de la défense et facilitant les investissements dans le domaine de la défense et les conditions pour l’industrie de la défense, publié au Journal officiel de l’Union européenne. Le texte adapte plusieurs législations sectorielles de l’Union aux besoins de la préparation de la défense et entend faciliter les investissements et améliorer les conditions d’activité de l’industrie de la défense. Il modifie notamment le règlement (UE) 2021/697 établissant le Fonds européen de la défense, principal instrument de financement par subventions de la recherche et du développement de défense dans l’Union.",
+  "theme": "juridique"
+ },
+ {
+  "ref": "JORF-ECOR2628328D",
+  "rubrique": "actualites",
+  "etiquette": "Décret",
+  "titre": "Décret n° 2026-998 du 27 octobre 2026 relatif à l’obligation de stockage stratégique de produits pétroliers",
+  "texte": "Décret n° 2026-998 du 27 octobre 2026 modifiant les articles D. 1336-47 et D. 1336-49 du code de la défense relatif à l’obligation de stockage stratégique de produits pétroliers, publié au Journal officiel du 28 octobre 2026. Le texte modifie les dispositions du code de la défense qui encadrent l’obligation de constituer et de conserver des stocks stratégiques de produits pétroliers. Il s’inscrit dans un ensemble de textes publiés la même semaine : plusieurs arrêtés des 26 au 29 octobre 2026 pris pour l’application du décret n° 2026-981 du 23 octobre 2026 fixent les conditions économiques de libération de stocks stratégiques de gazole, les modalités de répartition des stocks cédés sur injonction et la répercussion de cette libération sur les prix, y compris outre-mer.",
+  "theme": "juridique"
+ },
+ {
+  "ref": "TED-759026-2026",
+  "rubrique": "marches",
+  "etiquette": "Attribution",
+  "titre": "Missiles : la DGA attribue sans mise en concurrence un accord-cadre VL MICA, ouvert à des États partenaires",
+  "texte": "La Direction générale de l’armement (service des achats d’armement de la DOMN) a publié l’avis d’attribution d’un accord-cadre portant sur la fourniture de systèmes VL MICA, de munitions MICA et de prestations associées, pour les besoins des armées françaises et d’États partenaires, membres ou non de l’Union européenne ; ni le montant ni le titulaire ne sont indiqués. Ce marché de défense ou de sécurité (art. L1113-1, 1° CCP), publié au titre de la directive 2009/81/CE, a été passé selon une procédure négociée sans mise en concurrence. Ce mode de passation n’est ouvert que dans les cas limitativement prévus par voie réglementaire (art. L2322-1 CCP) ; il repose ici probablement sur l’existence d’un opérateur unique pour des raisons techniques ou d’exclusivité (art. R2322-5 CCP)."
+ },
+ {
+  "ref": "TED-741774-2026",
+  "rubrique": "marches",
+  "etiquette": "Appel d'offres",
+  "titre": "Gilets pare-balles à port discret et à port apparent pour le ministère des Armées",
+  "texte": "La plate-forme commissariat de Rambouillet lance un accord-cadre pour la fabrication de gilets pare-balles à port discret et à port apparent, également publié au BOAMP. L’avis est passé au titre de la directive 2009/81/CE, selon une procédure restreinte. Ce choix du régime des marchés de défense ou de sécurité suppose que ces équipements de protection présentent un caractère spécifiquement militaire au sens de l’art. L1113-1 CCP ; au-delà des seuils, ce régime impose une procédure formalisée, dont l’appel d’offres, nécessairement restreint (art. L2324-1 et L2324-2 CCP)."
+ },
+ {
+  "ref": "TED-757567-2026",
+  "rubrique": "marches",
+  "etiquette": "Attribution",
+  "titre": "Outillages spécifiques pour l’entretien des diesel-alternateurs des frégates FREMM",
+  "texte": "Le service logistique de la Marine (MARINE/DCSSF/DSSF Brest) a attribué, pour 964 328 euros, un marché d’achat d’outillages spécifiques destinés aux visites des diesel-alternateurs des frégates FREMM, réalisées par ses ateliers de Brest et de Toulon. L’avis le présente comme un marché de défense ou de sécurité, passé selon une procédure restreinte au titre de la directive 2009/81/CE. La qualification repose sur le lien de ces fournitures avec l’entretien d’un équipement militaire au cours de son cycle de vie (art. L1113-1, 3° CCP) ; le montant, supérieur au seuil de 432 000 euros HT applicable aux fournitures et services, imposait une procédure formalisée (art. L2324-1 CCP)."
+ },
+ {
+  "ref": "TED-746083-2026",
+  "rubrique": "marches",
+  "etiquette": "Attribution",
+  "titre": "Danemark : attribution sans mise en concurrence d’un marché de missiles de croisière à longue portée",
+  "texte": "L’organisation d’acquisition et de logistique du ministère danois de la Défense a publié l’avis d’attribution d’un marché de missiles de croisière à longue portée ; le montant y figure pour zéro euro et n’est donc pas communiqué. Le marché, publié au titre de la directive 2009/81/CE telle que transposée en droit danois, a été passé selon une procédure négociée sans mise en concurrence. Ce mode de passation, dérogatoire, n’est admis que dans les cas limitativement énumérés par la directive, dont l’acheteur doit établir la réunion."
+ },
+ {
+  "ref": "TED-744839-2026",
+  "rubrique": "marches",
+  "etiquette": "Avis d'intention de conclure",
+  "titre": "Malte : intention de conclure sans mise en concurrence l’achat d’un second véhicule de déminage (EOD)",
+  "texte": "Les forces armées de Malte annoncent leur intention de conclure, selon une procédure négociée sans mise en concurrence, l’acquisition d’un second véhicule d’intervention de neutralisation des explosifs (EOD), pour un montant de 2 487 276 euros. Cet avis d’intention de conclure (VEAT) annonce un marché attribué sans mise en concurrence préalable, ce qui appelle une justification. L’avis est publié au titre de la directive 2014/24/UE pour un matériel militaire : ce choix est notable et discutable, la directive 2014/24/UE excluant de son champ les marchés couverts par la directive 2009/81/CE, qui vise en principe les équipements militaires, mais le recours au régime général, plus exigeant en matière de concurrence, est rarement contesté en pratique."
+ },
+ {
+  "ref": "TED-740343-2026",
+  "rubrique": "marches",
+  "etiquette": "Appel d'offres",
+  "titre": "Estonie : armes de 40 et 23 mm et munitions de 76, 40 et 23 mm, avec soutien sur le cycle de vie",
+  "texte": "Le Centre estonien des investissements de défense (Riigi Kaitseinvesteeringute Keskus) lance un accord-cadre portant sur l’achat d’armes de 40 mm et de 23 mm ainsi que de munitions de 76 mm, 40 mm et 23 mm, assorti d’un soutien sur l’ensemble de leur cycle de vie. L’avis relève de la directive 2009/81/CE, telle que transposée en droit estonien, et la procédure retenue est la procédure restreinte, l’une des procédures de droit commun prévues par cette directive, qui ne connaît pas la procédure ouverte."
+ }
+]
