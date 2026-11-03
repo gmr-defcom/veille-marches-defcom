@@ -81,8 +81,20 @@ def priorite_ted(n):
     return (0 if premier(n.get("buyer-country")) == "FRA" else 1, 0 if militaire else 1)
 
 
+def charger(url):
+    """Télécharge le fichier de la collecte ; à défaut, lit la copie locale (dépôt cloné avec git)."""
+    try:
+        return json.loads(urllib.request.urlopen(url + "?t=" + str(date.today()), timeout=60).read().decode("utf-8"))
+    except Exception as e:
+        local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "donnees", url.rsplit("/", 1)[1])
+        if os.path.exists(local):
+            print("Téléchargement impossible (%s) : copie locale utilisée (%s)." % (e, local))
+            return json.loads(open(local, encoding="utf-8").read())
+        raise
+
+
 def cmd_avis():
-    d = json.loads(urllib.request.urlopen(SOURCE + "?t=" + str(date.today()), timeout=60).read().decode("utf-8"))
+    d = charger(SOURCE)
     index, lignes = {}, []
     p = d.get("periode", {})
     lignes.append("COLLECTE DU %s (période du %s au %s)" % (d.get("genere_le", "?")[:10], p.get("du"), p.get("au")))
@@ -141,7 +153,7 @@ def court(t, n):
 
 
 def cmd_veille():
-    d = json.loads(urllib.request.urlopen(SOURCE_VEILLE + "?t=" + str(date.today()), timeout=60).read().decode("utf-8"))
+    d = charger(SOURCE_VEILLE)
     index, L = {}, []
     p = d.get("periode", {})
     L.append("COLLECTE DU %s (période du %s au %s)" % (d.get("genere_le", "?")[:10], p.get("du"), p.get("au")))
