@@ -1,98 +1,154 @@
-# Test des sources de la veille GMR DEFCOM
+# Test des sources de la veille GMR DEFCOM — second passage
 
-Lancé le 03/11/2026 à 12:53 (UTC). Période « 7 jours » : depuis le 2026-10-27.
+Lancé le 03/11/2026 à 12:58 (UTC). Période « 7 jours » : depuis le 2026-10-27.
 
-## 1. Actualités
+## 1. Google Actualités limité aux sites officiels (7 derniers jours)
 
-### Google Actualités — un flux par terme du directeur (7 derniers jours)
+- **Ministère des Armées / DGA** (« site:defense.gouv.fr DGA », édition fr) : 56 éléments, 24 des 7 derniers jours.
+    - 2026-11-02 — La DGA livre le premier Rafale destiné aux essais du centre DGA Essais en vol - Ministère des Armées — source : https://www.defense.gouv.fr
+    - 2026-11-02 — Communiqué de presse - Ministère des Armées — source : https://www.defense.gouv.fr
+    - 2026-11-02 — Profil réserviste - Ministère des Armées — source : http://www.defense.gouv.fr
+    - 2026-11-02 — Livraison de la deuxième frégate de défense et d’intervention (FDI) à la Grèce - Ministère des Armées — source : http://www.defense.gouv.fr
+- **Ministère des Armées / DGA** (« site:defense.gouv.fr DGA », édition en) : 1 éléments, 1 des 7 derniers jours.
+    - 2026-11-02 — • • • • • • • • • • • • ☒ ☐ - Ministère des Armées — source : https://www.defense.gouv.fr
+- **Ministère des Armées (tout le site)** (« site:defense.gouv.fr », édition fr) : 100 éléments, 100 des 7 derniers jours.
+    - 2026-11-03 — - Ministère des Armées — source : https://mindefconnect-auth.defense.gouv.fr
+    - 2026-11-03 — Civils de la Défense - Ministère des Armées — source : https://contractuels.civils.defense.gouv.fr
+    - 2026-11-03 — - Ministère des Armées — source : https://anais.vigie.defense.gouv.fr
+    - 2026-11-02 — Profil réserviste - Ministère des Armées — source : http://www.defense.gouv.fr
+- **Ministère des Armées (tout le site)** (« site:defense.gouv.fr », édition en) : 2 éléments, 2 des 7 derniers jours.
+    - 2026-10-29 — - Ministère des Armées — source : https://artemis-transport-internet.defense.gouv.fr
+    - 2026-11-02 — • • • • • • • • • • • • ☒ ☐ - Ministère des Armées — source : https://www.defense.gouv.fr
+- **Agence européenne de défense** (« site:eda.europa.eu », édition fr) : 0 éléments, 0 des 7 derniers jours.
+- **Agence européenne de défense** (« site:eda.europa.eu », édition en) : 2 éléments, 2 des 7 derniers jours.
+    - 2026-10-29 — EDA to step up drone testing and exercises in 2027 as technology hubs develop - European Defence Agency — source : https://eda.europa.eu
+    - 2026-10-27 — European Defence Standardisation - Call for experts 2027 - European Defence Agency — source : https://eda.europa.eu
+- **Commission — industrie de défense et espace** (« site:defence-industry-space.ec.europa.eu », édition fr) : 0 éléments, 0 des 7 derniers jours.
+- **Commission — industrie de défense et espace** (« site:defence-industry-space.ec.europa.eu », édition en) : 5 éléments, 4 des 7 derniers jours.
+    - 2026-10-29 — Commission invites Member States to use €21.3 billion under SAFE to boost Defence Readiness and support to Ukraine - https://defence-industr — source : https://defence-industry-space.ec.europa.eu
+    - 2026-10-30 — Defence Industry and Space - defence-industry-space.ec.europa.eu — source : https://defence-industry-space.ec.europa.eu
+    - 2026-10-30 — Commission launches High-Level Dialogue with the European refining sector - https://defence-industry-space.ec.europa.eu/ — source : https://defence-industry-space.ec.europa.eu
+    - 2026-10-27 — ENDR Conference ”European Young Professionals Defence Summit 2026”, Malmö (Sweden), 27 – 28 October 2026 - https://defence-industry-space.ec — source : https://defence-industry-space.ec.europa.eu
+- **Commission — communiqués sur la défense** (« site:ec.europa.eu defence industry », édition fr) : 3 éléments, 3 des 7 derniers jours.
+    - 2026-10-31 — Page 1 COMMISSION EUROPÉENNE SEC(2026) 267/9 Bruxelles, le 30 octobre 2026 Addendum à la note journalière du 30 octobre 2026 - European Comm — source : https://ec.europa.eu
+    - 2026-10-29 — Commission takes a key step forward on 2027 financial support for Ukraine - European Commission — source : https://ec.europa.eu
+    - 2026-10-28 — European refining - energy.ec.europa.eu — source : https://energy.ec.europa.eu
+- **Commission — communiqués sur la défense** (« site:ec.europa.eu defence industry », édition en) : 46 éléments, 33 des 7 derniers jours.
+    - 2026-10-28 — Commission launches High-Level Dialogue with the European refining sector - Energy — source : https://energy.ec.europa.eu
+    - 2026-10-29 — Joint Statement: The European Union and Canada building together an Alliance for the future - European Commission — source : https://ec.europa.eu
+    - 2026-10-29 — Commission invites Member States to use €21.3 billion under SAFE to boost Defence Readiness and support to Ukraine - https://defence-industr — source : https://defence-industry-space.ec.europa.eu
+    - 2026-10-30 — Statement by President von der Leyen following the EU-Canada summit - European Commission — source : https://ec.europa.eu
+- **Commission — communiqués (commission.europa.eu)** (« site:commission.europa.eu defence », édition fr) : 0 éléments, 0 des 7 derniers jours.
+- **Commission — communiqués (commission.europa.eu)** (« site:commission.europa.eu defence », édition en) : 15 éléments, 6 des 7 derniers jours.
+    - 2026-10-27 — Reinforcing Frontex for stronger protection of the EU’s external borders - European Commission — source : https://commission.europa.eu
+    - 2026-10-30 — EU-Canada relations - European Commission — source : https://commission.europa.eu
+    - 2026-10-30 — Proposal for a Council Implementing Decision for the Ukraine Finance Strategy - European Commission — source : https://commission.europa.eu
+    - 2026-10-30 — Announcement of next auction (EU-Bills) on 04-11-2026 - European Commission — source : https://commission.europa.eu
 
-- **« BITD base industrielle technologique de défense »** : répond (HTTP 200). 10 éléments dans le flux, 10 des 7 derniers jours. Plus récent : 2026-11-03.
-    - 2026-11-03 — Euronaval : « Les Salons sont des moments clés pour les services de renseignement étrangers » (DRSD). - La Tribune — https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVzUyaUVuRkpNVVpKWlZYREJad0RpMlBtVzNoV1hVLWJZcUdUZnhpSzRYc2otQjZmcVphR2lCa1ZoelZKWUd0MXlXRXVCSElMUDM1N3h5VmF
-    - 2026-10-30 — Fonds Bpifrance Défense, une épargne qui a du sens - Bpifrance — https://news.google.com/rss/articles/CBMikwFBVV95cUxPV1RPVVQ1ZGJfVjYtRDhhNlhHMEdDYTQxOVJQU0drT2RsWS0yeWdZVXlidVNoNVFSMDJucmJCWk9PZ01SOWJUVUoxYnlSZlVGT2VaZTlHZlN
-    - 2026-10-28 — Euronaval 2026 : Electropoli met le cap sur la défense navale - L'Usine Nouvelle — https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVDlXYlNMOE1NWTRRR3BSdGZPbVktVVd0N2YzZ1BDWGhsd0pGX2FhOGVhQUhzSXBDVjZidDVmSUEwNzA2YzVqdFQ0aHB5ekotYUp4elhGVFh
-- **« BITDE base industrielle technologique de défense européenne »** : répond (HTTP 200). 1 éléments dans le flux, 1 des 7 derniers jours. Plus récent : 2026-10-28.
-    - 2026-10-28 — Armée, dissuasion nucléaire, Europe de la défense... L'essentiel en 10 questions-réponses - Vie publique — https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWxTN3hveFBtcUtiWGNEVmRRTzNMcXNFNnhlaFA3LVBBNEFKcnlHdFJTQWhRbXZYcnRac3EyaThlRmxvTHNrekpjRmpNWFdRYVFzek92OU1
-- **« industrie défense France Europe »** : répond (HTTP 200). 51 éléments dans le flux, 50 des 7 derniers jours. Plus récent : 2026-11-03.
-    - 2026-10-28 — Armée, dissuasion nucléaire, Europe de la défense... L'essentiel en 10 questions-réponses - Vie publique — https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWxTN3hveFBtcUtiWGNEVmRRTzNMcXNFNnhlaFA3LVBBNEFKcnlHdFJTQWhRbXZYcnRac3EyaThlRmxvTHNrekpjRmpNWFdRYVFzek92OU1
-    - 2026-11-02 — Ukraine : jusqu'à un milliard d'euros de prêts de l'UE consacré à des projets de défense communs - Euronews.com — https://news.google.com/rss/articles/CBMiwwFBVV95cUxORzhfZ1JQckFTTXNKVUVONEp0UWFHVERTczZxSktZbVc5QXltd3ZGZnp3cWJYa2ZQZkRwMHFMalVfSDZkcWl6X2ZRUWlUY2RfMk04ZFYxcjh
-    - 2026-10-30 — Comment la France renforce sa puissance maritime face aux nouvelles menaces - Ministère des Armées — https://news.google.com/rss/articles/CBMisAFBVV95cUxNbkRoRWs5MG1kU2hSdkl5LUgwY0RWdXJyM3hUbDJmcnhpQlhCcXZuRHVuaWZDT25TNlRTZ0dMcXhadFNTelkwMzd6aWs2aXYtV3Z2Z2pIRlB
-- **« KNDS Thales Airbus Defence Safran Dassault Naval Group »** : répond (HTTP 200). 3 éléments dans le flux, 3 des 7 derniers jours. Plus récent : 2026-11-03.
-    - 2026-10-28 — Euronaval 2026 : Electropoli met le cap sur la défense navale - L'Usine Nouvelle — https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVDlXYlNMOE1NWTRRR3BSdGZPbVktVVd0N2YzZ1BDWGhsd0pGX2FhOGVhQUhzSXBDVjZidDVmSUEwNzA2YzVqdFQ0aHB5ekotYUp4elhGVFh
-    - 2026-11-03 — Le plus grand salon du monde dédié à la défense navale est en France et il ouvre ses portes ce 3 novembre à 705 exposants et 105 délégations — https://news.google.com/rss/articles/CBMipgJBVV95cUxPR1pnM0xjT3R6OUk3akNHbUZjc3liSnowLWlMX0dYUHdtTDg4TGJEZHR5QzNneldVeWpmUXd2X3l0NGRGWVlra28zem1wVkhhNlFJYVExb0p
-    - 2026-10-28 — De Fos à Sophia Antipolis : comment la région Sud est devenue l’aimant économique de la Méditerranée - Le Figaro — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOFM4NnA1c28zMEFpWFpFZF8tM0JaSWMxTmF3dnFkbHd1VW5GT25RUEtydXlxMWVSMks3bjctOWZ3Y3UzaU02RDJYNGx2d0dXdlhqeE9rVUx
-- **« DGA direction générale armement »** : répond (HTTP 200). 12 éléments dans le flux, 12 des 7 derniers jours. Plus récent : 2026-11-02.
-    - 2026-10-29 — La DGA lance l’acquisition de 16 remorqueurs-pousseurs nouvelle génération - Ministère des Armées — https://news.google.com/rss/articles/CBMirwFBVV95cUxQZjZXNnVsVWJDemV2TWItUjdKRTdrX3RJTmFvNEE1UkVwVWNDTGtLZWlqVWE4SGhoMkMyVVI4UWk3VXh3WG9OenVmMU1vbEFSeGdRUFc5OFd
-    - 2026-11-01 — La Direction générale de l’armement lance un appel d’offres pour industrialiser son drone naval kamikaze «SMOKERS - Zone Militaire — https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSHBudi0zeWRGbjFqOFduR0hhbF9aY05Kb1Q4WGRaeDlPTlYyS05OQ2tpZjJaX2VTMXJkMlRyRGt0bEdJUTJGdFRjYW1sY0FxRmdpck5EaDR
-    - 2026-11-02 — Entretien avec l’IGA François Watteau, directeur de l’Unité de management Combat naval à la DGA - Mer et Marine — https://news.google.com/rss/articles/CBMizgFBVV95cUxPZG41QWhnQV9fbjgzcEhlLU4xVTRUQW0wbDc0akx3QWJVNHFUaEdBUGgxR3c4eHpmZmJzVVRFZTZMZ0JMZHhPSHRfMDQ1Yl9USU1FSmJrYkV
-- **« DGA appel offres marché programme »** : répond (HTTP 200). 4 éléments dans le flux, 4 des 7 derniers jours. Plus récent : 2026-11-03.
-    - 2026-11-02 — Les armées durcissent les règles d'accès à leurs marchés pour accélérer le virage de l'IA - La Lettre — https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZVdZaDBhRm1yb05uUVJwX1pkZlM5RkZKUXFvaUlXbEZnYnlXTkhxZXFwR0h4NDM1b3BQQnZRQUF2cTFHMEhSRjhTNEprZktUVkEzQlVBWVl
-    - 2026-11-03 — Piriou remporte un marché de 16 remorqueurs pour la Marine nationale, dont quatre fermes - Le Journal des Entreprises — https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeUxqRkN4VVBkTHBmeTBSUmhoempiNWVuS0hWQVEwU1FsOURVYlRUdEtmOEk0dHZoa243THY1LUVzUWhJSU5iaDRHTUJSU3FCeWtsbzhQSE1
-    - 2026-10-30 — Le ministère des Armées a de nouveau retenu Piriou pour livrer des remorqueurs RP30 NG à la Marine nationale - Zone Militaire — https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQkZPNXdwNnJtQkl6dm5VQXFxa2pxMjBoTEx3NGIzcFkwSHZ0OV9oUC1pdVpGaHZUU0V0eW5Sem1hSEZ3bXJDWjY3QmhIVlpWODg3bnozbmU
-- **« matériels défense programme armement France »** : répond (HTTP 200). 12 éléments dans le flux, 12 des 7 derniers jours. Plus récent : 2026-11-03.
-    - 2026-10-28 — Armée, dissuasion nucléaire, Europe de la défense... L'essentiel en 10 questions-réponses - Vie publique — https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWxTN3hveFBtcUtiWGNEVmRRTzNMcXNFNnhlaFA3LVBBNEFKcnlHdFJTQWhRbXZYcnRac3EyaThlRmxvTHNrekpjRmpNWFdRYVFzek92OU1
-    - 2026-10-29 — Entretien avec le responsable du programme Rafale à la DGA : « Le standard F5 constitue une véritable rénovation à mi-vie - Mer et Marine — https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQjhBS29EalNfNld0UldWcVlidmNzSnFwTVktSnpueExPMS1iU0hhcDNmVnhYRGt0Y2VjUzBZR3RrdnRYUkpPMnJDRDFsQXRVc3NldTRNTVZ
-    - 2026-10-29 — La Suisse a réduit sa sélection pour un second système de défense sol-air. Les finalistes sont le Barak MX d'Israël et le SAMP/T NG de Franc — https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQ0l2VEVuY2NZMExTY0hzODFVOVkxRTZpWU03cXZCcjVvZWd0TnlLX0ROeDRxMnpId0xJRUZXR0ZyckEwbjhUNXZreXE2WFJWazZoMUNPYWV
+## 2. Journal officiel — tri par date de publication
 
-### Ministère des Armées et DGA
+- 14 fichiers quotidiens lus, 1319 textes distincts, dont **685 publiés ces 7 derniers jours**.
+- Types de fichiers rencontrés : {'02': 1076, '03': 680, '01': 384, '04': 306, '59': 84, '79': 42, '70': 36, '16': 34}
+- Nature des textes publiés : {'LOI': 3, 'DECRET': 92, 'ARRETE': 388, 'DECISION': 36, 'INFORMATIONS_PARLEMENTAIRES': 49, 'AVIS': 109, 'ARRET': 2, 'TABLEAU': 1, 'DELIBERATION': 3, 'DIRECTIVE_EURO': 1, '?': 1}
+- Textes du ministère des Armées (NOR ARM) publiés : 22. Les voici, pour juger le filtre :
+    - [écarté] 2026-10-27 — ARMH2628275A — Arrêté du 22 octobre 2026 portant admission à la retraite (ingénieurs civils de la défense)
+    - [écarté] 2026-10-28 — ARMC2628537A — Arrêté du 23 octobre 2026 portant inscription au tableau de classement de l'année 2026 pour le grade de contrôleur des armées
+    - [écarté] 2026-10-29 — ARMK2628551A — Arrêté du 26 octobre 2026 autorisant l'ouverture des concours militaires d'accès à la formation au diplôme d'Etat d'aide-soignant à l'école du personnel paraméd
+    - [RETENU] 2026-10-29 — ARMH2627162A — Arrêté du 27 octobre 2026 accordant aux militaires participant à l'opération « EUTM Somalie » le bénéfice des dispositions de l'article L. 4123-4 du code de la 
+    - [hors sujet] 2026-10-29 — ARMH2614053A — Arrêté du 27 octobre 2026 fixant le taux de promotion au titre de l'année 2027 du corps des ingénieurs civils de la défense du ministère des armées et des ancie
+    - [écarté] 2026-10-29 — ARMM2628731A — Arrêté du 27 octobre 2026 portant nomination de la directrice générale de l'enseignement et de la recherche de l'Ecole de l'air et de l'espace
+    - [écarté] 2026-10-29 — ARMK2628544V — Avis autorisant au titre de l'année 2027 l'ouverture du concours sur épreuves pour le recrutement dans le corps des internes des hôpitaux des armées
+    - [écarté] 2026-10-29 — ARMK2628547V — Avis autorisant au titre de l'année 2027 l'ouverture du concours sur titres, parmi les officiers sous contrat servant en qualité de praticien des armées, pour l
+    - [écarté] 2026-10-29 — ARMK2628548V — Avis autorisant au titre de l'année 2027 l'ouverture du concours pour l'admission à l'école de santé des armées d'élèves officiers recrutés en qualité d'élève m
+    - [hors sujet] 2026-10-30 — ARMX2516107L — LOI n° 2026-1008 du 29 octobre 2026 portant reconnaissance de la Nation envers les rapatriés d'Indochine et réparation des préjudices subis par ceux-ci et leurs
+    - [hors sujet] 2026-10-30 — ARMH2621930A — Arrêté du 26 octobre 2026 modifiant l'arrêté du 17 décembre 2021 pris pour l'application du décret n° 2021-1703 du 17 décembre 2021 relatif à la prime de perfor
+    - [écarté] 2026-10-30 — ARMK2628766A — Arrêté du 28 octobre 2026 modifiant l'arrêté du 24 juin 2026 fixant le nombre et la répartition des places offertes aux concours sur épreuves organisés au titre
+    - [hors sujet] 2026-10-30 — ARMH2628956A — Arrêté du 29 octobre 2026 modifiant l'arrêté du 17 août 2020 fixant pour le ministère des armées la liste des emplois ouvrant droit à la nouvelle bonification i
+    - [écarté] 2026-10-30 — ARMA2628737V — Avis de vacance d'emplois de correcteur des épreuves écrites et d'examinateur des épreuves orales du concours d'admission 2027 à l'Ecole polytechnique
+    - [hors sujet] 2026-10-31 — ARMH2626181A — Arrêté du 23 octobre 2026 fixant le contingent d'emplois offerts au titre de l'année 2027 pour le recrutement d'ouvriers de l'Etat du ministère des armées et de
+    - [hors sujet] 2026-10-31 — ARMH2627617A — Arrêté du 29 octobre 2026 désignant les mesures de transformation ouvrant droit aux dispositifs d'accompagnement des agents relevant du ministère des armées et 
+    - [écarté] 2026-10-31 — ARMH2627912D — Décret du 29 octobre 2026 portant nomination dans l'armée active
+    - [hors sujet] 2026-10-31 — ARMH2627932D — Décret du 29 octobre 2026 portant recrutement dans les cadres des officiers de l'armée active
+    - [hors sujet] 2026-10-31 — ARMH2627939D — Décret du 29 octobre 2026 portant recrutement dans les cadres des officiers de l'armée active
+    - [écarté] 2026-10-31 — ARMH2628806A — Arrêté du 13 octobre 2026 portant admission à la retraite (cadres de santé paramédical)
+    - [hors sujet] 2026-11-01 — ARMH2627885A — Arrêté du 19 octobre 2026 modifiant divers arrêtés portant création d'instances de dialogue social et relatif à l'organisation des élections professionnelles au
+    - [écarté] 2026-11-03 — ARMB2627089D — Décret du 1er novembre 2026 portant affectation d'un officier général
+- **Textes retenus par le filtre, tous ministères confondus : 2**
+    - 2026-10-28 — ECOR2628328D — Décret n° 2026-998 du 27 octobre 2026 modifiant les articles D. 1336-47 et D. 1336-49 du code de la défense relatif à l'obligation de stockage stratégique de produits pétroliers
+    - 2026-10-29 — ARMH2627162A — Arrêté du 27 octobre 2026 accordant aux militaires participant à l'opération « EUTM Somalie » le bénéfice des dispositions de l'article L. 4123-4 du code de la défense
 
-- **defense.gouv.fr/dga** : la page https://www.defense.gouv.fr/dga répond (HTTP 200).
-  - flux essayé sans succès : https://www.defense.gouv.fr/rss.xml (flux https://www.defense.gouv.fr/rss.xml** : ÉCHEC — HTTP Error 404: Not Found)
-  - flux essayé sans succès : https://www.defense.gouv.fr/dga/rss.xml (flux https://www.defense.gouv.fr/dga/rss.xml** : ÉCHEC — HTTP Error 404: Not Found)
-  - flux essayé sans succès : https://www.defense.gouv.fr/rss (flux https://www.defense.gouv.fr/rss** : ÉCHEC — HTTP Error 404: Not Found)
-  - **Aucun flux exploitable trouvé.**
+## 3. Union européenne
 
-### Commission européenne — industrie de défense et espace
+- **Règlements et directives (hors PESC) des 30 derniers jours touchant à la défense** : 5 résultats.
+    - 2026-10-21 — 32026R2387 — Règlement (UE) 2026/2387 du Parlement européen et du Conseil du 21 octobre 2026 concernant l’établissement du programme pour l’innovation agile et rap
+    - 2026-10-21 — 32026L2383 — Directive (UE) 2026/2383 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les directives 2009/43/CE et 2009/81/CE en ce qui concerne l
+    - 2026-10-21 — 32026R2382 — Règlement (UE) 2026/2382 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les règlements (CE) n° 1907/2006, (CE) n° 1272/2008, (UE) n°
+    - 2026-10-21 — 32026R2381 — Règlement (UE) 2026/2381 du Parlement européen et du Conseil du 21 octobre 2026 relatif à l’accélération des procédures d’octroi des autorisations pou
+    - 2026-10-12 — 32025R2643R(01) — Rectificatif au règlement (UE) 2025/2643 du Parlement européen et du Conseil du 16 décembre 2025 relatif à l’établissement du programme pour l’industr
+- **Même recherche sur 365 jours (pour juger le volume habituel)** : 10 résultats.
+    - 2026-10-21 — 32026R2387 — Règlement (UE) 2026/2387 du Parlement européen et du Conseil du 21 octobre 2026 concernant l’établissement du programme pour l’innovation agile et rap
+    - 2026-10-21 — 32026L2383 — Directive (UE) 2026/2383 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les directives 2009/43/CE et 2009/81/CE en ce qui concerne l
+    - 2026-10-21 — 32026R2382 — Règlement (UE) 2026/2382 du Parlement européen et du Conseil du 21 octobre 2026 modifiant les règlements (CE) n° 1907/2006, (CE) n° 1272/2008, (UE) n°
+    - 2026-10-21 — 32026R2381 — Règlement (UE) 2026/2381 du Parlement européen et du Conseil du 21 octobre 2026 relatif à l’accélération des procédures d’octroi des autorisations pou
+    - 2026-10-12 — 32025R2643R(01) — Rectificatif au règlement (UE) 2025/2643 du Parlement européen et du Conseil du 16 décembre 2025 relatif à l’établissement du programme pour l’industr
+    - 2026-07-10 — 32026L2325 — Directive déléguée (UE) 2026/2325 de la Commission du 10 juillet 2026 modifiant la directive 2009/43/CE du Parlement européen et du Conseil en ce qui 
+    - 2026-01-06 — 32026R0059 — Règlement délégué (UE) 2026/59 de la Commission du 6 janvier 2026 portant dérogation à l’article 43, paragraphe 1, du règlement (UE) 2016/2031 du Parl
+    - 2025-12-19 — 32025R2653 — Règlement (UE) 2025/2653 du Parlement européen et du Conseil du 19 décembre 2025 modifiant les règlements (UE) 2021/694, (UE) 2021/695, (UE) 2021/697,
+- **Jurisprudence de l'Union des 365 derniers jours citant 2009/81, l'article 346 TFUE, 2014/23 ou 2014/24** : 37 résultats.
+    - Répartition par texte cité : {'32014L0023': 9, '32014L0024': 25, '12008E346': 1, '32009L0081': 2}
+    - 2026-07-10 — 62025CB0574 — 32014L0023
+    - 2026-07-09 — 62024CA0888 — 32014L0024
+    - 2026-07-09 — 62024CA0856 — 32014L0024
+    - 2026-07-09 — 62025CA0186 — 32014L0024
+    - 2026-07-09 — 62024CA0856 — 32014L0023
+    - 2026-06-04 — 62024CJ0820 — 32014L0024
+    - 2026-06-04 — 62024CA0820 — 32014L0024
+    - 2026-04-21 — 62022CJ0769 — 32014L0024
 
-- **DG DEFIS** : la page https://defence-industry-space.ec.europa.eu/news_en ne répond pas — HTTP Error 404: Not Found
-  - flux essayé sans succès : https://defence-industry-space.ec.europa.eu/node/feed_en (flux https://defence-industry-space.ec.europa.eu/node/feed_en** : ÉCHEC — HTTP Error 404: Not Found)
-  - **DG DEFIS — flux https://ec.europa.eu/commission/presscorner/api/rss?language=fr** : répond (HTTP 200). 10 éléments dans le flux, 10 des 7 derniers jours, dont 0 retenus par le filtre défense. Plus récent : 2026-11-03.
-      - 2026-11-03 — Entry into force or application of EU legislation - Key milestones, 1-30 November 2026 — https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2327
-      - 2026-11-03 — Daily News 03 / 11 / 2026 — https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2326
-      - 2026-11-03 — Commission takes new steps to prepare Europeans for growing crisis risks — https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2324
+## 5. Conseil constitutionnel — lecture des dates du flux
 
-### Agence européenne de défense
+- Balises d'un élément du flux : ['title', 'link', 'description', 'pubDate', '{http://purl.org/dc/elements/1.1/}creator', 'guid']
+- Contenu brut du premier élément : `<item xmlns:dc="http://purl.org/dc/elements/1.1/">   <title>La décision en bref : décision n° 2026-1229 QPC du 23 octobre 2026</title>   <link>https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-1229-qpc-du-23-octobre-2026</link>   <description />   <pubDate><time datetime="2026-10-23T12:38:54+02:00" class="datetime">Fri, 23 Oct 2026 12:38:54 +0200</time> </pubDate>   <dc:creator>Conseil constitutionnel</dc:creator>   <guid isPermaLink="true">https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-1229-qpc-du-23-octobre-2026</guid>   </item>`
+- 50 éléments, dont 0 avec une date lue. Plus récent : —.
+    - ? — La décision en bref : décision n° 2026-1229 QPC du 23 octobre 2026
+    - ? — Décision n° 2026-1230/1231 QPC du 23 octobre 2026 - Communiqué de presse
+    - ? — La décision en bref : décision n° 2026-1230/1231 QPC du 23 octobre 2026
+    - ? — Décision n° 2026-1230/1231 QPC du 23 octobre 2026
+    - ? — Décision n° 2026-1229 QPC du 23 octobre 2026
 
-- **AED** : la page https://eda.europa.eu/news-and-events/news répond (HTTP 200).
-  - flux essayé sans succès : https://eda.europa.eu/rss (flux https://eda.europa.eu/rss** : ÉCHEC — HTTP Error 404: Not Found)
-  - flux essayé sans succès : https://eda.europa.eu/news-and-events/news/rss (flux https://eda.europa.eu/news-and-events/news/rss** : ÉCHEC — HTTP Error 404: Not Found)
-  - **Aucun flux exploitable trouvé.**
+## 4. Juridictions administratives — contenu des fichiers mensuels
 
-## 2. Journal officiel de la République française (données ouvertes DILA)
-
-- Liste des fichiers : répond (HTTP 200). 882 fichiers en ligne, 14 des 7 derniers jours. Dernier : JORF_20261103-002311.tar.gz.
-- 712 textes lus sur la période, dont 24 du ministère des Armées (NOR ARM). 1 passent le filtre de la veille.
-    - ARMD2305491L — LOI n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (1)
-
-## 3. Union européenne (base de l'Office des publications, qui alimente EUR-Lex)
-
-- **Actes publiés au JOUE ces 30 derniers jours dont le titre touche à la défense** : répond. 14 résultats.
-    - 2026-10-26 — 32026D2385 — Décision (PESC) 2026/2385 du Conseil du 26 octobre 2026 modifiant la décision (PESC) 2016/610 relative à une mission militaire de formation PSDC de l’
-    - 2026-10-26 — 32026D2363 — Décision (PESC) 2026/2363 du Conseil du 26 octobre 2026 modifiant la décision (PESC) 2023/927 relative à une mesure d’assistance au titre de la facili
-    - 2026-10-26 — 32026D2364 — Décision (PESC) 2026/2364 du Conseil du 26 octobre 2026 modifiant la décision (PESC) 2022/338 relative à une mesure d’assistance au titre de la facili
-    - 2026-10-26 — 32026D2366 — Décision (PESC) 2026/2366 du Conseil du 26 octobre 2026 modifiant la décision (PESC) 2022/338 relative à une mesure d’assistance au titre de la facili
-- **Décisions de la Cour et du Tribunal (arrêts, ordonnances, conclusions) de ces 30 derniers jours** : répond. 153 résultats. Répartition par type (CJ = arrêt Cour, CO = ordonnance Cour, CC = conclusions, TJ/TO = Tribunal) : {'CJ': 65, 'CC': 22, 'TO': 12, 'TJ': 42, 'TC': 2, 'CO': 10}.
-    - 2026-11-03 — 62024CJ0583_RES — 
-    - 2026-11-03 — 62024CJ0583 — 
-    - 2026-11-03 — 62025CC0250 — 
-    - 2026-10-26 — 62026TO0179 — 
-- **Décisions de la Cour et du Tribunal citant la directive 2009/81/CE (toutes dates, pour vérifier le lien de citation)** : répond. 18 résultats. Répartition par type (CJ = arrêt Cour, CO = ordonnance Cour, CC = conclusions, TJ/TO = Tribunal) : {'CJ': 5, 'CA': 2, 'CC': 6, 'CO': 2, 'CB': 1, 'TO': 1, 'TJ': 1}.
-    - 2025-12-18 — 62023CJ0769 — 
-    - 2025-12-18 — 62023CA0769 — 
-    - 2025-07-10 — 62023CC0769 — 
-    - 2023-03-16 — 62022CO0493 — 
-
-## 4. Juridictions administratives (données ouvertes)
-
-- https://opendata.justice-administrative.fr/ : répond (HTTP 200, text/html). 21 liens, dont 0 fichiers. Exemples : https://opendata.justice-administrative.fr/mentions-legales.html, https://opendata.justice-administrative.fr/donnees-personnelles.html, https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2, https://www.courdecassation.fr/acces-rapide-judilibre, http://www.justice.gouv.fr/publications-10047/open-data-des-decisions-de-justice-13008/, https://opendata.justice-administrative.fr/ca
-- https://opendata.justice-administrative.fr/DCE/ : répond (HTTP 200, text/html). 65 liens, dont 64 fichiers. Exemples : /DCE/2026/05/CE_202605.zip, /DCE/2026/06/CE_202606.zip, /DCE/2026/07/CE_202607.zip, /DCE/2026/08/CE_202608.zip, /DCE/2026/09/CE_202609.zip, /DCE/2026/10/CE_202610.zip
-- https://opendata.justice-administrative.fr/DCA/ : répond (HTTP 200, text/html). 58 liens, dont 57 fichiers. Exemples : /DCA/2026/06/CAA_202606.zip, /DCA/2026/07/CAA_202607.zip, /DCA/2026/08/CAA_202608.zip, /DCA/2026/09/CAA_202609.zip, /DCA/2026/10/CAA_202610.zip, /DCA/2026/11/CAA_202611.zip
-- https://opendata.justice-administrative.fr/DTA/ : répond (HTTP 200, text/html). 54 liens, dont 53 fichiers. Exemples : /DTA/2026/05/TA_202605.zip, /DTA/2026/06/TA_202606.zip, /DTA/2026/07/TA_202607.zip, /DTA/2026/08/TA_202608.zip, /DTA/2026/09/TA_202609.zip, /DTA/2026/10/TA_202610.zip
-
-## 5. Conseil constitutionnel
-
-- **Conseil constitutionnel** : la page https://www.conseil-constitutionnel.fr/decisions répond (HTTP 200).
-  - **Conseil constitutionnel — flux https://www.conseil-constitutionnel.fr/flux/rss.xml** : répond (HTTP 200). 50 éléments dans le flux, 0 des 7 derniers jours. Plus récent : date inconnue.
-      - ? — La décision en bref : décision n° 2026-1229 QPC du 23 octobre 2026 — https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-1229-qpc-du-23-octobre-2026
-      - ? — Décision n° 2026-1230/1231 QPC du 23 octobre 2026 - Communiqué de presse — https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2026-12301231-qpc-du-23-octobre-2026-communique-de-presse
-      - ? — La décision en bref : décision n° 2026-1230/1231 QPC du 23 octobre 2026 — https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-12301231-qpc-du-23-octobre-2026
+- **CE** : dernier fichier /DCE/2026/10/CE_202610.zip — 2.7 Mo — modifié le Tue, 03 Nov 2026 03:54:54 GMT.
+    - 790 décisions (fichiers XML). Exemple de nom : DCE_503183_20261001.xml
+    - Balises d'une décision : Audience, Avocat_Requerant, Code_Juridiction, Code_Publication, Date_Audience, Date_Lecture, Date_Mise_Jour, Decision, Document, Donnees_Techniques, Dossier, Formation_Jugement, Identification, Nom_Juridiction, Numero_Dossier, Numero_ECLI, Numero_Role, Solution, Texte_Integral, Type_Decision, Type_Recours
+    - **Décisions qui contiennent un de nos critères : 9**
+        - 511609 — 2026-10-02 — Section du Contentieux — terme trouvé : « L. 2323-31 »
+        - 498435 — 2026-10-12 — Section du Contentieux — terme trouvé : « L. 2324-1 »
+        - 517731 — 2026-10-16 — Section du Contentieux — terme trouvé : « R. 2333-120 »
+        - 507100 — 2026-10-23 — Section du Contentieux — terme trouvé : « L. 2331-2 »
+        - 498198 — 2026-10-28 — Section du Contentieux — terme trouvé : « L. 2331-2 »
+        - 498199 — 2026-10-28 — Section du Contentieux — terme trouvé : « L. 2331-2 »
+        - 498200 — 2026-10-28 — Section du Contentieux — terme trouvé : « L. 2331-2 »
+        - 498201 — 2026-10-28 — Section du Contentieux — terme trouvé : « L. 2331-2 »
+        - 501105 — 2026-10-29 — Section du Contentieux — terme trouvé : « R. 2324-16 »
+- **CAA** : dernier fichier /DCA/2026/11/CAA_202611.zip — 0.1 Mo — modifié le Tue, 03 Nov 2026 03:56:26 GMT.
+    - 13 décisions (fichiers XML). Exemple de nom : DCA_25MA00621_20261102.xml
+    - Balises d'une décision : Audience, Avocat_Requerant, Code_Juridiction, Code_Publication, Date_Audience, Date_Lecture, Date_Mise_Jour, Decision, Document, Donnees_Techniques, Dossier, Formation_Jugement, Identification, Nom_Juridiction, Numero_Dossier, Numero_Role, Solution, Texte_Integral, Type_Decision, Type_Recours
+    - **Décisions qui contiennent un de nos critères : 0**
+- **TA** : dernier fichier /DTA/2026/10/TA_202610.zip — 72.2 Mo — modifié le Mon, 02 Nov 2026 23:16:16 GMT.
+    - 19581 décisions (fichiers XML). Exemple de nom : TA06/DTA_2401034_20261001.xml
+    - Balises d'une décision : Audience, Avocat_Requerant, Code_Juridiction, Code_Publication, Date_Audience, Date_Lecture, Date_Mise_Jour, Decision, Document, Donnees_Techniques, Dossier, Formation_Jugement, Identification, Nom_Juridiction, Numero_Dossier, Numero_Role, Solution, Texte_Integral, Type_Decision, Type_Recours
+    - **Décisions qui contiennent un de nos critères : 37**
+        - 2500366 — 2026-10-07 — Tribunal Administratif de la Martinique — terme trouvé : « L. 2321-1 »
+        - 2601195 — 2026-10-19 — Tribunal Administratif de la Guadeloupe — terme trouvé : « L. 3114-3 »
+        - 2601200 — 2026-10-19 — Tribunal Administratif de la Guadeloupe — terme trouvé : « L. 3114-3 »
+        - 2617873 — 2026-10-08 — Tribunal Administratif de Marseille — terme trouvé : « L. 2333-87 »
+        - 2304357 — 2026-10-14 — Tribunal Administratif de Marseille — terme trouvé : « R. 2342-4 »
+        - 2618365 — 2026-10-19 — Tribunal Administratif de Marseille — terme trouvé : « L. 2333-87 »
+        - 2503342 — 2026-10-05 — Tribunal Administratif de Caen — terme trouvé : « L. 2324-1 »
+        - 2600874 — 2026-10-16 — Tribunal Administratif de Caen — terme trouvé : « L. 2333-76 »
+        - 2601930 — 2026-10-12 — Tribunal Administratif de Bastia — terme trouvé : « L. 2333-76 »
+        - 2602000 — 2026-10-22 — Tribunal Administratif de Bastia — terme trouvé : « L. 2333-76 »
+        - 2301521 — 2026-10-27 — Tribunal Administratif de Bastia — terme trouvé : « L. 2315-14 »
+        - 2604259 — 2026-10-19 — Tribunal Administratif de Dijon — terme trouvé : « L. 2333-87 »
 
