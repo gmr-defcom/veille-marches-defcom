@@ -318,6 +318,10 @@ def cmd_mail(args):
                        "j": info.get("date") or date.today().isoformat(), "exp": exp}
             if code == "actualites":
                 donnees["i"] = a.get("theme") if a.get("theme") in THEMES else "institutions"
+                if a["ref"].startswith("JORF-"):       # textes du Journal officiel : image « texte juridique » dédiée
+                    donnees["i"] = "texte-fr"
+                elif re.match(r"UE-3\d{4}[LRD]", a["ref"]):
+                    donnees["i"] = "texte-ue"
             if a.get("affaire") or info.get("affaire"):
                 donnees["a"] = a.get("affaire") or info.get("affaire")
             b = bouton(lien_signe(donnees, cle, site)) if actif else \
