@@ -17,7 +17,8 @@ Utilisé par la tâche planifiée Claude de chaque professeur.
                     [--semaine "Semaine du …"] [--pied "…"]
       Fabrique le mail à partir des fiches rédigées par Claude, en trois rubriques
       (Actualités, Marchés, Jurisprudence), avec un bouton « Publier » signé par fiche.
-      Écrit mail.html (et mail.txt en secours).
+      Écrit mail.html et mail.txt ; si le mail est long, il est découpé en plusieurs envois
+      (mail_1.html et mail_1.txt, mail_2.html…), à envoyer dans l'ordre.
       articles.json = liste de {
           "ref": référence lue dans avis.txt ou veille.txt (ex. "TED-700480-2026", "ACT-1a2b3c4d5e6f", "UE-62024CJ0583"),
           "rubrique": "actualites" | "marches" | "jurisprudence",
@@ -26,7 +27,7 @@ Utilisé par la tâche planifiée Claude de chaque professeur.
           "theme": thème d'image, pour les actualités (voir THEMES),
           "affaire": numéro d'affaire, pour la jurisprudence de l'Union (ex. "C-583/24") }
 """
-import base64, hashlib, hmac, html, json, re, sys, urllib.request, zlib
+import base64, glob, hashlib, hmac, html, json, os, re, sys, urllib.request, zlib
 from datetime import date, timedelta
 
 SOURCE = "https://raw.githubusercontent.com/gmr-defcom/veille-marches-defcom/main/donnees/derniere-semaine.json"
@@ -243,6 +244,9 @@ def lire_index():
     return index
 
 
+LIMITE_ENVOI = 30000   # octets de fiches par mail : au-delà, le mail est découpé en plusieurs envois
+
+
 def cmd_mail(args):
     fichier = args[0]
     opts = dict(zip(args[1::2], args[2::2]))
@@ -254,28 +258,33 @@ def cmd_mail(args):
     exp = (date.today() + timedelta(days=jours)).isoformat()
     F, G = "font-family:Arial,Helvetica,sans-serif;", "font-family:Georgia,serif;"
     P = "margin:0 0 8px;font-size:14px;line-height:1.55;color:#1b2127;"
-    blocs, texte, nb = [], [], {}
+    for ancien in glob.glob("mail.html") + glob.glob("mail.txt") + glob.glob("mail_*.html") + glob.glob("mail_*.txt"):
+        os.remove(ancien)   # jamais de fichier d'un essai précédent
+
+    def titre_rubrique(libelle, n, suite=False):
+        return ('<h2 style="%smargin:26px 0 2px;font-size:20px;color:#0F1A2E;border-bottom:2px solid #C5A55A;'
+                'padding-bottom:4px;">%s%s <span style="font:normal 13px Arial,sans-serif;color:#5c6670;">(%d)</span></h2>'
+                % (G, libelle, " (suite)" if suite else "", n))
+
+    # 1. Une carte HTML (et un texte) par fiche, rangées par rubrique
+    cartes, total = {}, {}
     for code, libelle in RUBRIQUES:
         liste = [a for a in articles if (a.get("rubrique") or index.get(a["ref"], {}).get("rubrique", "marches")) == code]
-        nb[code] = len(liste)
-        blocs.append('<h2 style="%smargin:26px 0 2px;font-size:20px;color:#0F1A2E;border-bottom:2px solid #C5A55A;'
-                     'padding-bottom:4px;">%s <span style="font:normal 13px Arial,sans-serif;color:#5c6670;">'
-                     '(%d)</span></h2>' % (G, libelle, len(liste)))
-        if not liste:
-            blocs.append('<p style="%s%scolor:#5c6670;margin-top:10px;">Rien à signaler cette semaine.</p>' % (F, P))
-            texte.append("== %s ==\nRien à signaler cette semaine.\n" % libelle.upper())
-            continue
-        texte.append("== %s ==" % libelle.upper())
+        total[code] = len(liste)
+        cartes[code] = []
         for a in liste:
             info = index.get(a["ref"], {})
             etiquette = a.get("etiquette") or ""
             corps = a["texte"]
             if code == "jurisprudence" and "conclusion" in etiquette.lower() and MENTION_CONCLUSIONS not in corps:
                 corps += "\n\n" + MENTION_CONCLUSIONS
+            source = info.get("source", "")
+            if source.startswith("http"):
+                source = re.sub(r"^https?://(www\.)?", "", source).split("/")[0]
             meta = " · ".join(x for x in (jjmm(info.get("date", "")), etiquette.upper(), info.get("pays", ""),
-                                           "Source : " + info.get("source", "") if info.get("source") else "") if x)
+                                           "Source : " + source if source else "") if x)
             donnees = {"v": 2, "c": code, "t": a["titre"], "x": corps, "u": info.get("url", ""), "r": etiquette,
-                       "p": info.get("pays", ""), "o": info.get("source", ""),
+                       "p": info.get("pays", ""), "o": source,
                        "j": info.get("date") or date.today().isoformat(), "exp": exp}
             if code == "actualites":
                 donnees["i"] = a.get("theme") if a.get("theme") in THEMES else "institutions"
@@ -284,39 +293,73 @@ def cmd_mail(args):
             b = bouton(lien_signe(donnees, cle, site)) if actif else \
                 '<p style="%smargin:6px 0 0;font-size:12px;color:#8B2635;">Bouton « Publier » inactif : clé de publication non renseignée.</p>' % F
             paras = "".join('<p style="%s">%s</p>' % (P, html.escape(x)) for x in corps.split("\n\n") if x.strip())
-            blocs.append(
-                '<table width="100%%" cellpadding="0" cellspacing="0" style="margin-top:14px;border:1px solid #d9ddda;border-radius:6px;">'
-                '<tr><td style="padding:16px 18px;%s">'
-                '<p style="margin:0 0 6px;font-size:12px;color:#5c6670;">%s%s</p>'
-                '<p style="%smargin:0 0 8px;font-size:17px;font-weight:bold;color:#1b2127;line-height:1.3;">%s</p>%s'
-                '<p style="margin:0 0 10px;font-size:13px;"><a href="%s" style="color:#1f5673;">Voir la source</a></p>%s'
-                '</td></tr></table>' % (F, html.escape(meta),
-                                         (" · Image : " + donnees["i"]) if "i" in donnees else "", G,
-                                         html.escape(a["titre"]), paras, html.escape(info.get("url", "")), b))
-            texte.append("%s\n%s\n%s\nSource : %s\n" % (meta, a["titre"], corps, info.get("url", "")))
+            carte = ('<table width="100%%" cellpadding="0" cellspacing="0" style="margin-top:14px;border:1px solid #d9ddda;border-radius:6px;">'
+                     '<tr><td style="padding:16px 18px;%s">'
+                     '<p style="margin:0 0 6px;font-size:12px;color:#5c6670;">%s%s</p>'
+                     '<p style="%smargin:0 0 8px;font-size:17px;font-weight:bold;color:#1b2127;line-height:1.3;">%s</p>%s'
+                     '<p style="margin:0 0 10px;font-size:13px;"><a href="%s" style="color:#1f5673;">Voir la source</a></p>%s'
+                     '</td></tr></table>' % (F, html.escape(meta), (" · Image : " + donnees["i"]) if "i" in donnees else "",
+                                              G, html.escape(a["titre"]), paras, html.escape(info.get("url", "")), b))
+            cartes[code].append((carte, "%s\n%s\n%s\nSource : %s\n" % (meta, a["titre"], corps, info.get("url", ""))))
+
+    # 2. Répartition en envois de LIMITE_ENVOI octets au plus (Gmail coupe les mails trop longs)
+    envois, courant, taille = [], [], 0
+    for code, libelle in RUBRIQUES:
+        for carte, txt in cartes[code]:
+            n = len(carte.encode("utf-8"))
+            if courant and taille + n > LIMITE_ENVOI:
+                envois.append(courant)
+                courant, taille = [], 0
+            courant.append((code, carte, txt))
+            taille += n
+    envois.append(courant)
+    vides = [libelle for code, libelle in RUBRIQUES if total[code] == 0]
+
     pied = opts.get("--pied", "")
-    corps_mail = (
-        '<div style="%sbackground:#f3f4f2;padding:16px 0;"><table width="100%%" cellpadding="0" cellspacing="0" '
-        'style="max-width:680px;margin:0 auto;background:#ffffff;border:1px solid #d9ddda;border-radius:8px;"><tr><td style="padding:22px 24px;%s">'
-        '<p style="margin:0;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A68A3E;font-weight:bold;">GMR DEFCOM · Veille hebdomadaire</p>'
-        '<h1 style="%smargin:4px 0 6px;font-size:24px;color:#0F1A2E;">Veille de la commande publique de défense</h1>'
-        '<p style="margin:0 0 14px;color:#5c6670;font-size:14px;">%s · %d actualités · %d marchés · %d décisions</p>'
-        '<table width="100%%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#eef1f6" style="background-color:#eef1f6;border-radius:6px;padding:10px 14px;font-size:14px;line-height:1.6;color:#1B2A4A;%s">'
-        'Cliquez sur <b style="color:#1e7a46;">✓ Publier</b> : la page de relecture du site s’ouvre ; vous pouvez y modifier le titre, '
-        'le texte et l’image, puis cliquer sur « Publier sur le site ». Ne rien faire = rien n’est publié.'
-        '</td></tr></table>%s'
-        '<p style="margin:22px 0 0;font-size:12px;line-height:1.6;color:#5c6670;">%s'
-        'Éclairages juridiques indicatifs, établis automatiquement : ils ne constituent pas un avis juridique.</p>'
-        '</td></tr></table></div>') % (F, F, G, html.escape(opts.get("--semaine", "Semaine")), nb["actualites"],
-                                       nb["marches"], nb["jurisprudence"], F, "".join(blocs),
-                                       (html.escape(pied) + "<br>") if pied else "")
-    open("mail.html", "w", encoding="utf-8").write(corps_mail)
-    open("mail.txt", "w", encoding="utf-8").write("\n".join(texte))
-    taille = len(corps_mail.encode("utf-8"))
-    print("mail.html écrit : %d fiches, %d octets (limite Gmail ≈ 100 000), boutons %s." % (
-        len(articles), taille, "actifs" if actif else "INACTIFS"))
-    if taille > 95000:
-        print("ATTENTION : mail proche de la limite de Gmail ; raccourcir les textes ou réduire le nombre de fiches.")
+    noms = []
+    for k, envoi in enumerate(envois, 1):
+        blocs, texte, vus = [], [], set()
+        for code, libelle in RUBRIQUES:
+            ici = [(c, t) for cd, c, t in envoi if cd == code]
+            if not ici:
+                continue
+            suite = any(cd == code for e in envois[:k - 1] for cd, c, t in e)
+            blocs.append(titre_rubrique(libelle, total[code], suite))
+            texte.append("== %s%s ==" % (libelle.upper(), " (suite)" if suite else ""))
+            for c, t in ici:
+                blocs.append(c)
+                texte.append(t)
+        if k == len(envois):
+            for libelle in vides:
+                blocs.append(titre_rubrique(libelle, 0))
+                blocs.append('<p style="%s%scolor:#5c6670;margin-top:10px;">Rien à signaler cette semaine.</p>' % (F, P))
+                texte.append("== %s ==\nRien à signaler cette semaine.\n" % libelle.upper())
+        mention = (" · envoi %d/%d" % (k, len(envois))) if len(envois) > 1 else ""
+        corps_mail = (
+            '<div style="%sbackground:#f3f4f2;padding:16px 0;"><table width="100%%" cellpadding="0" cellspacing="0" '
+            'style="max-width:680px;margin:0 auto;background:#ffffff;border:1px solid #d9ddda;border-radius:8px;"><tr><td style="padding:22px 24px;%s">'
+            '<p style="margin:0;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A68A3E;font-weight:bold;">GMR DEFCOM · Veille hebdomadaire%s</p>'
+            '<h1 style="%smargin:4px 0 6px;font-size:24px;color:#0F1A2E;">Veille de la commande publique de défense</h1>'
+            '<p style="margin:0 0 14px;color:#5c6670;font-size:14px;">%s · cette semaine : %d actualités · %d marchés · %d décisions</p>'
+            '<table width="100%%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#eef1f6" style="background-color:#eef1f6;border-radius:6px;padding:10px 14px;font-size:14px;line-height:1.6;color:#1B2A4A;%s">'
+            'Cliquez sur <b style="color:#1e7a46;">✓ Publier</b> : la page de relecture du site s’ouvre ; vous pouvez y modifier le titre, '
+            'le texte et l’image, puis cliquer sur « Publier sur le site ». Ne rien faire = rien n’est publié.'
+            '</td></tr></table>%s'
+            '<p style="margin:22px 0 0;font-size:12px;line-height:1.6;color:#5c6670;">%s'
+            'Éclairages juridiques indicatifs, établis automatiquement : ils ne constituent pas un avis juridique.</p>'
+            '</td></tr></table></div>') % (F, F, mention.upper(), G, html.escape(opts.get("--semaine", "Semaine")),
+                                           total["actualites"], total["marches"], total["jurisprudence"], F, "".join(blocs),
+                                           (html.escape(pied) + "<br>") if pied and k == len(envois) else "")
+        base = "mail" if len(envois) == 1 else "mail_%d" % k
+        open(base + ".html", "w", encoding="utf-8").write(corps_mail)
+        open(base + ".txt", "w", encoding="utf-8").write("\n".join(texte))
+        noms.append("%s.html (%d octets)" % (base, len(corps_mail.encode("utf-8"))))
+    print("%d fiches, boutons %s." % (len(articles), "actifs" if actif else "INACTIFS"))
+    if len(envois) == 1:
+        print("Un seul envoi : mail.html et mail.txt.")
+    else:
+        print("%d ENVOIS à faire, dans l'ordre (un message par fichier, objet suffixé « (k/%d) ») : %s"
+              % (len(envois), len(envois), ", ".join(noms)))
 
 
 if __name__ == "__main__":
