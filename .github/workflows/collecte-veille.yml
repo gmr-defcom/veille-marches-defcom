@@ -1,0 +1,40 @@
+name: Collecte hebdomadaire — actualités, textes, jurisprudence
+
+on:
+  schedule:
+    - cron: "30 4 * * 1"     # chaque lundi à 4 h 30 UTC, juste après la collecte des marchés
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Lancement d'essai (ne met pas à jour la mémoire des éléments déjà transmis)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: depot-donnees      # jamais deux enregistrements en même temps sur le dépôt
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collecter actualités, textes et jurisprudence
+        env:
+          ESSAI: ${{ (github.event_name == 'workflow_dispatch' && inputs.essai) && '1' || '0' }}
+        run: python3 collecte_veille.py
+
+      - name: Enregistrer le résultat dans le dépôt
+        if: always()
+        run: |
+          git config user.name "collecte-automatique"
+          git config user.email "actions@users.noreply.github.com"
+          git add donnees
+          git diff --cached --quiet || git commit -m "Veille du $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

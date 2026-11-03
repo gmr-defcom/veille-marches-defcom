@@ -1,0 +1,33 @@
+name: Maintien en activité du dépôt
+
+# GitHub met en pause les collectes programmées d'un dépôt public resté 60 jours sans activité.
+# Ce petit programme note la date du jour dans un fichier technique, le 15 de chaque mois à 3 h 17 UTC.
+# Il n'envoie aucun mail et ne touche à aucune donnée de veille.
+on:
+  schedule:
+    - cron: "17 3 15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: depot-donnees
+  cancel-in-progress: false
+
+jobs:
+  maintien:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Noter la date
+        run: |
+          mkdir -p donnees
+          date -u +"Dernier passage du maintien en activité : %Y-%m-%d %H:%M UTC" > donnees/maintien.txt
+          git config user.name "collecte-automatique"
+          git config user.email "actions@users.noreply.github.com"
+          git add donnees/maintien.txt
+          git diff --cached --quiet || git commit -m "Maintien en activité du $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
