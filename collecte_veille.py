@@ -157,7 +157,7 @@ EDITIONS = {"fr": ("fr", "FR", "FR:fr"), "en": ("en", "BE", "BE:en")}
 
 def titre_utile(t):
     lettres = sum(ch.isalpha() for ch in t)
-    return len(t) >= 25 and lettres >= 0.6 * len(t)
+    return len(t) >= 25 and lettres >= 0.6 * len(t) and len(t.split()) >= 5
 
 
 def actualites():
@@ -315,28 +315,32 @@ RE_CCP_NOTAMMENT = re.compile(r"code de la commande publique,?\s+notamment\s+(?:
 RE_EXPRESSIONS = re.compile(r"march[ée]s? (?:publics? )?de d[ée]fense(?: ou de s[ée]curit[ée])?|concessions? de d[ée]fense"
                             r"|march[ée]s? classifi[ée]s?|directive 2009/81|article 346 du trait[ée]", re.I)
 RE_DEFENSE = re.compile(r"d[ée]fense|s[ée]curit[ée] nationale|arm[ée]es|militaire|armement", re.I)
+# Plus strict, pour les décisions : « mémoire en défense » ou « droits de la défense » ne doivent pas suffire.
+RE_DEFENSE_STRICTE = re.compile(r"concessions? de d[ée]fense|d[ée]fense nationale|minist(?:re|ère) des arm[ée]es|ministre des arm[ée]es|"
+                                r"militaire|armement|s[ée]curit[ée] nationale|direction g[ée]n[ée]rale de l.armement|march[ée]s? de d[ée]fense", re.I)
 RE_2014_23 = re.compile(r"directive (?:n[°o]\s?)?2014/23", re.I)
 
 
 def criteres_ja(texte):
     """Renvoie la liste des critères de la veille présents dans une décision (vide = décision écartée)."""
     trouves = []
+    defense = bool(RE_DEFENSE_STRICTE.search(texte))
     for m in RE_ARTICLE_CCP.finditer(texte):
         art = m.group(1).upper() + m.group(2)
         # « articles L. 2331-2 et L. 2331-3 du code… » : on reprend aussi les autres numéros de l'énumération
         numeros = [art] + [x[0].upper() + x[1] for x in re.findall(r"\b([LRD])\.?\s?(\d{4}-\d+)", m.group(3))]
         for a in numeros:
-            if re.match(r"[LRD]23\d\d-", a) or a in ART_CONCESSIONS:
+            if re.match(r"[LRD]23\d\d-", a):
                 trouves.append(a + " CCP")
-            elif a in ART_CONCESSIONS_SI_DEFENSE and re.search(r"concessions? de d[ée]fense", texte, re.I):
+            elif (a in ART_CONCESSIONS or a in ART_CONCESSIONS_SI_DEFENSE) and defense:
                 trouves.append(a + " CCP")
     for m in RE_CCP_NOTAMMENT.finditer(texte):
         for x in re.findall(r"\b([LRD])\.?\s?(\d{4}-\d+)", m.group(1)):
             a = x[0].upper() + x[1]
-            if re.match(r"[LRD]23\d\d-", a) or a in ART_CONCESSIONS:
+            if re.match(r"[LRD]23\d\d-", a) or (a in ART_CONCESSIONS and defense):
                 trouves.append(a + " CCP")
     trouves += [m.group(0).lower() for m in RE_EXPRESSIONS.finditer(texte)]
-    if RE_2014_23.search(texte) and RE_DEFENSE.search(texte):
+    if RE_2014_23.search(texte) and defense:
         trouves.append("directive 2014/23/UE (défense)")
     return sorted(set(trouves))
 

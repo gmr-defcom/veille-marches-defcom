@@ -9,6 +9,9 @@ on:
         description: "Lancement d'essai (ne met pas à jour la mémoire des éléments déjà transmis)"
         type: boolean
         default: true
+      jours:
+        description: "Période couverte, en jours (7 en temps normal)"
+        default: "7"
 
 permissions:
   contents: write
@@ -27,6 +30,7 @@ jobs:
       - name: Collecter actualités, textes et jurisprudence
         env:
           ESSAI: ${{ (github.event_name == 'workflow_dispatch' && inputs.essai) && '1' || '0' }}
+          JOURS: ${{ inputs.jours || '7' }}
         run: python3 collecte_veille.py
 
       - name: Enregistrer le résultat dans le dépôt
