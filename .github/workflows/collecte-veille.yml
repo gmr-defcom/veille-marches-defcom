@@ -2,7 +2,7 @@ name: Collecte hebdomadaire — actualités, textes, jurisprudence
 
 on:
   schedule:
-    - cron: "30 4 * * 1"     # chaque lundi à 4 h 30 UTC, juste après la collecte des marchés
+    - cron: "30 4 * * 1,4"   # lundi et jeudi à 4 h 30 UTC (la mémoire évite les doublons)
   workflow_dispatch:
     inputs:
       essai:

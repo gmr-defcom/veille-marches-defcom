@@ -75,6 +75,18 @@ def acheteur_ted(n):
     return premier(b.get("fra") or b.get("eng") or next(iter(b.values()), [""]))
 
 
+MAX_TED = 35        # avis TED soumis à Claude (les mieux classés)
+MAX_ACTUALITES = 30 # actualités soumises à Claude (les mieux classées)
+RE_ACT_UTILE = re.compile(r"contrat|command|attribu|march[ée]|appel d.offres|DGA|armement|programme|livr|acqui|achat|"
+                          r"industri|BITD|PME|SAFE|EDIP|fonds europ|financ|export|usine|production|munition|"
+                          r"procurement|contract|tender|industry|award", re.I)
+
+
+def priorite_actualite(a):
+    officiel = 0 if a.get("volet") not in (None, "", "presse") and "presse" not in str(a.get("volet")).lower() else 1
+    return (-len(RE_ACT_UTILE.findall((a.get("titre") or "") + " " + (a.get("chapeau") or ""))), officiel)
+
+
 def priorite_ted(n):
     cpv = n.get("classification-cpv") or []
     militaire = any(str(c)[:3] in ("353", "354", "355", "356", "357") for c in cpv)
@@ -121,6 +133,8 @@ def cmd_avis():
 
     # TED
     t = sorted(d.get("sources", {}).get("TED", {}).get("avis", []), key=priorite_ted)
+    t_omis = max(0, len(t) - MAX_TED)
+    t = t[:MAX_TED]   # présélection : seuls les mieux classés sont soumis à Claude
     lignes.append("\n=== TED (Union européenne) — classés : acheteurs français, puis matériel militaire (CPV 353-357) ===")
     stats = {}
     for n in t:
@@ -140,7 +154,8 @@ def cmd_avis():
             PROC.get(n.get("BT-105-Procedure"), n.get("BT-105-Procedure") or "procédure non renseignée"),
             " | accord-cadre" if fa else "", " | PROCÉDURE ACCÉLÉRÉE" if str(n.get("BT-106-Procedure")) == "true" else "",
             (" | montant %s" % val) if val else "", cpv))
-    lignes.append("(répartition TED par base juridique : %s)" % ", ".join("%s %d" % kv for kv in stats.items()))
+    lignes.append("(répartition TED par base juridique : %s ; %d autres avis TED, moins prioritaires, non transmis)"
+                  % (", ".join("%s %d" % kv for kv in stats.items()), t_omis))
     open("avis.txt", "w", encoding="utf-8").write("\n".join(lignes))
     json.dump(index, open("avis_index.json", "w", encoding="utf-8"), ensure_ascii=False)
     print("avis.txt écrit : %d avis à examiner (%d BOAMP écartés automatiquement)." % (len(index), ecartes))
@@ -161,8 +176,11 @@ def cmd_veille():
         L.append("- %s : %s%s" % (nom, s.get("statut"), (", %s retenus" % s.get("retenus")) if s.get("statut") == "ok"
                                   else " — " + s.get("erreur", "")))
 
-    L.append("\n=== ACTUALITÉS (presse et sites officiels ; Claude en retient 8 à 12) ===")
-    for a in d.get("actualites", []):
+    acts = sorted(d.get("actualites", []), key=priorite_actualite)
+    omis = max(0, len(acts) - MAX_ACTUALITES)
+    L.append("\n=== ACTUALITÉS (presse et sites officiels ; présélection des %d mieux classées, %d autres non transmises) ==="
+             % (min(len(acts), MAX_ACTUALITES), omis))
+    for a in acts[:MAX_ACTUALITES]:
         index[a["id"]] = {"source": a.get("source", ""), "url": a.get("lien", ""), "pays": "", "date": a.get("date", ""),
                           "rubrique": "actualites"}
         chapeau = a.get("chapeau") or ""
@@ -256,7 +274,7 @@ def lire_index():
     return index
 
 
-LIMITE_ENVOI = 30000   # octets de fiches par mail : au-delà, le mail est découpé en plusieurs envois
+LIMITE_ENVOI = 60000   # octets de fiches par mail : au-delà, le mail est découpé en plusieurs envois
 
 
 def cmd_mail(args):

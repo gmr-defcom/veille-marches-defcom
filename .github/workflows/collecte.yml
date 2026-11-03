@@ -1,8 +1,8 @@
-name: Collecte hebdomadaire
+name: Collecte bihebdomadaire — marchés
 
 on:
   schedule:
-    - cron: "0 4 * * 1"     # chaque lundi à 4 h UTC (6 h à Paris en été, 5 h en hiver)
+    - cron: "0 4 * * 1,4"   # lundi et jeudi à 4 h UTC
   workflow_dispatch:         # bouton « Run workflow » pour un lancement manuel
 
 permissions:
@@ -16,7 +16,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Collecter BOAMP, TED, DECP et OCCAR
-        run: python3 collecte.py
+        run: |
+          # lundi : du jeudi au lundi (4 jours) ; jeudi : du lundi au jeudi (3 jours)
+          if [ "$(date -u +%u)" = "1" ]; then export JOURS=4; else export JOURS=3; fi
+          python3 collecte.py
 
       - name: Enregistrer le résultat dans le dépôt
         if: always()
