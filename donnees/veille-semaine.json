@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-03T14:10:18+00:00",
+ "genere_le": "2026-11-03T18:22:50+00:00",
  "periode": {
   "du": "2026-10-27",
   "au": "2026-11-03"
@@ -7,7 +7,7 @@
  "sources": {
   "Actualités (Google Actualités)": {
    "statut": "ok",
-   "retenus": 97,
+   "retenus": 109,
    "deja_transmis": 0
   },
   "Journal officiel (DILA)": {
@@ -45,11 +45,24 @@
    "source": "La Tribune",
    "site": "https://www.latribune.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVzUyaUVuRkpNVVpKWlZYREJad0RpMlBtVzNoV1hVLWJZcUdUZnhpSzRYc2otQjZmcVphR2lCa1ZoelZKWUd0MXlXRXVCSElMUDM1N3h5VmFjaWpfcFBZTXNjQTkxeHVYMVVJQVNXSzBlSVhTTngyZG96Tkk2N1o1NmE4ekNJOWl0RVFQNnBlU3FoTE9aTTEtVzAyb3pZRG92QlRTT0RTM0pnR2stRk55VEdva1JJWVNPSUo3S0JaMmtINFFCdUZVajQzLW1PcnhzSjdXMmFSanlJNnVTMEFLMzgtVmZXTlkzbmFiYU0zX2QxelRqd0s0c3V2My1SQQ?oc=5",
+   "lien": "https://www.latribune.fr/article/defense-aerospatiale/defense/65422069529247/euronaval-les-salons-sont-des-moments-cles-pour-les-services-de-renseignement-etrangers-drsd",
    "chapeau": "Euronaval : « Les salons sont des moments clés pour les services de renseignement étrangers » (DRSD) La Tribune",
    "volet": "Presse",
    "requetes": [
     "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-2ccaa967a4c2",
+   "titre": "Défense et aérospatial : la Normandie renforce ses liens avec l’Europe",
+   "source": "La Gazette France",
+   "site": "https://www.lagazettefrance.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.lagazettefrance.fr/article/defense-et-aerospatial-la-normandie-renforce-ses-liens-avec-l-europe",
+   "chapeau": "Défense et aérospatial : la Normandie renforce ses liens avec l’Europe La Gazette France",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
    ]
   },
   {
@@ -58,7 +71,7 @@
    "source": "Touteleurope.eu",
    "site": "https://www.touteleurope.eu",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUW56bk4xWGVvVDRsSVFVUjdYeGt3SmRuNVNwS01hWV9VQXh1ZndpQmxRYjRKVGR5VGhZYUI3djFyN3NDZUMzVUk0UW9aMk9xa3lnVEtYU3BGRWtkeU9JMzVyRFlybnpLVDdaOGFtaTE5Ylo4cEZ3UnZEU3NucW9hWGg2RTVYZlNBR0xQeWhlc01WOTdldzV3SzhLYVgwUTI1LWdWaEhEQWhqZw?oc=5",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/pourquoi-l-ue-et-le-canada-veulent-renforcer-leur-alliance/",
    "chapeau": "Pourquoi l'UE et le Canada veulent renforcer leur alliance Touteleurope.eu",
    "volet": "Presse",
    "requetes": [
@@ -67,13 +80,26 @@
    ]
   },
   {
-   "id": "ACT-b33b5fcc4d5a",
-   "titre": "Rtsys renforce sa présence au Canada avec de nouvelles ventes à la défense navale - Ouest-France",
-   "source": "Ouest-France",
-   "site": "https://agence-api.ouest-france.fr",
+   "id": "ACT-e2bfa4d0dae9",
+   "titre": "Bpifrance et la Commission européenne accélèrent les partenariats industriels de résilience et de défense entre France et Ukraine",
+   "source": "Boursier.com",
+   "site": "https://www.boursier.com",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdTQyck1jcGE1WjcyalhqZmdfTlFCSnZQTjlubndzaEo3MXlhNnRzSnVmTEowWTJlUl9lSVJsUUYyeVVkbmc4THRqMndPbTV4MlpSNmhwdGRtQ1FISnBtLXlDRmxMbGVPVjFJNnlPLXRMdkJCb2J3bFFuYVlta1ZUNjRfZU01YmtZRUFnc0hkTk1TYmIyemZlUjBzSkljeW5sWWZrLTJiR2kxZTRLWXlHVDlnUHBPei00TmczWVMtMVZ5d2R6RFpPYW14UHdMdUxWVm04N09tOXY4Y0QtaXRhalRWUXJxdHhNcFlEOVFkRnVRc1lWOUVGaVdTaVZicVhx?oc=5",
-   "chapeau": "Rtsys renforce sa présence au Canada avec de nouvelles ventes à la défense navale Ouest-France",
+   "lien": "https://www.boursier.com/opcvm/actualites/generales/bpifrance-et-la-commission-europeenne-accelerent-les-partenariats-industriels-de-resilience-et-de-defense-entre-france-et-ukraine-997488.html",
+   "chapeau": "Bpifrance et la Commission européenne accélèrent les partenariats industriels de résilience et de défense entre France et Ukraine Boursier.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-98632dd9f04b",
+   "titre": "L’UE et la France lancent un programme visant à mettre en relation des entreprises françaises avec des start-up ukrainiennes de la défense",
+   "source": "Zonebourse Suisse",
+   "site": "https://ch.zonebourse.com",
+   "date": "2026-11-03",
+   "lien": "https://ch.zonebourse.com/actualite-bourse/la-ue-et-la-france-lancent-un-programme-visant-a-mettre-en-relation-des-entreprises-francaises-avec-ce785fded98cf12c",
+   "chapeau": "L’UE et la France lancent un programme visant à mettre en relation des entreprises françaises avec des start-up ukrainiennes de la défense Zonebourse Suisse",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -85,7 +111,7 @@
    "source": "BFM",
    "site": "https://www.bfmtv.com",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZGZJeXRtWkV3Y3ZCUDJTaUlWZTlXRE9NNjd0VWFfSUhEc2EzNDFqSzBfRl9BUDZYVlhrWUtQS2cyREFINGh2TGhuTXA3T05hUF9fVGtUbGNLOUZLUlIyeVZLX3JmMmE2UnhkQlZ2c3IzSUJLMFlSbkVreEtyUXdsZmlaNlphZUZZMmtTcXc1c1FJWVo0MlE4S2hPZzh1RHZLS01aSzY3TEZGMnVGYXQtSHJSZ05kMDJ5YXpKbGV6eUpRUHlZMVZSdWxB?oc=5",
+   "lien": "https://www.bfmtv.com/economie/video-les-drones-transforment-la-guerre-en-mer-et-la-france-est-sur-le-dossier_VN-202611030227.html",
    "chapeau": "Les drones transforment la guerre en mer (et la France est sur le dossier) BFM",
    "volet": "Presse",
    "requetes": [
@@ -98,7 +124,7 @@
    "source": "Forum Militaire",
    "site": "https://www.forum-militaire.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPR1pnM0xjT3R6OUk3akNHbUZjc3liSnowLWlMX0dYUHdtTDg4TGJEZHR5QzNneldVeWpmUXd2X3l0NGRGWVlra28zem1wVkhhNlFJYVExb0pHc0lNYS1BSzItVExFVjdCNkJqNGRod1dkdTJUSTNFX2FPNGlySlF6RkRrTEE1RUhycFpIZk5ub0tXQ1NucGdjdjB2Q3dKUHBISjFhSFhielpmMzI5a3JtTE9uNUdfd0dnOUlYQjJ4eDJyRURMSWkxd3ljVUJLeWVZYXRLTDQ3TldPYl8yUWs4aHFZYkZwVTI2NjVCbGxSaVV5RnNDUmZsOGlWZkFTTmtPa1pscThwaWpSYlF2N3Y1U0U5NTZmMFg4SS1UajBnYmpQQ0p6TlE?oc=5",
+   "lien": "https://www.forum-militaire.fr/le-plus-grand-salon-du-monde-dedie-a-la-defense-navale-est-en-france-et-il-ouvre-ses-portes-ce-3-novembre-a-705-exposants-et-105-delegations-officielles-euronaval-2026/",
    "chapeau": "Le plus grand salon du monde dédié à la défense navale est en France et il ouvre ses portes ce 3 novembre à 705 exposants et 105 délégations officielles : Euronaval 2026 Forum Militaire",
    "volet": "Presse",
    "requetes": [
@@ -108,12 +134,77 @@
    ]
   },
   {
+   "id": "ACT-1499fff67c56",
+   "titre": "Aéronautique et défense : Citwell identifie 4 enjeux pour la souveraineté industrielle européenne",
+   "source": "FAQ Logistique",
+   "site": "https://www.faq-logistique.com",
+   "date": "2026-11-03",
+   "lien": "https://www.faq-logistique.com/CP20261103-Citwell-Avis-Expert-Vincent-Leroy-Supply-Chain-Aeronautique-Defense.htm",
+   "chapeau": "Aéronautique et défense : Citwell identifie 4 enjeux pour la souveraineté industrielle européenne FAQ Logistique",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-9cb459dde405",
+   "titre": "Accord UE-Inde : la tournée stratégique de Nicolas Forissier pour soutenir l'industrie française",
+   "source": "La Lettre",
+   "site": "https://www.lalettre.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.lalettre.fr/fr/politique_lobbying/2026/11/03/accord-ue-inde--la-tournee-strategique-de-nicolas-forissier-pour-soutenir-l-industrie-francaise,110912589-art",
+   "chapeau": "Accord UE-Inde : la tournée stratégique de Nicolas Forissier pour soutenir l'industrie française La Lettre",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a9a004337187",
+   "titre": "La Grèce achète jusqu’à six Embraer KC-390",
+   "source": "Aerobuzz",
+   "site": "https://www.aerobuzz.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.aerobuzz.fr/breves-defense/la-grece-achete-jusqua-six-embraer-kc-390/",
+   "chapeau": "La Grèce achète jusqu’à six Embraer KC-390 Aerobuzz",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0d07b64f486f",
+   "titre": "La Russie a passé 27 ans à réparer un croiseur nucléaire, et pendant ce temps son navire amiral est devenu irréparable",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.forum-militaire.fr/la-russie-a-passe-27-ans-a-reparer-un-croiseur-nucleaire-et-pendant-ce-temps-son-navire-amiral-est-devenu-irreparable/",
+   "chapeau": "La Russie a passé 27 ans à réparer un croiseur nucléaire, et pendant ce temps son navire amiral est devenu irréparable Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-7727f1e4c689",
+   "titre": "L'Ukraine investit jusqu'à 1 milliard d'euros provenant de prêts de l'UE dans des projets communs de défense",
+   "source": "Business AM",
+   "site": "https://fr.businessam.be",
+   "date": "2026-11-03",
+   "lien": "https://fr.businessam.be/lukraine-investit-jusqua-1-milliard-deuros-provenant-de-prets-de-lue-dans-des-projets-communs-de-defense/",
+   "chapeau": "L'Ukraine investit jusqu'à 1 milliard d'euros provenant de prêts de l'UE dans des projets communs de défense Business AM",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
    "id": "ACT-03c012185c6e",
    "titre": "Pourquoi la France refuse de dépendre du GPS pour sa dissuasion",
    "source": "Politique Matin",
    "site": "https://www.politiquematin.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzFHVzRmS2JHN2FxbDJCcEFkOUt1bC1hV2FiNHB2RlJkSEdfa3BqZ1B1eE1YOTdjTmxqRW9kdXphZENmQWs3RnQ5RzkwWm1CNGdod2hRT2JWM2ZpdGtzZFM4QnlBVG1IOENSbFVtdmQ2Z2hzOGdjMjRKdXVlMlBsLXNBQjk?oc=5",
+   "lien": "https://www.politiquematin.fr/souverainete-technologique-france-defense-safran",
    "chapeau": "Pourquoi la France refuse de dépendre du GPS pour sa dissuasion Politique Matin",
    "volet": "Presse",
    "requetes": [
@@ -121,13 +212,13 @@
    ]
   },
   {
-   "id": "ACT-5b3d983830a5",
-   "titre": "L’électricité pour la grande industrie en Espagne coûte 30 % de plus qu’en France, selon AEGE",
-   "source": "Demócrata",
-   "site": "https://www.democrata.es",
+   "id": "ACT-fc1738abd59f",
+   "titre": "Suisse : un duel franco-israélien pour 7 milliards de dollars",
+   "source": "JForum",
+   "site": "https://www.jforum.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTVB4Q0FlOEdpTFpNa0xIVE5YZl9VMGwxRWhCNlZiTkJRWkdvSkxnZWozTXNMUFMyNWFXWUVsaU1nTVJ0bEdBWkxUclpQVHNJMl9fc2IzMWk2dHRQRlNhODhBRmJzVFlhZHpfenJKMDE0bWhJSml5U3ByTTlTNWl2ejA3dk1HcWxNZTlfWWd3Y0JXSUxCeGdfT2Noa0otV1lSeXBidlJBYnFzXzFwVURXRmp2RFRkcGNGdnd0ZzJFTENTQTk1Tk9r0gHMAUFVX3lxTE9ELWw5UVZTY09hdzAwN0NKcktMUGhJcHBybWJqeUh6cEhpczRzQTFSWEh0OWsyRTNEenV4bFpqMFdmdkRlQ2VyeDJBQnotcVplSmdCQW1McnR3a2RVR3RfQXdXNi1YZ1hwTWtGMG8wRFY1RGtYRzduc2pZaHV4VWhRZGJvMTdmeXRqdHlQZXNwOXdvNnB0TF8xeGVyVkdlZDBpcVpKM2hPZmU4ZTNYa3hhZGJyMThrdld5d2M2bVJzRnlSaURNLTVGVVQwZw?oc=5",
-   "chapeau": "L’électricité pour la grande industrie en Espagne coûte 30 % de plus qu’en France, selon AEGE Demócrata",
+   "lien": "https://www.jforum.fr/suisse-un-duel-franco-israelien-pour-7-milliards-de-dollars.html",
+   "chapeau": "Suisse : un duel franco-israélien pour 7 milliards de dollars JForum",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -139,7 +230,7 @@
    "source": "Armees.com",
    "site": "https://armees.com",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdlBabjJIRndIQ3MtdzlBR2RmWWZuSXF1QnpPSF93RHZ5d2lDWGh5RmpRTHdIOVVhV3VYazNfdmhlWWRIbGU4Yml5Wk9oenpRSTE3bmdaVkhkZXZmVXJfU09JMHNGSUFFY2N6Y1A5QmtIamNIWG8ySmVnTDZES291WA?oc=5",
+   "lien": "https://armees.com/nvidia-chine-souverainete-technologique-notre-militaire/",
    "chapeau": "Nvidia, la Chine et notre souveraineté technologique militaire Armees.com",
    "volet": "Presse",
    "requetes": [
@@ -147,17 +238,29 @@
    ]
   },
   {
-   "id": "ACT-d83049244a87",
-   "titre": "La France a conçu en seulement 6 mois son propre drone naval kamikaze et prévoit 36 millions d’euros pour lancer sa production industrielle",
-   "source": "Lavoixdefrance.fr",
-   "site": "https://www.lavoixdefrance.fr",
+   "id": "ACT-88dbc9f4a5ed",
+   "titre": "Événement inhabituel : 23 pays utilisateurs du missile Spike israélien réunis à Chypre - Infos-Israel.News",
+   "source": "Infos-Israel.News",
+   "site": "https://infos-israel.news",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRm53MWFwZ09zbzUtUk1wVF8yT0FIY0EySVoxV29CLVVuZ19DLU9wVG5PdXBLd2ZNTTNoeEgwWVg3MWtkd2JQeGpHTi1kN3dFbkxDbjBvWHl5YVFJeF8yeGkyQkRwMnhxU01vR1docTl4X2d2czB2bDk3OVVKaTkzSjJRQVNrVEZKYmRULTRHT1RYaElENkJBc3ZUY3pKbENQSGNFYWxEVmRlM0JPU0xjbUFQaXFlcjlYNXlKNFIzaEliU2x3VzB3Sk9JSFRRUGg1Si00ZzY4UC0xMENBbEFHdk96SHR2NTJXYUJJZ3dCdTkySjRoei1SLVZVb2hyV05Lbk51RnVn?oc=5",
-   "chapeau": "La France a conçu en seulement 6 mois son propre drone naval kamikaze et prévoit 36 millions d’euros pour lancer sa production industrielle Lavoixdefrance.fr",
+   "lien": "https://infos-israel.news/evenement-inhabituel-23-pays-utilisateurs-du-missile-spike-israelien-reunis-a-chypre/",
+   "chapeau": "Événement inhabituel : 23 pays utilisateurs du missile Spike israélien réunis à Chypre Infos-Israel.News",
    "volet": "Presse",
    "requetes": [
-    "DGA direction générale armement",
-    "DGA appel offres marché programme"
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-c64c235ece6a",
+   "titre": "Destinée à la Marine nationale, la version VTOL du drone Aliaca a été qualifiée par la Direction générale de l’armement",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-03",
+   "lien": "https://www.opex360.com/2026/11/03/destinee-a-la-marine-nationale-la-version-vtol-du-drone-aliaca-a-ete-qualifiee-par-la-direction-generale-de-larmement/",
+   "chapeau": "Destinée à la Marine nationale, la version VTOL du drone Aliaca a été qualifiée par la Direction générale de l’armement Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
    ]
   },
   {
@@ -166,11 +269,37 @@
    "source": "Le Journal des Entreprises",
    "site": "https://www.lejournaldesentreprises.com",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeUxqRkN4VVBkTHBmeTBSUmhoempiNWVuS0hWQVEwU1FsOURVYlRUdEtmOEk0dHZoa243THY1LUVzUWhJSU5iaDRHTUJSU3FCeWtsbzhQSE1CQW1tRTlSbldvRnpUWmNfM0h6WDZxc1hwMTBEMDVPUWp2VVhTdlVZczhZQWFMb2J3SWZ6Vk1DdlN6WHphMGtSRksxRFRRN0dRM3kzdy1jcjdSTUZONnhTX3dRMVcyZmFXeHBNZmRiTXJUajdDWHFSa0ktWXVjWHVTS3liSGZFeGtCQnM?oc=5",
+   "lien": "https://www.lejournaldesentreprises.com/article/piriou-remporte-un-marche-de-16-remorqueurs-pour-la-marine-nationale-dont-quatre-fermes-2148285",
    "chapeau": "Piriou remporte un marché de 16 remorqueurs pour la Marine nationale, dont quatre fermes Le Journal des Entreprises",
    "volet": "Presse",
    "requetes": [
     "DGA appel offres marché programme"
+   ]
+  },
+  {
+   "id": "ACT-d83049244a87",
+   "titre": "La France a conçu en seulement 6 mois son propre drone naval kamikaze et prévoit 36 millions d’euros pour lancer sa production industrielle",
+   "source": "Lavoixdefrance.fr",
+   "site": "https://www.lavoixdefrance.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.lavoixdefrance.fr/la-france-a-concu-en-seulement-6-mois-son-propre-drone-naval-kamikaze-et-prevoit-36-millions-deuros-pour-lancer-sa-production-industrielle-21325/",
+   "chapeau": "La France a conçu en seulement 6 mois son propre drone naval kamikaze et prévoit 36 millions d’euros pour lancer sa production industrielle Lavoixdefrance.fr",
+   "volet": "Presse",
+   "requetes": [
+    "DGA appel offres marché programme"
+   ]
+  },
+  {
+   "id": "ACT-c7c75cfddafb",
+   "titre": "L’armée française transforme un canon des années 1970 en arme antidrone guidée par intelligence artificielle, capable de tirer 700 coups par minute",
+   "source": "Lavoixdefrance.fr",
+   "site": "https://www.lavoixdefrance.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.lavoixdefrance.fr/larmee-francaise-transforme-un-canon-des-annees-1970-en-arme-antidrone-guidee-par-intelligence-artificielle-capable-de-tirer-700-coups-par-minute-21317/",
+   "chapeau": "L’armée française transforme un canon des années 1970 en arme antidrone guidée par intelligence artificielle, capable de tirer 700 coups par minute Lavoixdefrance.fr",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
    ]
   },
   {
@@ -179,7 +308,7 @@
    "source": "Enderi",
    "site": "https://enderi.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWY3YWhUTUVoMlRhWW1uTGxCUTdzVEFiYWQ2U3pvRm83ZUl2b3J6M1hJVmFDZXpWVlA0bGl6cEVyaUlqNWc5Nmw3NmhWYTdWTDVhUEczcVAyaUtfcmxLZFRjRGhrZkMxSEpPdHBIRTh3OXVGNWlBVnp5bl8wNU1pRWxTVW4?oc=5",
+   "lien": "https://enderi.fr/safran-retenu-pour-trois-programmes-de-dissuasion-nucleaire/",
    "chapeau": "Safran retenu pour trois programmes de dissuasion nucléaire Enderi",
    "volet": "Presse",
    "requetes": [
@@ -192,37 +321,11 @@
    "source": "Serie News",
    "site": "https://www.serie-news.com",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM1hCWG1jazNmZWN5YmEydTgtNWFfZFJ4dTctMjZacC1sTGctcnh4b2F2T1Eyd0dkZzZYaE9tWEx2MjJoWUdscDgzT2MwdVh5NjVLbmRpNXNwSTZnQVdSbzJxSTZfQUxnbVgtdGRDSUh4dGV2SDIxS1k0R2NUbjd2N1AtRnBydWFfWjdjR1cyXzRVTmh5TFV4b3hNYmRudS1IOEJfd0lZbjQ0R2VPcTltaVUxNjdHZkhqeUpBMHhTdHFwdTRkZGlUZWMtd0lMbERUaVNrYXRMSXFuYWpaX1Vxb0h6LW1KV001?oc=5",
+   "lien": "https://www.serie-news.com/tnt/arte/61766-armement-europeen-sur-arte-des-milliards-investis-pour-dissuader-la-russie-mais-pour-quelle-defense-03-11-2026/",
    "chapeau": "Armement européen sur Arte : des milliards investis pour dissuader la Russie, mais pour quelle défense ? Serie News",
    "volet": "Presse",
    "requetes": [
     "matériels défense programme armement France"
-   ]
-  },
-  {
-   "id": "ACT-f741f41487ef",
-   "titre": "La DGA reçoit le Rafale B374 pour les essais du standard F5",
-   "source": "Armees.com",
-   "site": "https://armees.com",
-   "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2MFh3ZWJkdzZJR2N0bjVCclRPNUdhZ0xCU09zc2l0RldqWGVNbHFuZnpTSFN6cVZSQXBRYUNqRy1LWWxueGpEOGFQVjZ1YzZBQVFNWWNib1phNlI1WmJSM2QtemdGd3U1SVg5c2E2ZTB4N3lPVy1hZmJB?oc=5",
-   "chapeau": "La DGA reçoit le Rafale B374 pour les essais du standard F5 Armees.com",
-   "volet": "Presse",
-   "requetes": [
-    "matériels défense programme armement France"
-   ]
-  },
-  {
-   "id": "ACT-abe18caed66e",
-   "titre": "Civils de la Défense",
-   "source": "Ministère des Armées",
-   "site": "https://contractuels.civils.defense.gouv.fr",
-   "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuRVJ1dzFGRW5CaC1HSUJ6UWlSem5wWjg3VG1Ja2RSVjRuR1hGRG10Y0xqczNjcW5BM3NEX1RTSUlsdzQzcEtKM1pLemIycGRiVmUwUnByeHMzRnRfTS13X0ExSm4xODE3?oc=5",
-   "chapeau": "Civils de la Défense Ministère des Armées",
-   "volet": "Ministère des Armées / DGA",
-   "requetes": [
-    "site:defense.gouv.fr DGA"
    ]
   },
   {
@@ -231,8 +334,21 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-03",
-   "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUUlkNkdaTldFLXJ4VFNwdEp3eWFrOXlSOWNDcE12WnhEb1Bmc1RQVGFoSHZTUVdoUi1YT29jZXl1NF9QX2REVW05OV9EcnV4dk1udWM5Zkt2RVdMdFZ4S2YybG5VOG5weEVOTlNlRU9obVFJMy1NWWlqWS1sS1RjcDVTbi0tVTcyZV9YNFVCOGhHUTJMSk9lYnJMQ282MDJOeFhnYg?oc=5",
+   "lien": "https://www.defense.gouv.fr/actualites/agir-frapper-durer-comment-france-maintient-sa-puissance-navale",
    "chapeau": "Agir, frapper et durer : comment la France maintient sa puissance navale Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-d499bde59a76",
+   "titre": "Réarmement : Catherine Vautrin appelle les industriels à se mobiliser pour l’innovation, la production et la coopération",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.defense.gouv.fr/actualites/rearmement-catherine-vautrin-appelle-industriels-se-mobiliser-linnovation-production-cooperation",
+   "chapeau": "Réarmement : Catherine Vautrin appelle les industriels à se mobiliser pour l’innovation, la production et la coopération Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
     "site:defense.gouv.fr DGA"
@@ -244,7 +360,7 @@
    "source": "Idéal Investisseur",
    "site": "https://www.ideal-investisseur.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRmZUbURKbktTMk5Nd1JUS29fakdleFNZdTZPQ2VCdlM2Z3EzQVhvWkpuRnBPMUplcU5sdENpODE1VUswb3FZS1ZuLWpneDVqTzlmdnoxVVgzVXd2SWJYdUxNWGd1NUdVUmxvaFZjNTJPYVNTaC11cllDcWJoQ1Z5dDNTTjR3UVcwWUQzVnpkdkxTTTlfUWlRMkVTY1BrSExSTGxQSEZGQUhsejFLVjQ2Qk9HTUo0ME1ENmwxTk03SFhiU1FEZzBPQ3NKaw?oc=5",
+   "lien": "https://www.ideal-investisseur.fr/actions-b/credit-agricole-et-la-bei-debloquent-400-m-pour-les-pme-et-eti-de-la-defense/28446.html",
    "chapeau": "Crédit Agricole et la BEI débloquent 400 M€ pour les PME et ETI de la défense Idéal Investisseur",
    "volet": "Presse",
    "requetes": [
@@ -257,7 +373,7 @@
    "source": "lejdd.fr",
    "site": "https://www.lejdd.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHV4Q2l1NVljNGVmWjlUVlJ3dGVTZ3lLN2o0WWc1aWQ5MVZzUE5EY0djUmdZS0dvYVVROEFfT0pIRmhTckVmZmdMMXRRMmhndWdPT1V2STFlZDZoazdZaWFEdkdFWV92X0dxSFh1QUtCV2VXNnV4d2c5ZjI1TUZ4a2M2TkYtSnNRT0Znd210dFl6WlpVZWRORHIyVklEZmxZYWc?oc=5",
+   "lien": "https://www.lejdd.fr/Societe/operations-de-destabilisation-la-defense-francaise-sous-pression-187554",
    "chapeau": "Opérations de déstabilisation : la défense française sous pression lejdd.fr",
    "volet": "Presse",
    "requetes": [
@@ -270,7 +386,7 @@
    "source": "Euronews.com",
    "site": "https://fr.euronews.com",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORzhfZ1JQckFTTXNKVUVONEp0UWFHVERTczZxSktZbVc5QXltd3ZGZnp3cWJYa2ZQZkRwMHFMalVfSDZkcWl6X2ZRUWlUY2RfMk04ZFYxcjhOUkYtVXF0MDlQMGdVQ0NNY0VCbXlXRTB2cHdCY0dBTEU5Z3pqMFdRTzhoNGYySUxadEkwRGZKSFJMZUJYMVdlUnFoeksxWDZXaWwzY2hRRE85YkVqUDQyWXpXOVFMTnREcHU5ZWhNZXViRTA?oc=5",
+   "lien": "https://fr.euronews.com/2026/11/02/ukraine-jusqua-un-milliard-deuros-de-prets-de-lue-consacre-a-des-projets-de-defense-commun",
    "chapeau": "Ukraine : jusqu'à un milliard d'euros de prêts de l'UE consacré à des projets de défense communs Euronews.com",
    "volet": "Presse",
    "requetes": [
@@ -283,8 +399,60 @@
    "source": "Capital.fr",
    "site": "https://www.capital.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc1hhTXpiSnNReE5iUnlGcjNZWVZjWVpQRTZLZXJnOTdwd0s3b3ZGdnhhV1hFT1Bsd2luZnBBUFphd3dZaEVtbzJ5cGJyc0tMYTRaYTNuQ01wMFlESzl0WnpfODVGSGdOdVZTX2cxUUoxOGZZbV9GYy0wMFdwVTFkNGhVazlDdWlzZ3prZjUyR25TTFJJQkhMZHdNTEFBOFZTNjltekpaTWpiYW1neXdF?oc=5",
+   "lien": "https://www.capital.fr/entreprises-marches/lexpertise-au-service-de-lindustrie-francaise-et-europeenne-1531490",
    "chapeau": "L’expertise au service de l’industrie française et européenne Capital.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-c9e66d4fe9b1",
+   "titre": "Vidéo. Ukraine : jusqu'à un milliard d'euros de prêts de l'UE consacré à des projets de défense communs",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-02",
+   "lien": "https://fr.euronews.com/video/2026/11/02/ukraine-jusqua-un-milliard-deuros-de-prets-de-lue-consacre-a-des-projets-de-defense-commun",
+   "chapeau": "Vidéo. Ukraine : jusqu'à un milliard d'euros de prêts de l'UE consacré à des projets de défense communs Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-525f320d07f5",
+   "titre": "Royaume-Uni et Allemagne vont développer ensemble l'IA militaire",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-02",
+   "lien": "https://fr.euronews.com/2026/11/02/royaume-uni-et-allemagne-vont-developper-ensemble-lia-militaire",
+   "chapeau": "Royaume-Uni et Allemagne vont développer ensemble l'IA militaire Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-b60570999b1e",
+   "titre": "Le Canada dans l’Indo-Pacifique : poursuivre le pivot, renforcer le partenariat avec la France",
+   "source": "l'Institut français des relations internationales (IFRI)",
+   "site": "https://www.ifri.org",
+   "date": "2026-11-02",
+   "lien": "https://www.ifri.org/fr/briefings/le-canada-dans-lindo-pacifique-poursuivre-le-pivot-renforcer-le-partenariat-avec-la",
+   "chapeau": "Le Canada dans l’Indo-Pacifique : poursuivre le pivot, renforcer le partenariat avec la France l'Institut français des relations internationales (IFRI)",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a8552a507081",
+   "titre": "Frigos piratés : après la France, de nouvelles cyberattaques perturbent des chaînes de supermarchés en Europe",
+   "source": "Les Echos",
+   "site": "https://www.lesechos.fr",
+   "date": "2026-11-02",
+   "lien": "https://www.lesechos.fr/industrie-services/conso-distribution/frigos-pirates-apres-la-france-de-nouvelles-cyberattaques-perturbent-des-chaines-de-supermarches-en-europe-2260560",
+   "chapeau": "Frigos piratés : après la France, de nouvelles cyberattaques perturbent des chaînes de supermarchés en Europe Les Echos",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -296,21 +464,8 @@
    "source": "Lesfrancais.press",
    "site": "https://lesfrancais.press",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNlV1eEczQXdGbGl0bm0xRUFfUGRuUldmMk5YYW5ScktkMEx3NndwR0JVMU9CYV9aekxDMnVRek10Z1NUNVFPWVZNb284dDY2d3FTTlIxaFphUnRETVZBVU5HWVl0Ry1XeHlRVnc3d3A3N3hfS0gwYzNfOW1uZ0hEYXJKZFBtSWFvRmg1Vi1WRQ?oc=5",
+   "lien": "https://lesfrancais.press/france-allemagne-faut-il-repenser-le-moteur-franco-allemand/",
    "chapeau": "France-Allemagne : faut-il repenser le moteur franco-allemand ? Lesfrancais.press",
-   "volet": "Presse",
-   "requetes": [
-    "industrie défense France Europe"
-   ]
-  },
-  {
-   "id": "ACT-21d4fbd930cd",
-   "titre": "La France finit sa démonstration de force aérienne autour du monde en beauté avec une étape chez une vieille amie dans le cadre de Pégase 26 : l'Égypte",
-   "source": "Forum Militaire",
-   "site": "https://www.forum-militaire.fr",
-   "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOV1hSdFI2VmdGTGl5cVFUYUxTTG1rMXVVbUVZNDdxSGM5d0JLaUp1RW9EcWNtMnM4SFBEWEZsY3dNZ1NKN2RMZnZibHVKbmpNUlkxM0xuWmkzRjUyZHc3a09kMjRlQmlxODdlWXNueVBaaVdtVE1ILVZsVGw5SWJaMXpEWm9HVFJuYUlWWmxkUmtZS0xYRThGV243QUJ3VW1WZ1REMnBkVHVFdVhQRFdhRENBV2E1Rm9GVzFVNy1MWTFiNjUtWGxkOHdfaXgtdzAzTHRhdlM1ZmZ3SFhaOHVNS2gyZjBtRGZmcHBBeHZJOWZXVHVSNk9GYVJlQkFMU0hCZ2s2WVlQTmVzaFNw?oc=5",
-   "chapeau": "La France finit sa démonstration de force aérienne autour du monde en beauté avec une étape chez une vieille amie dans le cadre de Pégase 26 : l'Égypte Forum Militaire",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -322,8 +477,21 @@
    "source": "Forum Militaire",
    "site": "https://www.forum-militaire.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObVZxMzBQc1A0OWRkTE1mRnRQZXlna1VtampuRTMzUXFpUFoyYVNfcDFnR25oLVdKZDgwZ3ZXa1JpVzllQ3JWR0lDcHYtNTBzTHg2cll4cFZtc3lOX3dZSUhRVi1lV0l0b1FDOEhuT0kyVnJmRzctTURHWVhMQ3YzbW1HcWh3NWRLaHF5SFh2bG5VLWhLUW53ajJYMFNJWGdKRzBGdXhReTR2RU1OYk5SNlRzbDRQb3R2NDdidmhiSHM2di16OHRhdWpmcmpuRWpfVDlLNkZ3VV9Hd1EtNTZDbG9pbWdLZGp4M3V3UHVMS09GVkZjOTNWaUxkZ3FFV0doYmkzSHlvb05BdmJfMUhyaw?oc=5",
+   "lien": "https://www.forum-militaire.fr/la-france-teste-ces-vedettes-suedoises-devant-sa-base-de-sous-marins-nucleaires-et-la-nouvelle-version-peut-recevoir-des-missiles-qui-frappent-a-100-km/",
    "chapeau": "La France teste ces vedettes suédoises devant sa base de sous-marins nucléaires, et la nouvelle version peut recevoir des missiles qui frappent à 100 km Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-c4b4b87f5c96",
+   "titre": "La Slovaquie se tourne vers un char moyen et l’occasion manquée de l’industrie française - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-02",
+   "lien": "https://meta-defense.fr/2026/11/02/slovaquie-char-moyen-capint/",
+   "chapeau": "La Slovaquie se tourne vers un char moyen et l’occasion manquée de l’industrie française Meta-Defense",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -335,7 +503,7 @@
    "source": "Mer et Marine",
    "site": "https://www.meretmarine.com",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZG41QWhnQV9fbjgzcEhlLU4xVTRUQW0wbDc0akx3QWJVNHFUaEdBUGgxR3c4eHpmZmJzVVRFZTZMZ0JMZHhPSHRfMDQ1Yl9USU1FSmJrYkVpZjNaOUc3R1pRLUxINVRWMkQtaFU0RThrSGFtRnJHMXdNMlJlMll1eEdOcEwtREJGVlFvQ19DT2lkdFAzR1pVclNZbm82U3FxR1RKRjJvS1R6WC1CVjdqRFFnMm9MZ3AwQUZ1QWExT1VkRHFvOC1sMGJzQzJFQQ?oc=5",
+   "lien": "https://www.meretmarine.com/fr/defense/entretien-avec-l-iga-francois-watteau-directeur-de-l-unite-de-management-combat-naval-a-la-dga",
    "chapeau": "Entretien avec l’IGA François Watteau, directeur de l’Unité de management Combat naval à la DGA Mer et Marine",
    "volet": "Presse",
    "requetes": [
@@ -348,7 +516,7 @@
    "source": "La Lettre",
    "site": "https://www.lalettre.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLUxqbEFDLWVDUUNvUng0TmpGTGltY01lZWZFSTZGVWxYUGxreWVrYTZMNXlXMTMxMHJrRHluVzBncU9LbmVKUGFXazBJMW9MQWNFTlRpUE9oR1NkaS03SVNCT0JDbmw1Qkt3QTJseWNnaV85RmxwRkZmUnBzeWJRQXRqaDFBY2ozRV9EX0ZiMUd2WDh0QlY2aHNCdDdZT2dPRDBsXzh5dkI2WWdxSllaOVlQYlpNTkVOYU9iMC1fb0JvNE9oaE81XzBvZGV5czlOaVBFQmJwRERBNmgyN05zQXJZeG1UWDZfMUVMbzRKWmR4U25SeGpsbEV1d216TzF3Q1A0ckJuaUs5dGttQWhraldn?oc=5",
+   "lien": "https://www.lalettre.fr/fr/rub/fr/entreprises_defense-et-aeronautique/2026/11/02/les-armees-durcissent-les-regles-d-acces-a-leurs-marches-pour-accelerer-le-virage-de-l-ia,110910826-art",
    "chapeau": "Les armées durcissent les règles d'accès à leurs marchés pour accélérer le virage de l'IA La Lettre",
    "volet": "Presse",
    "requetes": [
@@ -362,60 +530,8 @@
    "source": "Le Journal de l'Aviation",
    "site": "https://www.journal-aviation.com",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVlZRlBOZC1GWTBJMUJLOHdxc1dDZ0luVU9OQU50Y2h2cjZjSnZEWmpJVFdNc1F6dHpTN3ZQUlNIMmJaakstUk9sc3FSaXU3bFJGMnJSbzA3WEFjV0hvX3FzYi1YcEp3MjdBbDhDMF9sMHpPZ01KN1ZSeVFaWnBodG5QdWhFbXljclhNSXh0eG9lUG9KOTVZNWdjOXk0UWNnelM2MzBiWU5LaFhfczFSZ3JqNXJScXVxVWtJTURNUEV2V0t0M3lsODFSeEtNMDBHSjczMDJFNzI4RE1ITUU5b0NleUVRX25wNVlKNw?oc=5",
+   "lien": "https://www.journal-aviation.com/actualites-defense-espace/industrie-de-defense/la-dga-livre-un-rafale-destine-aux-essais-du-futur-standard-f5-20261102.html",
    "chapeau": "La DGA livre un Rafale destiné aux essais du futur standard F5 Le Journal de l'Aviation",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
-   "id": "ACT-ca8efd8f2efc",
-   "titre": "La commande est lancée : les sous-marins nucléaires français vont bénéficier de nouveaux remorqueurs pousseurs",
-   "source": "Actu.fr",
-   "site": "https://actu.fr",
-   "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWFBXMmZsNUlncXNnVU5wTVIzSlRvUkhzeE5QR0UwbHU3aUZxeGRRdUNYQmJPTGljX1p6M1ZselV2Q0EyWkU1ME8xRGI2bjNSRHhDNi0wR2VsX3hQc3V4Q1oxZ0lQM3pURTA3SnZEWGJ3MkJ1c3gtR2lObW5laTdMdlNIMEZkYUhmRHRqMElaLTBGck5DTEZPSllxUV9vcXlHWkFxay1zNzg4N1VxS29DOUJkSHZSRnh5NXlkeGVrampUQkZwMzhBMlpfYlNIQkxRTkZkT0J5endNcHJTa2padC1EeklSRGVQdnZEcGhWWFJ6RWVZM3JMYkFpUWVaR0F6OUxJOEg2dw?oc=5",
-   "chapeau": "La commande est lancée : les sous-marins nucléaires français vont bénéficier de nouveaux remorqueurs pousseurs Actu.fr",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
-   "id": "ACT-b7b27c50ec8a",
-   "titre": "AFI KLM E&M et Exail livrent un nouveau simulateur de vol E-3F AWACS à l'armée de l'Air et de l'Espace.",
-   "source": "Aerobuzz",
-   "site": "https://www.aerobuzz.fr",
-   "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ3A3X2hfYzJ0dUgxREpIdUxBaG9DYl90WlFaOE5rQW9EZ0czcWZqQXhhZm45YjNBUC1RS1JFR21FVHRqek4yakp3bWltZTFZMDJrMkRnMnZKbXFSX3p3YksxQnB0ZW1INTI5VmJ4LThSOHlMUTltY2NIb3IxQ0Ricl9JMlVRTDNsS0M1RzJ3WXhrVHJNaFBMZkgwUDBFcnYxODlnd0k5R0lmeEZRNXBPYzF2YzJ6U2d3Z1FtOTJyNzFGMHFsRWMxR0swdWRyZkpfajZoNw?oc=5",
-   "chapeau": "AFI KLM E&M et Exail livrent un nouveau simulateur de vol E-3F AWACS à l'armée de l'Air et de l'Espace. Aerobuzz",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
-   "id": "ACT-96fb61313d52",
-   "titre": "Rafale F5 : la DGA livre un premier appareil pour les essais en vol",
-   "source": "Air&Cosmos",
-   "site": "https://air-cosmos.latribune.fr",
-   "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdWdtVWVTTV85MXZCbTUzQUY0ek1qYmQyWXhlQ1F4dmh1Y0R5ajJEV3c4OHZEY0pkQjJNM2ZFb0xwMExEcU5ZSktkOXFtVndoUjFIWHFBY05Mb1BPczM1ME9iNG9IcGh6OHROWUJ4Z1NGbmJsMVVVejh4bXR6RjN1Y09SSmNRdE5veHNkdlYwWXctclhYSXB2UGljNEp4VDRGbFZTRmN5V1RuYlhEX0dRZ3pkajMyTk44RVJEVzVoNk5ud2dISklLRFlYVEZCTHpDY0RLQzk2UXFackpLbTJr?oc=5",
-   "chapeau": "Rafale F5 : la DGA livre un premier appareil pour les essais en vol Air&Cosmos",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
-   "id": "ACT-00bc843dbfa3",
-   "titre": "DGA Essais en vol a reçu un Rafale F4.1 « ABE » pour préparer le standard F5",
-   "source": "Zone Militaire",
-   "site": "https://www.opex360.com",
-   "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNWU5b1F4YlBrb3pYWVFwdDZVVmpBSkJOZ21sT3ltbklZbkxWTUFucy1jTnd0cXZhcVNCQ2VtV3ZrdktTMjc1dkdIcjBhcXNqdTVsdjNVWDlDSzY1TTNKN2w3UGp2dVVQbzd2aktZWHBIQXdoTVBMQ1BadFVLbFRkMnFRbFBEbUhXbjBDQ1VJMXlfaS11ZmdHS19SeGs5dFdXWEJZOVZrUVAtNGlKcU5LTGpLdw?oc=5",
-   "chapeau": "DGA Essais en vol a reçu un Rafale F4.1 « ABE » pour préparer le standard F5 Zone Militaire",
    "volet": "Presse",
    "requetes": [
     "DGA direction générale armement"
@@ -427,7 +543,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzl5UW10eThHT0xqNUswQ2I3MGNqdF9UY2lRVHdkVHhDelZRQzRqd1A5MFdZeHdOMklmaVJISkJEbDFIT3U2T001SWtySWZMdUxBcjVIUzdUdXBmSXA0WkNKcnpaaVBHWjlvUDdRYkRpU2s1SXIyeFZYeWtZWnM2MVo5YXJiblVBYy0za1VzMlpHZDRWSGx4bk8xVlR5X3B0NVk1ZXRYd0xMWE56dEQ5VQ?oc=5",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/dga-livre-premier-rafale-destine-aux-essais-du-centre-dga-essais-vol",
    "chapeau": "La DGA livre le premier Rafale destiné aux essais du centre DGA Essais en vol Ministère des Armées",
    "volet": "Presse",
    "requetes": [
@@ -441,7 +557,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWZ2bTlnTFotVjRHYmQ1SW1pM1JWYlczRmxrRnRidWRzQ09kVV80cnAwMWlwQ21neUhwN0JySWNIWTJxY2pmZUtSYlRQS0wwV09IbVN5Z2VpMlJaaDlYcjF1ODRxWnpLcURLMlI5SUVjb3Q0SUxGQXlxdmY2d1laRzE3bVUyTlBub1JYUDJiUG1Xa0NhRVA2N0MxUWx0UTV0QXc?oc=5",
+   "lien": "http://www.defense.gouv.fr/dga/actualites/livraison-deuxieme-fregate-defense-dintervention-fdi-grece",
    "chapeau": "Livraison de la deuxième frégate de défense et d’intervention (FDI) à la Grèce Ministère des Armées",
    "volet": "Presse",
    "requetes": [
@@ -450,26 +566,26 @@
    ]
   },
   {
-   "id": "ACT-fe28ffc06d37",
-   "titre": "Rafale F5 : la DGA reçoit un avion banc d’essais pour préparer les futurs capteurs",
-   "source": "Armees.com",
-   "site": "https://armees.com",
+   "id": "ACT-e66f321e77f8",
+   "titre": "Drones navals : la DGA cherche un industriel capable de produire jusqu’à 50 SMOKERS par an",
+   "source": "Economie Matin",
+   "site": "https://www.economiematin.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ0ItUDc4VmpGMkQxZ1FnMkZwTHpRb1JqUnFFbmhqWS01UjIwQzJBMWZtcFBCUzBWZFVjYVd4WTkwUTlVR096ZE0yeGwxSXc0Q3VxeFhMNXlyZTV6V1FXdnJMMXl4TXBJb0ZPUWlrOWdMaWhub0MwczNqSUJmVTg1RUp3?oc=5",
-   "chapeau": "Rafale F5 : la DGA reçoit un avion banc d’essais pour préparer les futurs capteurs Armees.com",
+   "lien": "https://www.economiematin.fr/dga-marche-industrialisation-drones-navals-smokers-50-par-an",
+   "chapeau": "Drones navals : la DGA cherche un industriel capable de produire jusqu’à 50 SMOKERS par an Economie Matin",
    "volet": "Presse",
    "requetes": [
     "DGA direction générale armement"
    ]
   },
   {
-   "id": "ACT-e66f321e77f8",
-   "titre": "Drones navals : la DGA cherche un industriel capable de produire jusqu’à 50 SMOKERS par an",
-   "source": "Economie Matin",
-   "site": "https://www.economiematin.fr",
+   "id": "ACT-fe28ffc06d37",
+   "titre": "Rafale F5 : la DGA reçoit un avion banc d’essais pour préparer les futurs capteurs",
+   "source": "Armees.com",
+   "site": "https://armees.com",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPek1rS2FmQm1OTUlUUTY0N2dEcTlSa2VjNXlLSHBiRG5YcmpMMThzQmNkSmNLbDY3Y244RmNEMVUyVjRoOFBYX1pmR2paUm5qdmxNcE5DWkg2WjVsTmNUbVBmbGlNQlgwNk5GTTdlcjh3b0ZZMzVsTzFidC1Qbk5QRlBQSlBXenJvM0JyOGh4UW8zTFU?oc=5",
-   "chapeau": "Drones navals : la DGA cherche un industriel capable de produire jusqu’à 50 SMOKERS par an Economie Matin",
+   "lien": "https://armees.com/rafale-b374-dga-avion-banc-essais-standard-f5-2026-11-02/",
+   "chapeau": "Rafale F5 : la DGA reçoit un avion banc d’essais pour préparer les futurs capteurs Armees.com",
    "volet": "Presse",
    "requetes": [
     "DGA direction générale armement"
@@ -481,7 +597,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQbWoyLXhjRGY2SlE0U3A0a0IwckFrUndvemRIY1JMNUpQMG9aYThpclB4SWtYb2R4WHR5TG8xdlNJZTlwbGFxT180dy1uQkpGWE9GTGZlU242M0F5VHMtUDRmU3QwQUdiWW42U0xqS2NyWHFUWlZyMzJyczRHcnI1eEt2d2lhQmZuQVNDMEhJSm4ycnZVb3NZRE5Cam43WlhGLWlKRjVZWndPWlk1U3dxS2RfY0xQSjhramJWc21LOThzZ3kxYmJFVUhWM2xJTTdkSzlXNDY2bFp0bXBxQ00ybEg5VVdGQ2ZKZGNLVWFhRVdYeThPSUdzZkJYOEotd0JGQlg1bVE4X05YMlRBYllXNDZSaWp2Smx0SGJMTVBLejVpZ1k?oc=5",
+   "lien": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Communiqu%C3%A9_A_la%20DGA%20livre%20le%20premier%20Rafale%20destin%C3%A9%20aux%20essais%20du%20centre%20DGA%20Essais%20en%20vol.pdf",
    "chapeau": "Communiqué de presse Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -494,8 +610,21 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ibFVyYmsxTlBHMjdqSFBHT0dCakd3MXhKOFBpSVVYdTh6U0tuTXp2YUpPNlJYd09YZ3YwTUlsd0N5MWRuOVYtVldydXduaEgwSkR5WG1VTW1qamRUNHF3clJmUzd5QTc0MUlWMXlCNVM?oc=5",
+   "lien": "http://www.defense.gouv.fr/dga/nous-rejoindre/profil-reserviste",
    "chapeau": "Profil réserviste Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-abe18caed66e",
+   "titre": "Civils de la Défense",
+   "source": "Ministère des Armées",
+   "site": "https://contractuels.civils.defense.gouv.fr",
+   "date": "2026-11-02",
+   "lien": "https://contractuels.civils.defense.gouv.fr/offresdemploi",
+   "chapeau": "Civils de la Défense Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
     "site:defense.gouv.fr DGA"
@@ -507,7 +636,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVkJ1MzFPS3l2cGpDQkhjZ2ZNSFhGRmRMZVBPc1pzaTQ0VFdRU3JSRXRiY1Nfamg2UWFnU2c1Rk1XVzg1bXRkZlJpTzFTeU5pRTZLeVk2eGRFSW5zdVBFbGkxcU5iRWVwRWoxRHZCVmwyQW5iR25jeFUzUVUxXy02bTBieERhblZRU0E0dFFfY0gzZkhGdDVfWUxYdDZTSGZRMXZxb2RGeWJ5cU1WT3F4djJBSHF1b3RRMk5oTTlqdGNrUQ?oc=5",
+   "lien": "https://www.defense.gouv.fr/actualites/marine-nationale-affine-son-avantage-informationnel-face-aux-menaces-marines-aerienne",
    "chapeau": "La Marine nationale affine son avantage informationnel face aux menaces sous-marines et aérienne Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -520,7 +649,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWI1YmxHOFpJbDI1N2lrRTBZNVZfeTVGNi1CRzJpTEZoWXFCc1l2ak5GUDRXUGdoeXpsdXZOcTBpTVlZRWlteEV6WUJ2al9UdzhxSHRDSjY0Mzc4TGJtc3IxOF9WNHZ5SXNPYmN5LXAwdmtCNlNVbE0xNDg4ZGE4Sm01d3VHcGtXdzFvbzlJazExQXJBVkJYMnRMaDJCb3N4YnRjOXdLUVU2U0N4YW9oNQ?oc=5",
+   "lien": "https://www.defense.gouv.fr/actualites/se-proteger-continuer-combattre-preserver-liberte-daction-forces-navales",
    "chapeau": "Se protéger pour continuer à combattre : préserver la liberté d'action des forces navales Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -533,7 +662,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-11-02",
-   "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNDN6LUt0Yy1TeTExZjhpWUFMZXVfbzBPTDZ4MWlfWWI5cFFmelZlWng2eUZqWlNRc2dOdVE0YkNiRVFOLWFSTlZwbS1CQnVSeFZvWkIxWWlNclVRZGVhY2NmbjNOSVAtVzJEdVVXZV9wUHktZlUwMkwtTEE4Z2NuWlVRTTEtR01Cb0V1c1VTeEx3SlRhb0FHSjdmUXFrZHRhU2JWVXljUkRjWFRod3k4bjlrYk84ZzdUczBfNXkteUVXS01wX3EtYkd0NmNTcjA?oc=5",
+   "lien": "https://www.defense.gouv.fr/aid/actualites/du-concept-au-terrain-laid-soutient-linnovation-defense-europeenne-lors-dune-campagne-tests",
    "chapeau": "Du concept au terrain : l’AID soutient l’innovation de défense européenne lors d’une campagne de tests organisée par l’AED et l’Exército Português Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -546,11 +675,37 @@
    "source": "Presse Agence",
    "site": "https://presseagence.fr",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMkpSbUtZaVVicmdjdjdLMnZBbkJRaW5iMGxCOVR0aDdtaGNSeFlVMVNoNWZpMzZFY2xIUTRyTThfN1ZDcTNVRlROcXhVeHFsQlJUZF9LZ2ZVdEJTVXBYOXdsV3BvNTJuUXY4U1JVRGNBVTRCMHA4dEloWERpelZCdnU4akI4dlBUa3llME1PNkdOa3A0bEtuMWNnaGNibTc3bG1acUVNUEk4dWRzY2Y2TzN5ZW83RTQ?oc=5",
+   "lien": "https://presseagence.fr/villepinte-defense-navale-catherine-vautrin-attendue-pour-inaugurer-le-salon-euronaval-2026/",
    "chapeau": "Euronaval 2026 : Catherine Vautrin inaugure le salon à Villepinte Presse Agence",
    "volet": "Presse",
    "requetes": [
     "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-2ba20c53b11d",
+   "titre": "Les exportations de défense indiennes vers l'Europe ont fortement augmenté, ce marché représentant 40 % des exportations mondiales.",
+   "source": "Vietnam.vn",
+   "site": "https://www.vietnam.vn",
+   "date": "2026-11-01",
+   "lien": "https://www.vietnam.vn/fr/xuat-khau-quoc-phong-an-do-sang-chau-au-tang-manh-thi-truong-nay-chiem-40-kim-ngach-toan-cau",
+   "chapeau": "Les exportations de défense indiennes vers l'Europe ont fortement augmenté, ce marché représentant 40 % des exportations mondiales. Vietnam.vn",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f7592e82d2d7",
+   "titre": "Bloomberg : L’Inde accroît ses exportations de munitions vers l’Europe, avec une hausse de plus de 1 600 % par rapport à il y a quatre ans.",
+   "source": "Vietnam.vn",
+   "site": "https://www.vietnam.vn",
+   "date": "2026-11-01",
+   "lien": "https://www.vietnam.vn/fr/bloomberg-an-do-day-manh-xuat-khau-dan-duoc-sang-chau-au-tang-hon-1-600-so-voi-4-nam-truoc-do",
+   "chapeau": "Bloomberg : L’Inde accroît ses exportations de munitions vers l’Europe, avec une hausse de plus de 1 600 % par rapport à il y a quatre ans. Vietnam.vn",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
    ]
   },
   {
@@ -559,7 +714,7 @@
    "source": "La Tribune",
    "site": "https://www.latribune.fr",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVlVKNjNzNC1keG5iWVVXYUZueFlEcGxOSUVVazhwa1RNM0ZvWE02Rk5nb1loWE1TUzlGdUtGSVFlYXZYYTZUNFduWVZTZmNCN3VqWlZGWUlka0lycmZIM3BIazUzZWJRZzRlb29zNnNiWUNHNWdkem54WXNDY1QtNVpIRlZoU3lSY3JZSE9fXzFXbHIwSFpqdWtsOUdHYkxnbDdHME1SWkhicERoTkR5NnZkSGVCMlF1OG9KMnZKNm85QWZHeVVMNVI3SnQ5bUtrQXlzV2YyaEtkSFJxT2xIZ2VpUndiZExsWmpmckI2c2Q2YWttaWFPYXR6aDZEaktIVXZR?oc=5",
+   "lien": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/12158232521659/achat-davions-canadair-pourquoi-la-france-et-la-belgique-ont-mis-le-feu-aux-poudres",
    "chapeau": "Achat de Canadair : pourquoi la France et la Belgique ont mis le feu aux poudres La Tribune",
    "volet": "Presse",
    "requetes": [
@@ -567,26 +722,13 @@
    ]
   },
   {
-   "id": "ACT-e919485be362",
-   "titre": "Même les États-Unis sont admiratifs de la cadence de production de Naval Group qui vient de livrer la deuxième FDI grecque seulement 10 mois après la première",
-   "source": "Forum Militaire",
-   "site": "https://www.forum-militaire.fr",
+   "id": "ACT-7a3c742afe76",
+   "titre": "Les batteries lithium-ion embarquent dans les sous-marins : Naval Group remplace ses historiques piles plomb-acide et adopte le Made in France de Saft",
+   "source": "L'Usine Nouvelle",
+   "site": "https://www.usinenouvelle.com",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRi1JSnZZQnF1WGtEMlY0Z2VKenRjY29EOEMxYVJ6Vm5xQ21Fd2VXZUZwSlZkazBxX05mRTZFZ094LXRQSjV0RFp4MVhoVFlBUlBiaDNLeGJYbDQxQTc5X1FFdENtQzhOcmdnalNBeEJxZmt3RE9BbGdxM1RkOEhnakpKcnUwYmpXZ1hJV3J5V0owLTI2bnZvREczMjE0c2RfY1dpekVwYXNoX1B2VmpfMW9vYTIzTDJ1QUN2YjZvN2dzXzN4THgydzBFVnBrSkF2bEEzWG4zUENwQjZiR3R0VU1SdXVJSlVGY011b1ZkMnJwaU1BZHNCWjBpNlFBa0hVcndSOFY5T0JKOEstWk1XM21vVXppTUNi?oc=5",
-   "chapeau": "Même les États-Unis sont admiratifs de la cadence de production de Naval Group qui vient de livrer la deuxième FDI grecque seulement 10 mois après la première Forum Militaire",
-   "volet": "Presse",
-   "requetes": [
-    "industrie défense France Europe"
-   ]
-  },
-  {
-   "id": "ACT-e15149314a8d",
-   "titre": "Salon du Bourget 2027: le boycott des industries israéliennes devrait se poursuivre",
-   "source": "IsraJ",
-   "site": "https://israj.media-j.com",
-   "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORWJxU29WVHJVX29fVS0wX091UlZWT2cyVktpNXc5RUZlaUw5X3hKNHk4d0FBTWgwMFc1NDRrZnFGYWNiRFotXzRzWURSZlpjT25hV3FPR3ZIOU1nN21Gdm5vYnhEUjJfaEN0MGpBck1PU19hWHBDeno4RlNIOTEtZHV4eXRPMUxxeGZYZmNzazAtVlk2bDFRbFotV1pReHFGZGI2ajRQVXVTM1ZqR3pUWk92TEt6YjRtckVEWFZoRQ?oc=5",
-   "chapeau": "Salon du Bourget 2027: le boycott des industries israéliennes devrait se poursuivre IsraJ",
+   "lien": "https://www.usinenouvelle.com/aero-spatial/defense/naval-group-ex-dcns/les-batteries-lithium-ion-embarquent-dans-les-sous-marins-naval-group-remplace-ses-historiques-piles-plomb-acide-et-adopte-le-made-in-france-de-saft.XELAHR23FBJK3FZJ5QJC5KUOHI.html",
+   "chapeau": "Les batteries lithium-ion embarquent dans les sous-marins : Naval Group remplace ses historiques piles plomb-acide et adopte le Made in France de Saft L'Usine Nouvelle",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -598,21 +740,8 @@
    "source": "https://www.avion-chasse.fr/",
    "site": "https://www.avion-chasse.fr",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjk4cDVpYnlWbTVaZWJRUlA0UTAyM1dKcDhOdVpNd3RweFRZN09qQVkzQ1JOMDA1Tml2VThVTk8yYXZGQUlPYzdLUU96dDREZmV1ald5ZklYdEtBX25VaGFwTFpIb0RuakIxX19nQUhxWDZ5UTZGMi1tZmc2OFNUYUJZd0JkWlp5NVY5cmNaSFpMb1U?oc=5",
+   "lien": "https://www.avion-chasse.fr/apres-le-scaf-lallemagne-veut-redefinir-le-chasseur-europeen/",
    "chapeau": "Après le SCAF, l’Allemagne veut redéfinir le chasseur européen https://www.avion-chasse.fr/",
-   "volet": "Presse",
-   "requetes": [
-    "industrie défense France Europe"
-   ]
-  },
-  {
-   "id": "ACT-f9f54cff2f65",
-   "titre": "La Chine dépense moins, l’Europe panique : et la France ?",
-   "source": "Armees.com",
-   "site": "https://armees.com",
-   "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ybGhXeGQwSDdjZXNYTUZzMndfbXQ2ZWdiWE14SFV6VE1fbklTYUhGQ1BXSFlFc25wZmFfVU1ydEJmaXJYTFpueHNFQjBLZm5OSmVsYksxMHJpdVViQ3hEZFZwVHQxdw?oc=5",
-   "chapeau": "La Chine dépense moins, l’Europe panique : et la France ? Armees.com",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -624,7 +753,7 @@
    "source": "Zone Militaire",
    "site": "https://www.opex360.com",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSHBudi0zeWRGbjFqOFduR0hhbF9aY05Kb1Q4WGRaeDlPTlYyS05OQ2tpZjJaX2VTMXJkMlRyRGt0bEdJUTJGdFRjYW1sY0FxRmdpck5EaDRkQW1kc3BvS1E2Q2gwSl85TnpZTmlRQjc3Ukduc1A2aFpHbTIwMHlMNEZpaUlVa1J3UlZYd2VOdGNJdHppQ1U1YW9OTjFYTEEweWlqZGNrNWNXNnZlYnowaHQyUVAxQUN5NmtVTE5UVDQ0M2o0VmNOZ3dfMF9iSUFuM29mbGs3NEVSRVBKM25N?oc=5",
+   "lien": "https://www.opex360.com/2026/11/01/la-direction-generale-de-larmement-lance-un-appel-doffres-pour-industrialiser-son-drone-naval-kamikaze-smokers/",
    "chapeau": "La Direction générale de l’armement lance un appel d’offres pour industrialiser son drone naval kamikaze «SMOKERS Zone Militaire",
    "volet": "Presse",
    "requetes": [
@@ -637,7 +766,7 @@
    "source": "Clubic",
    "site": "https://www.clubic.com",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObEd0ZVI1RG94dzVQUnl6dW5vMWtHajZ0NU5XbERWcnM4Y0FRTXFkY0tVM1FjTmM3c3JfZmxzTTE1VVlfM3Q4M2xPSExTUm9YSVJ4eGdsT3o3cHpPZUtXY1psNHowc3BGTXM3aU1tQkF3LUVRT1dkZGRybFRTUllvc1g1RnhUUVQ3bVNjVHRRNm42RExvYTdMVUcybGxITXV4anlYZDJaZ3pVcVd1QTAtc0RMekctZVVwZmpJdHdzcVRqOFZCT2x6SWlkTmk1NnE5?oc=5",
+   "lien": "https://www.clubic.com/actualite-637007-la-france-soumet-une-ex-fregate-a-une-explosion-sous-marine-une-premiere-depuis-des-annees.html",
    "chapeau": "La France soumet une ex-frégate à une explosion sous-marine, une première depuis des années Clubic",
    "volet": "Presse",
    "requetes": [
@@ -650,7 +779,7 @@
    "source": "Armees.com",
    "site": "https://armees.com",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lUGhtOXFfX09wblJpeWhhV2VuVlJwUE5xTXEwdjhRWDB0RG1ITG9EV24wRXl5ZDg5WnhDaG0zSGhnanQ2ZkFfV0NoNWR5bjhsRnFsbXZhNDh1b2xBU2xibUcxS3lMcHRtbkRxNjRTU2NPbWhR?oc=5",
+   "lien": "https://armees.com/drones-navals-smokers-dga-production-50-par-an/",
    "chapeau": "Drones navals SMOKERS : la DGA prépare une production pouvant atteindre 50 unités par an Armees.com",
    "volet": "Presse",
    "requetes": [
@@ -663,7 +792,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNmtGSXJ5SUMyYjJkUGpLSmkyZFNDblprcV9GS3BfaFFYblZ5RUVNOEpzYWpWTXlVNnhVWk9ORTQ2MlBfekZhNEdCT0NGRkI5V0RKS21mVW9aZEVMNllvX2FYMmxmcXRKOTg5NG8yN2FsLWVBVFdrc0ZVbzc4d1d2bFVlSTlTS0p3X2l2a0RvTjZ1QWs?oc=5",
+   "lien": "http://www.defense.gouv.fr/dga/nous-rejoindre/profil-lyceenetudiant/apprentissages-stages",
    "chapeau": "Apprentissages et stages Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -676,7 +805,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-11-01",
-   "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94SUFQQkFxc0h1d3BVbm1DZjJZZ3dLajAzb0JHWTJwVWNuR0QtaUMwWjVLR2J4cENKSHdhM3NNUEs4aUdEU1IzYWlPd19wamtlbHh1X2JWOUhRbld2U3MyODZjNWxOZkpFcmU3dFByTEtEalVL?oc=5",
+   "lien": "http://www.defense.gouv.fr/dga/nous-rejoindre/profil-ouvrier-letat",
    "chapeau": "Profil ouvrier de l'Etat Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -689,8 +818,34 @@
    "source": "France 3 Régions",
    "site": "https://france3-regions.franceinfo.fr",
    "date": "2026-10-31",
-   "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYk45VVhCWnZRU193blB4eUxUYW9NYVNxSTFNa1dld1E4V3Vaa18tVXA1b1pTd0ZpeFZUa2MwUGp3eU53RjZIdU5lR2trNjBNVTgyX2JBYndZMDRXUlkyR05KanM5LVdtZGRicmI4X0JCdkZLNllTQ2hBNEJSUXJzaXpMTlp0Qm5NcTBHczhsV0RXeGtzQ0w0Nm1XTEZhZkE3eGUzT1RaREJER2ZHeFdEOVg2bW9JajhkXzBLUjdpNE9ycEtrVzRrRWxERkFOblRYeFVpdUMyNm53dVU2X2pBLUpfcVV0UEZtU2ppWFVjVU5PUV9oNkVaODBQbGRRSUktZGJR?oc=5",
+   "lien": "https://france3-regions.franceinfo.fr/bretagne/morbihan/lorient/du-gagnant-gagnant-pour-nos-industries-a-lorient-la-france-livre-une-nouvelle-fregate-a-la-grece-3442014.html",
    "chapeau": "\"Du gagnant-gagnant pour nos industries\" : à Lorient, la France livre une nouvelle frégate à la Grèce France 3 Régions",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d07fdba836b8",
+   "titre": "La France avait signé le même contrat de blindés avec ce pays du Golfe en 2017, et il n’en est jamais rien sorti",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-10-31",
+   "lien": "https://www.forum-militaire.fr/la-france-avait-signe-le-meme-contrat-de-blindes-avec-ce-pays-du-golfe-en-2017-et-il-nen-est-jamais-rien-sorti/",
+   "chapeau": "La France avait signé le même contrat de blindés avec ce pays du Golfe en 2017, et il n’en est jamais rien sorti Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1f76cb57e594",
+   "titre": "Après l'IA, les capteurs quantiques sous-marins vont bouleverser les équilibres stratégiques mondiaux - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-10-31",
+   "lien": "https://meta-defense.fr/2026/10/31/capteurs-quantiques-sous-marins-snle/",
+   "chapeau": "Après l'IA, les capteurs quantiques sous-marins vont bouleverser les équilibres stratégiques mondiaux Meta-Defense",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -702,8 +857,21 @@
    "source": "Politique Matin",
    "site": "https://www.politiquematin.fr",
    "date": "2026-10-31",
-   "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRW44am5kNk5nVE9UeEljUjgtWHFCUm1HM2JWVHdhSWRJWTg0bUswcGRQeGdoVUJ4bTJQSXNEYzBibVlMSktQQ2NsOTJyaHY2UkgteVR0YXZzUDdQdnJldDluRThzZUZucVR3SGRXUHBZaGdURndQSV8wTElzdjE0ZzNwZ3pYVHc1MExWU05jTQ?oc=5",
+   "lien": "https://www.politiquematin.fr/ukraine-commission-45-milliards-2027-defense-budget-31-7",
    "chapeau": "Ukraine : Bruxelles propose 31,7 milliards d’euros pour la défense en 2027 Politique Matin",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a7af953cf498",
+   "titre": "Drones militaires : l’Europe prépare deux centres d’essais en Lettonie et aux Pays-Bas pour 2027",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-10-31",
+   "lien": "https://armees.com/drones-militaires-centres-essais-lettonie-pays-bas-2027-31-octobre-2026/",
+   "chapeau": "Drones militaires : l’Europe prépare deux centres d’essais en Lettonie et aux Pays-Bas pour 2027 Armees.com",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -715,7 +883,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-10-31",
-   "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZbzdxREdkV1l4QzVNSkxUeEVWdy1vcVR2am9YWnh5WnVWMFpIemV0NTliRkZYeXBXdkN2WjNoY05CX2dxdjI4bXJENkFBUmNXQlJzbHRTUlZJNmhQXzRiRDZTMjFXN0Zzd3pEaGRCOWo?oc=5",
+   "lien": "http://www.defense.gouv.fr/dga/nous-rejoindre/profil-technicien",
    "chapeau": "Profil technicien Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -728,7 +896,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-10-31",
-   "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVFA2VjZTSVRmRks3TE9TTk5PQ1BUNGRQNld5clJMVHNHVUEwQ3V4V2dCVXFVLUpiQjg0ZzBBYXJlU3BmWkZrNFI1cVlqbkV4YWIzeWFVcjJpQ1JGdUI2ZU5VMGhxM0tmdG51Sk5hSDNXY1lMaW9JNXpuU01WUjJtNzkyU3lCTWdfM3c?oc=5",
+   "lien": "http://www.defense.gouv.fr/rapport-au-parlement-2026-exportations-darmement-france",
    "chapeau": "Rapport au Parlement 2026 sur les exportations d’armement de la France Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -741,7 +909,7 @@
    "source": "Bpifrance",
    "site": "https://www.bpifrance.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV1RPVVQ1ZGJfVjYtRDhhNlhHMEdDYTQxOVJQU0drT2RsWS0yeWdZVXlidVNoNVFSMDJucmJCWk9PZ01SOWJUVUoxYnlSZlVGT2VaZTlHZlNoWHg0cUYxdEpEeEFfd0RYQW82bk5USDRXVno5T0trNlZQbTNVb1FEQnREQzhWWFppakp2RmFoNnNQQTA?oc=5",
+   "lien": "https://www.bpifrance.fr/nos-actualites/fonds-bpifrance-defense-une-epargne-qui-a-du-sens",
    "chapeau": "Fonds Bpifrance Défense, une épargne qui a du sens Bpifrance",
    "volet": "Presse",
    "requetes": [
@@ -754,12 +922,11 @@
    "source": "Forum Militaire",
    "site": "https://www.forum-militaire.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ3dBZGVjcHZKZWdCS21zdlN3UkQwY2g2UkFnMEkwOHFieFRmWHVHT2NVN001WGpfVVdkYWFzdV9sVGY3OEUta29OdHJTQXJWcXA3MHlaZFZBM05leEtEX0UtaVh1OHRSRy1BWGZFX0JKVUo2YmFPOTFzcFF5d01ySmFJcjlTTFBiQ0xENFh3WURoY2t0OXFWYnFKcG9BNzk3Ty0tZVVpRlhlOW55RUx3R3JwN2daaFJ2MGwwTVhKbnVMT3AxVEREdy0wM1VkaE9uWnJxTG1DblJueWF2YUszTHBhd2FNaUpNVVVjV0x2MEpMMkc1SWR1ay03S1FRVHZPdDNSbnhsWlk3OU5hNnJXZQ?oc=5",
+   "lien": "https://www.forum-militaire.fr/le-royaume-uni-suit-enfin-lexemple-de-la-france-60-ans-apres-les-340-milliards-deuros-investis-dans-larmement-dici-2030-devront-profiter-a-son-economie/",
    "chapeau": "Le Royaume-Uni suit enfin l’exemple de la France 60 ans après : les 340 milliards d'euros investis dans l’armement d’ici 2030 devront profiter à son économie Forum Militaire",
    "volet": "Presse",
    "requetes": [
-    "BITD base industrielle technologique de défense",
-    "industrie défense France Europe"
+    "BITD base industrielle technologique de défense"
    ]
   },
   {
@@ -768,7 +935,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbkRoRWs5MG1kU2hSdkl5LUgwY0RWdXJyM3hUbDJmcnhpQlhCcXZuRHVuaWZDT25TNlRTZ0dMcXhadFNTelkwMzd6aWs2aXYtV3Z2Z2pIRlBUakFOYUd3ZkFOS2p3emtLX2NxcHlzeVBVX0tNRE1ZSjdEZS1iRlZ1Ql9kRjdTbjhNcnBCTWpMSFMxbjc3QUQ5RGJ3di1SZjFqeU1YeWpHdmN0LTVBaHNYNQ?oc=5",
+   "lien": "https://www.defense.gouv.fr/actualites/comment-france-renforce-sa-puissance-maritime-face-aux-nouvelles-menaces",
    "chapeau": "Comment la France renforce sa puissance maritime face aux nouvelles menaces Ministère des Armées",
    "volet": "Presse",
    "requetes": [
@@ -777,42 +944,55 @@
    ]
   },
   {
-   "id": "ACT-c0d3b924b912",
-   "titre": "La militarisation, ultime impasse du néolibéralisme ? - NPA",
-   "source": "NPA - L’Anticapitaliste",
-   "site": "https://lanticapitaliste.org",
+   "id": "ACT-03631ce90b82",
+   "titre": "Défense européenne : pourquoi nous avons tout faux",
+   "source": "Presse Agence",
+   "site": "https://presseagence.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUzJlcGtjeFZWOGltbk52czY4NW9VUjk4ZVlNU2xBdjlxWTRvZ0lLM0llVGpDUWdKTkhyRVpDTmlBS2NfRGEzX0h6bXFxcXQtTzJGRGY3SEEzQ2x4cDZwRVQ4TkVGbUM3ajR2RjlHYXpPcEU5NDVNTWc5WEJJbWs5UkR1WjBhMW5uS3ZrWm9Ha1dUdWx4MlFBb3ZkMUtIRWVa?oc=5",
-   "chapeau": "La militarisation, ultime impasse du néolibéralisme ? NPA - L’Anticapitaliste",
+   "lien": "https://presseagence.fr/bruxelles-cooperation-de-defense-europeenne-nous-avons-tout-faux/",
+   "chapeau": "Défense européenne : pourquoi nous avons tout faux Presse Agence",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
    ]
   },
   {
-   "id": "ACT-c0d31b7e6e6a",
-   "titre": "« C’est une nouvelle façon de faire des programmes dans le futur » : le DGA Patrick Pailloux invité d’Air&Défense, en partenariat avec Air & Cosmos",
-   "source": "Air&Cosmos",
-   "site": "https://air-cosmos.latribune.fr",
+   "id": "ACT-247e3d726d0c",
+   "titre": "Les Pays-Bas remplacent dix engins de 62 tonnes achetés 75 millions d'euros, interdits de rouler un an après leur entrée en service",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPWUotWUpSOWNDeWtpXzY5QWphQ0JhTEJDeVd6ckVPelA1dkoydkdnZE5DZTRjM1ZDY2ZEOS00elBuYUVPNEFTcE9kLUlYRnRsVFVxWDlsWVk0LXQ4Q2VHdFZuSXJXNzNwMlVyQmxiTDJvenlnWVVQYTFCYWxtZGdRcUEtbEpOVEVxRk9LaTZlRTJuMXNtR3pILTlSRE9RV0hjUmNXV3BPZU0wVi1GZWVhMVZ4b3lDU0lCSzlCS1d1eF9jTFRmd0k3c1prSjk4QjFaRlRIandLcHZLaUdXSThCU2R1MkNfM1lENXhjNmJFSkJyaEdxXzFjVGFqYUlfaWJSZmR3X1hDOXA0dDRuSVlFcXpIN0psUnJfV0NORDgzemozd01MYU5yR0V5THY?oc=5",
-   "chapeau": "« C’est une nouvelle façon de faire des programmes dans le futur » : le DGA Patrick Pailloux invité d’Air&Défense, en partenariat avec Air & Cosmos Air&Cosmos",
+   "lien": "https://www.forum-militaire.fr/les-pays-bas-remplacent-dix-engins-de-62-tonnes-achetes-75-millions-deuros-interdits-de-rouler-un-an-apres-leur-entree-en-service/",
+   "chapeau": "Les Pays-Bas remplacent dix engins de 62 tonnes achetés 75 millions d'euros, interdits de rouler un an après leur entrée en service Forum Militaire",
    "volet": "Presse",
    "requetes": [
-    "DGA direction générale armement"
+    "industrie défense France Europe"
    ]
   },
   {
-   "id": "ACT-d56d5f5fba3b",
-   "titre": "La Marine nationale détaille son plan pour l’acquisition de drones navals, avec de premières échéances en 2027",
-   "source": "Le marin",
-   "site": "https://lemarin.ouest-france.fr",
+   "id": "ACT-12484e31d690",
+   "titre": "Ukraine : le Drone Ayudag-6 Évacue un Blessé à 62 km [2026]",
+   "source": "shattered.io",
+   "site": "https://shattered.io",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRnZOTGtqWFloWVVpOVBXbDhSWlY0dExYejlBbm5zWUNPdnQyRDBXLU9CRVBDR25YNGRELUh5UmtfODh1ck80VlZIN1hfRllncWRUbWVsQmQ5M1NtZVVRZXNLeUtsVFVhbHltSlNHb0t5OG50X0FaSmc1RnR4TlhjeVhxZWlDQzRURVEzYWhGb3N5V3JuRU9qalNPbmY5LTh0VEd3OWd3WjhWeEZmbTlLVVZObm1HVTBlME1kcUlBR25IV3BxX1hCYmZIckpFLVVpNmptRUhIeEdfUkM2YjV2QTB3T3NBbTBRNDlFRENsRklwX3ZlNVBQNk00dnA4dnlQZWFPQ0p0VC1Va2l2MTRmcnZpbw?oc=5",
-   "chapeau": "La Marine nationale détaille son plan pour l’acquisition de drones navals, avec de premières échéances en 2027 Le marin",
+   "lien": "https://shattered.io/fr/ukraine-drone-ayudag-6-evacuation-soldat-2026/",
+   "chapeau": "Ukraine : le Drone Ayudag-6 Évacue un Blessé à 62 km [2026] shattered.io",
    "volet": "Presse",
    "requetes": [
-    "DGA direction générale armement"
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-c81bb889919d",
+   "titre": "Ils veulent la guerre en Europe pour vous interdire de sauver la France",
+   "source": "Résistance Républicaine",
+   "site": "https://resistancerepublicaine.com",
+   "date": "2026-10-30",
+   "lien": "https://resistancerepublicaine.com/2026/10/30/ils-veulent-la-guerre-en-europe-pour-vous-interdire-de-sauver-la-france/",
+   "chapeau": "Ils veulent la guerre en Europe pour vous interdire de sauver la France Résistance Républicaine",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
    ]
   },
   {
@@ -821,7 +1001,7 @@
    "source": "Zone Militaire",
    "site": "https://www.opex360.com",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQkZPNXdwNnJtQkl6dm5VQXFxa2pxMjBoTEx3NGIzcFkwSHZ0OV9oUC1pdVpGaHZUU0V0eW5Sem1hSEZ3bXJDWjY3QmhIVlpWODg3bnozbmU0OEFaTFdZVDNTeHRQTS04R1NDRlplWDRaVlRSSVhYVFhmamJSMWFrOXBUdEl4bmhsY2RwZE5UbFBwRjJIb3NFWHVvTmFFTVFkOF9HY29yVHRWQ29SemV2RUc0MFRJTlZwSnBYWHd0MEhDUk5CU3VSZGkyaE5jYzUzZkc1RzlJREozdzdp?oc=5",
+   "lien": "https://www.opex360.com/2026/10/30/le-ministere-des-armees-a-de-nouveau-retenu-piriou-pour-livrer-des-remorqueurs-rp30-ng-a-la-marine-nationale/",
    "chapeau": "Le ministère des Armées a de nouveau retenu Piriou pour livrer des remorqueurs RP30 NG à la Marine nationale Zone Militaire",
    "volet": "Presse",
    "requetes": [
@@ -834,34 +1014,8 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SSGxaRmlkcnJFak40dEdzVUJFcTA5dmNvWkhPUDd6OTlybTl0WC1FSVpjcmxhalpFTXVyWWNxU1VjYWxnSmFNVThWd3dEUUZaWVJIczZEaVgxY1RDMGZEVnZYMTVyc2pwTi1v?oc=5",
+   "lien": "https://www.defense.gouv.fr/dga/nous-rejoindre/domaines-dga",
    "chapeau": "Les domaines de la DGA Ministère des Armées",
-   "volet": "Ministère des Armées / DGA",
-   "requetes": [
-    "site:defense.gouv.fr DGA"
-   ]
-  },
-  {
-   "id": "ACT-3e0be6e6a3b7",
-   "titre": "Commandement de l’Appui Terrestre Numérique et Cyber",
-   "source": "Ministère des Armées",
-   "site": "https://www.terre.defense.gouv.fr",
-   "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0tfSlJjSlpnSWNRUTVEVzdaMnE1a1B3bEc2a0lBazVPNkhKNWlCMHVvSzZqYzcxNFpXdkZaWjJ6VXptTW9kMDJVb0ZVdVdSeWN1MUpVNXFadl9Eb3JkUHQtSWdMeXJjaGtIZmQtZVRMTzU3Wko3Q3Z2dXZfd1ZWRHJPekF1eGdzLU0wQzNrTnZrbzlsN3hGNU9QdUlydw?oc=5",
-   "chapeau": "Commandement de l’Appui Terrestre Numérique et Cyber Ministère des Armées",
-   "volet": "Ministère des Armées / DGA",
-   "requetes": [
-    "site:defense.gouv.fr DGA"
-   ]
-  },
-  {
-   "id": "ACT-c5da34c12bd3",
-   "titre": "La Force d’action navale déploie ses drones sous-marins gliders dans l’exercice OTAN Repmus 26",
-   "source": "Ministère des Armées",
-   "site": "http://www.defense.gouv.fr",
-   "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZDROTHlMVTd0ODJqRFJVdXF4MUxjOTFnT3N2YjhIVzJ3eTRwb0l2dUdEN0dRaTlMdzRQeEpXN3JsZ25UQlE2eGN3d3RwZ3cxSUlQWVBmQ2JFejYxQmgydkdabDhWS0wtZjNsM09HUGZFZEFmN2ZzaDB4eUlUdnNWRDR1U3pJTGhFU01wN0NGQVkwWl83cG0waW9GMXJpWlNaRDRaNVpDZmFEY1FMQy13UWdmNHhpRno5bmxYa2wtQzFpdw?oc=5",
-   "chapeau": "La Force d’action navale déploie ses drones sous-marins gliders dans l’exercice OTAN Repmus 26 Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
     "site:defense.gouv.fr DGA"
@@ -873,7 +1027,7 @@
    "source": "defence-industry-space.ec.europa.eu",
    "site": "https://defence-industry-space.ec.europa.eu",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16MkNMQUppeHpGRTNvTEtPTERXVTh0bWw1bU5sbWVLV1QxUDRjdlU1LTNzampZbXNwWE9TcWRLenJud3VaR0tYWjFWRHRZNVFRZzd0Q2pfR24yZzM5eGN3R0Jn?oc=5",
+   "lien": "https://defence-industry-space.ec.europa.eu/index_en",
    "chapeau": "Defence Industry and Space defence-industry-space.ec.europa.eu",
    "volet": "Commission européenne — DG Industrie de défense et espace",
    "requetes": [
@@ -886,7 +1040,7 @@
    "source": "https://defence-industry-space.ec.europa.eu/",
    "site": "https://defence-industry-space.ec.europa.eu",
    "date": "2026-10-30",
-   "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa1FrbXo3S3l4bjBCN3E0SUFKNWhJcGJyNEJkNFhTUTZ3dnJhVGFRLWF4NE9pOGhkNTQwWFFNN2FtQWR5bWFPamtVblVrQVJqeklWM1ZONTFHb1o5dl91aTcxOUxyay14dUFwNzMzcXg0UHZHelJDVzZGMk5fRnRHa1VwRXd2VmZRQ2F4RGI3SF96UU5zLVJnVVdaX0V4d2E0WmkxUFRyeGpOTG55TG9PXzNBbnlfamJEOGdqRV9YRQ?oc=5",
+   "lien": "https://defence-industry-space.ec.europa.eu/commission-launches-high-level-dialogue-european-refining-sector-2026-10-30_en",
    "chapeau": "Commission launches High-Level Dialogue with the European refining sector https://defence-industry-space.ec.europa.eu/",
    "volet": "Commission européenne — DG Industrie de défense et espace",
    "requetes": [
@@ -894,26 +1048,65 @@
    ]
   },
   {
-   "id": "ACT-88c47a89bdea",
-   "titre": "L'UE et le Canada entament un sommet pour sceller un rapprochement inédit",
-   "source": "France 24",
-   "site": "https://www.france24.com",
+   "id": "ACT-c5345466958a",
+   "titre": "E5 à Paris : cinq ministres de la Défense misent sur l’industrie et l’Ukraine",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRXVEbjFHbHZXeWhiQTJrcGVMMFlHeWlzRDVSUFdaMy13V3RpZ1pRaFdWZ0NuRkgwNWpEcndHLUJLN01hZDlsLWp1Y0JZeG1HcHhPallncmp1cGg3NE1iTlV6dHFvbUFPUS1fUnVsdms3V2F2TXo2TTE2S0pYM01KNEN2VW51dU9yVUtUV0dXZ1FUMXZ6X0ZRTnhMbVhEUFdxNUZIX2dZdTB4TGdLV3hyakRDUk9jdUU?oc=5",
-   "chapeau": "L'UE et le Canada entament un sommet pour sceller un rapprochement inédit France 24",
+   "lien": "https://refrance.fr/e5-a-paris-cinq-ministres-de-la-defense-misent-sur-lindustrie-et-lukraine/",
+   "chapeau": "E5 à Paris : cinq ministres de la Défense misent sur l’industrie et l’Ukraine Revue économique de France",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
    ]
   },
   {
-   "id": "ACT-ae3101af8863",
-   "titre": "L'Allemagne démonte point par point la vision d'une Europe de la défense portée par le couple franco-allemand avec encore un abandon sur le programme MGCS",
+   "id": "ACT-f16f7ddb6a6c",
+   "titre": "Bruxelles espère mobiliser les prêts de défense non utilisés pour combler le déficit budgétaire de l'Ukraine",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-10-29",
+   "lien": "https://fr.euronews.com/2026/10/29/bruxelles-espere-mobiliser-les-prets-de-defense-non-utilises-pour-combler-le-deficit-budge",
+   "chapeau": "Bruxelles espère mobiliser les prêts de défense non utilisés pour combler le déficit budgétaire de l'Ukraine Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d9348c756d8b",
+   "titre": "Idées | Un sommet crucial pour l’alliance pour l’avenir Canada-UE",
+   "source": "Le Devoir",
+   "site": "https://www.ledevoir.com",
+   "date": "2026-10-29",
+   "lien": "https://www.ledevoir.com/opinion/idees/1020431/sommet-crucial-alliance-avenir-canada-ue",
+   "chapeau": "Idées | Un sommet crucial pour l’alliance pour l’avenir Canada-UE Le Devoir",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4a9d5c542c18",
+   "titre": "La Suisse reconnaît officiellement s’être fait « avoir » par les États-Unis sur le contrat des F-35 et ne pourra acquérir que 30 avions au lieu de 36",
    "source": "Forum Militaire",
    "site": "https://www.forum-militaire.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ2sxXzV2UG9KT0t4SlltVWNVbE1GdTNkdEVQcUtpb3BKOW5CLXhNWHJ3VHZnZXBXRVNZVjVSWExjclI5bjNOc19nWWw4b0VHM1pxWDNJUmJPWWxrdkRhU2ptbnBjMk9CS0x3OVU1cTAxaUt0RkRlcVQtcmM5NXBza2x5N2Fjak16R2JYbnhSSkd3cmlQNndxdXVJQ2RpVDJ3ZWZjVW9LWU9kSnJBUDQwU3VIYlJHVWJuaHMzNGVYTDlYeWJxcmg3SURsRGdpQ2ZsUWtDTVdTV0xrbG9YZkZjNHdYbEZpbWg4UjhCS3dMVHdWMTRuS3hBbF93NWFGSjlXZlh5LXM5MmN6MlZpMjZKZjZB?oc=5",
-   "chapeau": "L'Allemagne démonte point par point la vision d'une Europe de la défense portée par le couple franco-allemand avec encore un abandon sur le programme MGCS Forum Militaire",
+   "lien": "https://www.forum-militaire.fr/la-suisse-la-officiellement-reconnu-son-achat-de-f-35a-a-ete-mal-mene/",
+   "chapeau": "La Suisse reconnaît officiellement s’être fait « avoir » par les États-Unis sur le contrat des F-35 et ne pourra acquérir que 30 avions au lieu de 36 Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-6529a579fa0e",
+   "titre": "Les poids-lourds français de l’aéronautique s’envolent en 2026",
+   "source": "Aerobuzz",
+   "site": "https://www.aerobuzz.fr",
+   "date": "2026-10-29",
+   "lien": "https://www.aerobuzz.fr/industrie/les-poids-lourds-francais-de-laeronautique-senvolent-en-2026/",
+   "chapeau": "Les poids-lourds français de l’aéronautique s’envolent en 2026 Aerobuzz",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -925,7 +1118,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZjZXNnVsVWJDemV2TWItUjdKRTdrX3RJTmFvNEE1UkVwVWNDTGtLZWlqVWE4SGhoMkMyVVI4UWk3VXh3WG9OenVmMU1vbEFSeGdRUFc5OFdGZnBUUXlTVElSSm4xRDZQelNaRTBpOUhRQTRVNXFDTDFsSjhKU0pTYUFhc1lVdzFQMVpPZ2h2NUczM0s1aFN5VnVEQzBnMWU5OUdwQnVyLXVGcFFRV3pz?oc=5",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/dga-lance-lacquisition-16-remorqueurs-pousseurs-nouvelle-generation",
    "chapeau": "La DGA lance l’acquisition de 16 remorqueurs-pousseurs nouvelle génération Ministère des Armées",
    "volet": "Presse",
    "requetes": [
@@ -939,7 +1132,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRUVpUWJQQ1l0amQ0ckxCaXZabHl3Nk9kMDJfU1pjYWw2VjBEQ0VUeEg2STVyQ1QzSHhkRGlCSlhFQWQwSld5V3VKVXpzaDB1eEZVNDF6RWtKYnNzREhRNnBZSkE2YjhvYzVDUjBOOHJpYjQxd1lqbDVvUXI5a1RiRTBMOFZuWm9Ed2haWnpzeEdLR2ZLaUxBZ0duekxtbjg2OUFsamdPWThTVmh4cFpMWXV5TEsxNm1pekNHV0VJMGJneDNnaktoX3d6dzlTek5vOFdIYQ?oc=5",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/grands-fonds-marins-dga-acheve-essais-qualification-dun-robot-teleopere-developpe-cadre-du-plan",
    "chapeau": "Grands fonds marins : la DGA achève les essais de qualification d’un robot téléopéré développé dans le cadre du plan d’investissement France 2030 Ministère des Armées",
    "volet": "Presse",
    "requetes": [
@@ -948,25 +1141,12 @@
    ]
   },
   {
-   "id": "ACT-164a6831d11f",
-   "titre": "Les militaires français peuvent assembler eux-mêmes ce détecteur de brouillage GPS maison",
-   "source": "Clubic",
-   "site": "https://www.clubic.com",
-   "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX0xHdUZjWTMzcXNjMl9UQlZob2U2YXRUUFU2M21GYmVUVkw2cGZkc1FmUElXb01FUDBlb0dkQ3dVeW5Ga3FxZTR4ZHRuS25VOHk4bHR6UHRST0M2T3VSS2xJd29ZejB5OUw4RlZxSlMyVXVPeFhKaHpwMi0tRDh5TFo3elF2enZMdTdKQ200aGhEdFpQMGxCZGZnQ0owbnhyV3h6X3JkaF93dUpRSlpaQ2xJc3owQjF0WnNIcjRHVHhsR3FZX1JzRkVPRmhuVjQ?oc=5",
-   "chapeau": "Les militaires français peuvent assembler eux-mêmes ce détecteur de brouillage GPS maison Clubic",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
    "id": "ACT-723d9e79772e",
    "titre": "Entretien avec le responsable du programme Rafale à la DGA : « Le standard F5 constitue une véritable rénovation à mi-vie",
    "source": "Mer et Marine",
    "site": "https://www.meretmarine.com",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQjhBS29EalNfNld0UldWcVlidmNzSnFwTVktSnpueExPMS1iU0hhcDNmVnhYRGt0Y2VjUzBZR3RrdnRYUkpPMnJDRDFsQXRVc3NldTRNTVZla0ZCclJlVmNkUGxyREQtb050MUF4MWpiYmxDdG1kU2pRVkl5c3VMbTlCeTJ3RXB0RzdSNEg1T1pNTnZUU2VScWlnbGYzREVRdlBIQW9IZW11bzQ1enltekNYMWlRYmFsQ3RiSk9PVnhYZTZaRE9lcmJyUWxQOW5CNEE?oc=5",
+   "lien": "https://www.meretmarine.com/fr/defense/entretien-avec-le-responsable-du-programme-rafale-a-la-dga-le-standard-f5-constitue-une-veritable",
    "chapeau": "Entretien avec le responsable du programme Rafale à la DGA : « Le standard F5 constitue une véritable rénovation à mi-vie Mer et Marine",
    "volet": "Presse",
    "requetes": [
@@ -975,25 +1155,12 @@
    ]
   },
   {
-   "id": "ACT-f38d576ed757",
-   "titre": "La Marine nationale confie à Piriou la construction de 16 futurs remorqueurs de nouvelle génération - Ouest-France",
-   "source": "Ouest-France",
-   "site": "https://www.ouest-france.fr",
-   "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNQ0NLOVlhMk45VjNBcjFfdk5MU1F3bVNKUThVdkFjOGVSWmhvSWNmX0s3YUQycXR6RzYycmRFbnF4Sk90cC1vMTlCQmI4TzVlcHIyOGRxNnNpZzBvNXJJeHQ4RFJsX1Z5TW9NVm9tZHNlQWhCSVdRN2g1WFZoZ2J5OXpJYXJJMm5oVk12RHBVRThkdmRubld2N0lrN0s0Zm9HSmRyYWx6M1pWZnJabU1zcmJZby1VTEM5Q3hPTkNRTEt5dlhKakQ1V29hT3pwcU1hME5iOGxSWUI2QlkxX0FDUVdjTkI5ZVZyVVRPZlBpUlQ3QnpZcTU3TXpWR0FxV1hmajZMRlMzVnl4cVhEMGVJSXJER1ZzYl9wSDdXOQ?oc=5",
-   "chapeau": "La Marine nationale confie à Piriou la construction de 16 futurs remorqueurs de nouvelle génération Ouest-France",
-   "volet": "Presse",
-   "requetes": [
-    "DGA direction générale armement"
-   ]
-  },
-  {
    "id": "ACT-21d8cc13d657",
    "titre": "La Suisse a réduit sa sélection pour un second système de défense sol-air. Les finalistes sont le Barak MX d'Israël et le SAMP/T NG de France, annonce Berne ce mercredi. 👉 Retrouvez l'article complet : https://www.blick.ch/fr/suisse/armee-la-france-et-israel-e",
    "source": "Facebook",
    "site": "https://www.facebook.com",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQ0l2VEVuY2NZMExTY0hzODFVOVkxRTZpWU03cXZCcjVvZWd0TnlLX0ROeDRxMnpId0xJRUZXR0ZyckEwbjhUNXZreXE2WFJWazZoMUNPYWVlejhQMXNPeTV5WWtDQWpBVHlNQWd2TERHbHZWcTdRbjBlUjVkd3ZCQkF2MG4wdWNyd2Vodmw5VHRQdjAzdjNUZGFGZWx3WGsxaGFKWTFRaU9ORkdRMy01MmdSQ2dfMlRfc2FtTnVHenVqNkI5RHRmb0FtMlR5TzBGR1pLTDdvc2VuNWFyMmZXWk4ydEpQVTJTR3NZZ1Jn?oc=5",
+   "lien": "https://www.facebook.com/blickfr/posts/la-suisse-a-r%C3%A9duit-sa-s%C3%A9lection-pour-un-second-syst%C3%A8me-de-d%C3%A9fense-sol-air-les-fi/1495492742635980/",
    "chapeau": "La Suisse a réduit sa sélection pour un second système de défense sol-air. Les finalistes sont le Barak MX d'Israël et le SAMP/T NG de France, annonce Berne ce mercredi. 👉 Retrouvez l'article complet : https://www.blick.ch/fr/suisse/armee-la-france-et-israel-e Facebook",
    "volet": "Presse",
    "requetes": [
@@ -1006,7 +1173,7 @@
    "source": "Business AM",
    "site": "https://fr.businessam.be",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQlN0dGloVU5DVndjcGdpNHM2Tm5oN2dSUmRkVXhRQ1NHWVdaYlJva0ZIa3RLOFBMZHRoa2hVWjQxZnpDRXZKanB1dVVic2pUcU1CV2d2VHljSGhob0dlemowR05nZGN1NU5tMnlEa0ZVUWVXZXNtRVlxay1BUkhkNURjWWdzLUgtaU16aG84RXk3RkFiazdQamRIdFp2NzQxU1lfVTln?oc=5",
+   "lien": "https://fr.businessam.be/la-pologne-va-envoyer-deux-avions-de-chasse-mig-29-supplementaires-a-lukraine/",
    "chapeau": "La Pologne va envoyer deux avions de chasse MiG-29 supplémentaires à l’Ukraine Business AM",
    "volet": "Presse",
    "requetes": [
@@ -1019,7 +1186,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTdvTkM1Y1lNTzJvclJWMlcyd0xXazhxZHlCTUFSUkNXTUFRNjU5NHNIRW5HXzhnazQ4TG1TMTRMMU5mNll4NkxnV1k2cGFjVGNaeVVZUTVWSFpVc0prOS1yTWlzZHREaUl6RGRFWWFyMG1FZEFTLTJsLWk5dzY3VmNucEVIVU0xNHJsMVE4YnFQOVpUZ3NScXREQnd1MzZ0MTJNbC0yb1BKazlTTnlOQWMtN2c?oc=5",
+   "lien": "https://www.defense.gouv.fr/aid/actualites/dronisation-ruptures-technologiques-innovations-dga-laid-euronaval-2026",
    "chapeau": "Dronisation et ruptures technologiques : les innovations de la DGA et de l’AID à Euronaval 2026 Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -1032,7 +1199,7 @@
    "source": "Ministère des Armées",
    "site": "https://www.defense.gouv.fr",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTRMdHRfQTlyRzdLTmVob0pFckVsY0JiZDBGa2wtYnlaVFhhMS1KWXdVZ0hYWHJwb2hqdzBzWWxabm50ZmxJVHdyMTc4VWV0TmhtcmROcGdfdmthQnRkZEdyVVFVRHl4N2NvbVd2dUdiZ1VyU1J5Y1ZPczlUSjExSnJGMXVYRWNGMXRDVDJ1c3ZzQjRibVllTk1Cd0ROMXdTRXhfM3AxZzN5eHRlOEkxTWg5OE5qb0w5b2c?oc=5",
+   "lien": "https://www.defense.gouv.fr/actualites/drones-navals-marine-nationale-accelere-sa-dronisation-premieres-echeances-2027",
    "chapeau": "Drones navals : la Marine nationale accélère sa « dronisation » avec de premières échéances dès 2027 Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -1045,7 +1212,7 @@
    "source": "European Defence Agency",
    "site": "https://eda.europa.eu",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU2hxZFh1TFFTT053ajRaS0dzX1hpVXEyb3pQQWRGQWh5a0FqNmMyazJZUF9BQ1VPNzcwd3RVblBkNkMtYUNuUXY1R3p4YzlfV2cxWms4RHZ3MG5uMHNodWJiR1phOGFNTzRrRUJBX1BBT3B3cTByUlFSUE1VdGtNQ2FfRXNSNVYtbGtFX0tCaEw3UjQ2bHloclMzTHVYMmpNM25JbzlFbnd1eWpGcVN0RlJPVV9LSW1BRDlTUXFtcl9IdUFaUzJNYnRtQQ?oc=5",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/10/29/eda-to-step-up-drone-testing-and-exercises-in-2027-as-technology-hubs-develop",
    "chapeau": "EDA to step up drone testing and exercises in 2027 as technology hubs develop European Defence Agency",
    "volet": "Agence européenne de défense",
    "requetes": [
@@ -1058,7 +1225,7 @@
    "source": "https://defence-industry-space.ec.europa.eu/",
    "site": "https://defence-industry-space.ec.europa.eu",
    "date": "2026-10-29",
-   "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVzJ3WmdPaXl4M3kxYUV5dmxFTzh6cTFVa0gtdlFDbHlYVm1oTHVrem0xSENibUR0ZjR3YldTMVR2Y0dxdUg4N3Y2ZWRvQWNFUGJMYlNfNmhXZ1o0WGpMdTBfU3lrSXZ5Nk1xaG9pSGR0c05YdnNGUWlIWVllQVVLSzVEUGdKdDgtdXFma1RKUDNzbFVYSWhNOFBzSUxQZlhRbzJTQ3hGcHVCbE1VYjY1eTFpUE1BdzJJRjY5ekswclZYaTg4RFIxX1N6SDRTalZaVmVXOFk2WmxkOFlVQkczZzFlTXBxU1h1b1pINg?oc=5",
+   "lien": "https://defence-industry-space.ec.europa.eu/commission-invites-member-states-use-eur213-billion-under-safe-boost-defence-readiness-and-support-2026-10-29_en",
    "chapeau": "Commission invites Member States to use €21.3 billion under SAFE to boost Defence Readiness and support to Ukraine https://defence-industry-space.ec.europa.eu/",
    "volet": "Commission européenne — DG Industrie de défense et espace",
    "requetes": [
@@ -1071,7 +1238,7 @@
    "source": "L'Usine Nouvelle",
    "site": "https://www.usinenouvelle.com",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVDlXYlNMOE1NWTRRR3BSdGZPbVktVVd0N2YzZ1BDWGhsd0pGX2FhOGVhQUhzSXBDVjZidDVmSUEwNzA2YzVqdFQ0aHB5ekotYUp4elhGVFh6NmZSVVZCQTdmTWtxZ2Rua0J2SWp2NTVXMmp5WG40blF4dkMwX0todkFmWWJqYUFic2xTY2RJMkZfazVpaDlqcWdHVXJ5SjhOM0x3VGJsV1htQVJBT0NicHRtRUo4WUpxX0RmNzdVTEVNS083ZjQ4eHVaQWNQVUVxVDMtTEVXS0hqRmpYbnd3MUp0Yk1QQQ?oc=5",
+   "lien": "https://www.usinenouvelle.com/polymeres-materiaux/materiaux/euronaval-2026-electropoli-met-le-cap-sur-la-defense-navale.YVSVXXFLEVBKDIH7YBRPIEL5ZE.html",
    "chapeau": "Euronaval 2026 : Electropoli met le cap sur la défense navale L'Usine Nouvelle",
    "volet": "Presse",
    "requetes": [
@@ -1085,7 +1252,7 @@
    "source": "Ouest-France",
    "site": "https://agence-api.ouest-france.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNR3JHNWI2UTJsd2VpeU9oR2dBd2RhUlM4MFM2NUJDZDVwOU55RHNpRW5mQ0RlcnlvUTJjTHNPcm12dlo4aGZLQkFLa3lTLWhLcFMzQnVMalV4V2J6UGJ6ejA3VWhSaERkTV9LQ2hGdzZFZGUyUlppc0MySjNfT2o0Q0VWU1NGZXVDRnQ3b1pSRVE3RkE2TTdTY1pGWTkxWDRaamk1aXZoVlhVbzVjRUxFN0M0V09xRXU1X0tMNEFUU3drWVQ4MWx6VXBXQW9tWXdiNjlQMC0xczE4dHJGemVzQzgwbWViTUZZRDdFLVJvOEJRbHp3WEh5bnNyV3FOX1k5OWViREY5Qlg4UDVlWDFuVEt1MmIxT2pqUndvQ3F6a3ZLOEJJcDVtLWxjMVlBMFdtb2tB?oc=5",
+   "lien": "https://agence-api.ouest-france.fr/industrie/electronique-et-domotique/le-fabricant-normand-de-circuits-imprimes-elvia-electronics-va-passer-dans-le-giron-de-latour-capital-cd1d4eba-d2aa-11f1-81f2-0d14b9f9c452",
    "chapeau": "Le fabricant normand de circuits imprimés Elvia Electronics va passer dans le giron de Latour capital Ouest-France",
    "volet": "Presse",
    "requetes": [
@@ -1098,7 +1265,7 @@
    "source": "L'Agefi",
    "site": "https://www.agefi.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb3N0T1FSQkd0NmowMm5RZUR0czE4QWNnNVFtVjFkUk9XeHVRbXJOeGZJTW1GanE5Z21aUDVmcFl1ZVdwYlZGR0pkXzNSS2hmTGc2Q3I2RVl5bmxJYlNvdFBuXzRLbHhHRFVaY3YtUUpuOGF0MkVha3ZoeFpIU1Y2ek5SeGMyb0FHT2tBd1pGcm52eDd1ZHdZU1VR?oc=5",
+   "lien": "https://www.agefi.fr/private-equity/actualites/tikehau-cede-elvia-electronics-a-latour-capital",
    "chapeau": "Tikehau cède Elvia Electronics au fonds Emergence Défense géré par Latour Capital L'Agefi",
    "volet": "Presse",
    "requetes": [
@@ -1111,7 +1278,7 @@
    "source": "L'Usine Nouvelle",
    "site": "https://www.usinenouvelle.com",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPMnFfNWVQSXZZUFZBMTFQdjlVOExfRFlDbi1rdHhnblJrUFNodFJPOEFHSHgyLUlzQmd1VDV2SU42cVZyRTBiM1lDb29kTlRLU2c1TlN2N2dicmxzRHM3WHB0XzMtUlFmWjJxbkJFcDJ0ODBxdUdnNG5DSDgwOVMxZVZhcFN1cGhRLU43RzBkLTI5ZWotWW9DNlZ2cWFqYXY0Y24yb2tmZWEwR0VzdjYzZGs4MlJvbXVtbGtXUV9sSjQyUkNaUXNUTVJMMjROamxnaW9zczY3MzRBbXFjRklJMm5HYXJvbmRJQkxwNGhQV3dSdjBKREtCQVhKQ1g2Uks4Z0dMOHAxTjFSdHhJT0RHMGZPQURVbkYwQmp1Z3FqalJ6OFNlNUxIclBjV1lSeU5QN0ZTZU1BSVhoSWEwdWlua2t1eUQxcF9KMC1HVkN1WlBucy1KNmRxcHhjaWk?oc=5",
+   "lien": "https://www.usinenouvelle.com/aero-spatial/defense/sauvetage-des-forges-de-tarbes-nous-dialoguons-avec-quatre-candidats-industriels-pour-reprendre-le-savoir-faire-de-lentreprise-indique-la-ministre-des-armees.7PKFPODEPRH6JF5TI3YIRI6MVE.html",
    "chapeau": "Sauvetage des Forges de Tarbes : «Nous dialoguons avec quatre candidats industriels pour reprendre le savoir-faire de l’entreprise», indique la ministre des Armées L'Usine Nouvelle",
    "volet": "Presse",
    "requetes": [
@@ -1124,7 +1291,7 @@
    "source": "Vie publique",
    "site": "https://www.vie-publique.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWxTN3hveFBtcUtiWGNEVmRRTzNMcXNFNnhlaFA3LVBBNEFKcnlHdFJTQWhRbXZYcnRac3EyaThlRmxvTHNrekpjRmpNWFdRYVFzek92OU1fYVl3V05vdmgwVTJrMDY2U2pjZnJSZmpRM05JMEdzSmxwZzJzZlhuTGpVVzBrdEczUmEwRXVTMTVreDY0VzQwS0JJS0ZPZjdNSUY1SmlWZVI4MU96VS0yRHBwVHR1dDFj?oc=5",
+   "lien": "https://www.vie-publique.fr/questions-reponses/284126-armee-dissuasion-nucleaire-europe-de-la-defense-en-10-questions",
    "chapeau": "Armée, dissuasion nucléaire, Europe de la défense... L'essentiel en 10 questions-réponses Vie publique",
    "volet": "Presse",
    "requetes": [
@@ -1134,13 +1301,13 @@
    ]
   },
   {
-   "id": "ACT-1ec5393c86a6",
-   "titre": "Pour une montée en puissance de la production industrielle de défense | OTAN Sujet",
-   "source": "North Atlantic Treaty Organization | NATO",
-   "site": "https://www.nato.int",
+   "id": "ACT-e83350b8ed9f",
+   "titre": "Triangle de Weimar : à Giżycko, l’industrie de défense entre dans la bataille du budget européen",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONTNkQkc5c2h5ZEpBNXRZMk1PemdwLTNDM3RyQll6WVRCcHZqQjlUV3J2ZFpYNmVjRzVsUGFoSGdPRTdINkFUa1lXeHBSYXpuYmhLYzk1QnhpbF9PNTd1bWNBUjdYaHRlOWJQS1BiU0xlVWN2Z2ZucldUWkFESXV5S2V3SmVDOHNaOXN0dG16ZGpYTVhJejdkbGxYc0ZlaTJw?oc=5",
-   "chapeau": "Pour une montée en puissance de la production industrielle de défense | OTAN Sujet North Atlantic Treaty Organization | NATO",
+   "lien": "https://refrance.fr/triangle-de-weimar-a-gizycko-lindustrie-de-defense-entre-dans-la-bataille-du-budget-europeen/",
+   "chapeau": "Triangle de Weimar : à Giżycko, l’industrie de défense entre dans la bataille du budget européen Revue économique de France",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -1152,7 +1319,7 @@
    "source": "Forum Militaire",
    "site": "https://www.forum-militaire.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNDdja0lXZXFZTzRWWG1SWTcycjh4d2ppNnNSNVQwRW1nZ0Jzek1LYnE2OVVUUTIzbWI3cTdBT1hBWjEyTEdiQURpS2ZqdHFFcGFDY1AtRGNDd0NiT3BTempwTy14aEU0QVlrYVdiVDh1bS12dmpzcldrQ3dIYWs3QlM0MzExZWhReFVsQkxqelNxcjJtZE9yYkdaWkg4cW56X3I0d25TRFZNblEzZUJkcC03VlpkVVhBQmVZTHFXbzdCR3ZLM09YR3ZLWmkyNlMwRTgxSlpueGlMWkdnUEU4djJwYWpBbmhZWVlldkM3RXNESFhDdnJmVkZtUUR4NHhCcnA3ZVM0SFBGa19Sd2tiajJFNEFjYURVT2FZMw?oc=5",
+   "lien": "https://www.forum-militaire.fr/la-france-va-encore-une-fois-affronter-lallemagne-dans-une-course-au-leadership-dans-larmement-avec-le-futur-intercepteur-anti-missiles-hypersoniques-de-leurope/",
    "chapeau": "La France va encore une fois affronter l'Allemagne dans une course au leadership dans l'armement avec le futur intercepteur anti-missiles hypersoniques de l'Europe Forum Militaire",
    "volet": "Presse",
    "requetes": [
@@ -1160,13 +1327,52 @@
    ]
   },
   {
-   "id": "ACT-d489278fb5d4",
-   "titre": "Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien",
-   "source": "Zone Militaire",
-   "site": "https://www.opex360.com",
+   "id": "ACT-87bbaf9ad3c6",
+   "titre": "Après le froid du Brexit, le réchauffement franco-britannique dans l’aéronautique et la défense",
+   "source": "Bourse Direct",
+   "site": "https://www.boursedirect.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUWN4d29adUh0M2FpTHd0RWxzeGduU2RVbE8zVkR0ZVBCRkIyaXl3X19GVElpb2tzVmctMEpraUpLOU9XXzRNVm4wTksteEh3dnlQR2hFemxmdzJmUWlYb1ZnazRmMFFDMUczMy1FN1FGRm41YWlOYWhoVnhuX3QxNEJGZzA3eXRyZ3RYNGtfMnp5RmxJeWxIdVNXYVVLQ29nU1ZzTXE5bEdVODFGMjdPMThveDY2UlhzMGpMQ19vWVRDT3JBTFctTjlZRUJGVWFxdmY0TUZoa2JzLWlTaURzZUhvU3ZDMnVXaFE?oc=5",
-   "chapeau": "Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien Zone Militaire",
+   "lien": "https://www.boursedirect.fr/en/news/category/economie/apres-le-froid-du-brexit-le-rechauffement-franco-britannique-dans-l-aeronautique-et-la-defense-afp-2a39cbe229c233136fab869d5cf1aa816e1e4742",
+   "chapeau": "Après le froid du Brexit, le réchauffement franco-britannique dans l’aéronautique et la défense Bourse Direct",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-887ee4aec2cb",
+   "titre": "Politico: Le Canada et l’Europe intensifient leur coopération en matière de défense",
+   "source": "سانا",
+   "site": "https://sana.sy",
+   "date": "2026-10-28",
+   "lien": "https://sana.sy/fr/international/2338094/",
+   "chapeau": "Politico: Le Canada et l’Europe intensifient leur coopération en matière de défense سانا",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d5c70928c468",
+   "titre": "Annuler le contrat des Rafale achetés à la France coûterait très cher à la Serbie qui y perdrait bien plus que de l'argent : sa crédibilité internationale",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-10-28",
+   "lien": "https://www.forum-militaire.fr/annuler-le-contrat-des-rafale-achetes-a-la-france-couterait-tres-cher-a-la-serbie-qui-y-perdrait-bien-plus-que-de-largent-sa-credibilite-internationale/",
+   "chapeau": "Annuler le contrat des Rafale achetés à la France coûterait très cher à la Serbie qui y perdrait bien plus que de l'argent : sa crédibilité internationale Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-fad34de7bf60",
+   "titre": "Magnifique Humanité » - Le manifeste social du pape Léon XIV",
+   "source": "Herodote.net",
+   "site": "https://www.herodote.net",
+   "date": "2026-10-28",
+   "lien": "https://www.herodote.net/Le_manifeste_social_du_pape_Leon_XIV-article-3126.php",
+   "chapeau": "Magnifique Humanité » - Le manifeste social du pape Léon XIV Herodote.net",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -1178,7 +1384,7 @@
    "source": "Armees.com",
    "site": "https://armees.com",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNVpLNFBjcVBTUmkyTFBhbVBLZmgtLWxuQzN4eFBfX2huWmJWbzdHSFM3ZXQxc09YVG5OclVLazlTWVNfTXpIVXdlZkszTVpJbzE0ZGxKeGZvakgxeEtxQTZQcEEzN0k0bmV4Y0J6dUF0T1k4Ti1ESENMWDFKR2FLXzNOMmQtemhnM0tN?oc=5",
+   "lien": "https://armees.com/aed-edstar-normes-ia-systemes-terrestres-autonomes-octobre-2026/",
    "chapeau": "Drones terrestres et IA militaire : l’Europe ouvre deux nouveaux groupes de normalisation Armees.com",
    "volet": "Presse",
    "requetes": [
@@ -1192,24 +1398,11 @@
    "source": "Le Figaro",
    "site": "https://www.lefigaro.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOFM4NnA1c28zMEFpWFpFZF8tM0JaSWMxTmF3dnFkbHd1VW5GT25RUEtydXlxMWVSMks3bjctOWZ3Y3UzaU02RDJYNGx2d0dXdlhqeE9rVUxodUc4RmtfWktDdmd6TEY2Y1poUi0tNmZrX3JLcGRDNHQydjNSMFdvSVFHUVA5LUVRTHhzOWVCei1xNXlXSkk1OGpHSVpDZk12NkhTblhCWTNPTGhHVE92bUZMdHFXYUR6SVV2d3gzRzZ2M1BGa003b2syZV9CVG54a0h0YmVn?oc=5",
+   "lien": "https://www.lefigaro.fr/voyages/de-fos-a-sophia-antipolis-comment-la-region-sud-est-devenue-l-aimant-economique-de-la-mediterranee-20261028",
    "chapeau": "De Fos à Sophia Antipolis : comment la région Sud est devenue l’aimant économique de la Méditerranée Le Figaro",
    "volet": "Presse",
    "requetes": [
     "KNDS Thales Airbus Defence Safran Dassault Naval Group"
-   ]
-  },
-  {
-   "id": "ACT-309393a71d98",
-   "titre": "Défense : le Maroc porte à 19 sa flotte d’hélicoptères d’attaque Apache AH-64E",
-   "source": "L'Opinion",
-   "site": "https://lopinion.ma",
-   "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQazFybVh3WFNCOE1xTzJZZDgtcE1VZnRLTkhoak1fMHgxTjFnMlJXT05FdER0RHBPdHJOd0Q0V3I4TUhyZGlQMjBBU2tkTXRhT2FnRnpwQ05YMDdMaGVLMVNkTGVjQjdubWVXZmp5WUlLbi0yS3VXdUdDSGxwdFBjMk9JbXBxSnhOZ1hQc1c5NnY2R0M5T092QWdSM0FuQ0F6cWQ4TDhyV2JvZ240SGkzOW1qOWhPSk5MeWZxUmxUZi1DNHktemVPRVF5OHJoMVlqS0ZES3VaSXFEUkF6RFEwU3lSQ2R1M0ZiVUFITGY2VXNzYk9TV2c?oc=5",
-   "chapeau": "Défense : le Maroc porte à 19 sa flotte d’hélicoptères d’attaque Apache AH-64E L'Opinion",
-   "volet": "Presse",
-   "requetes": [
-    "matériels défense programme armement France"
    ]
   },
   {
@@ -1218,7 +1411,7 @@
    "source": "Ministère des Armées",
    "site": "http://www.defense.gouv.fr",
    "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVE00MnNxdm9ZbUJ0Q3FSM1AzQ0hHelVuUVY2cmFNYVRFYzJwYzJRUFBFVEtoaXNPd3Rsb1cwRnBFakZ4RExMUlBUWnpIWktLYzZ1ZDRlVW5ZZ181WjlrVjZTQ2tjTWFBcmtGZHdhWTl6MkR3Z3MtdVpFcDYySmhudnRzOGd5UHNCeVZieWp6emltM2dXT21vU1Q2Q0pfRTM1WmhjMUhnQWZ5Z0tYTVUySFZocWZXdWl3VjhHV2dYdGpkNGlsQmdJcWk3RGY?oc=5",
+   "lien": "http://www.defense.gouv.fr/comcyber/notre-organisation/groupement-cyberdefense-armees-gca/centres-dappui-controle-cybersecurite-cacc",
    "chapeau": "Les Centres d’appui et de contrôle de la cybersécurité (CACC) Ministère des Armées",
    "volet": "Ministère des Armées / DGA",
    "requetes": [
@@ -1226,39 +1419,13 @@
    ]
   },
   {
-   "id": "ACT-3a0b17f1a1bd",
-   "titre": "20 ans du Journal de la Défense, 20 ans de reportages auprès des militaires",
-   "source": "Ministère des Armées",
-   "site": "https://www.defense.gouv.fr",
-   "date": "2026-10-28",
-   "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi1hTGhUNENISC1MVGdxRUhqVGwwLV9xY1M3Y1dKaWVTSlVRZGtrcEZZQjB6cThCU0NiaUZsSjRDcUlka2hWTi0ycmxHdmlDb3dCbVlSc3BRNmp1dDB2VlJDeWlONGFicV84UERacnhiZXJfS1pUaEh2d3MtenMwSnVPazRKc20wTnY3cGxBeU5BcUhBQUxmakszeGowa0FEdXc?oc=5",
-   "chapeau": "20 ans du Journal de la Défense, 20 ans de reportages auprès des militaires Ministère des Armées",
-   "volet": "Ministère des Armées / DGA",
-   "requetes": [
-    "site:defense.gouv.fr DGA"
-   ]
-  },
-  {
-   "id": "ACT-5cbe7afa3e05",
-   "titre": "Défense : le E5 veut une Europe qui « assume une plus grande responsabilité » au sein de l’OTAN",
-   "source": "Anadolu Ajansı",
-   "site": "https://www.aa.com.tr",
+   "id": "ACT-570e3372fb40",
+   "titre": "Nucléaire : passe d'armes entre Marine Le Pen et le gouvernement sur les négociations avec Bruxelles pour les EPR2 d'EDF",
+   "source": "Les Echos",
+   "site": "https://www.lesechos.fr",
    "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbVN0cE9qZ2FyMm53SzZmN1lLUTRvelJiTlBURGR4X052ek9sU2hrcmo1eGVoT2xGVk9KZzdQOVhibkxobUwtX0p5Y0tON3N5ZVFHVGtURWw1N1plNjE2ejNWMEh0NFktc1VuRnluaWtzUjAtemRid3RWZkV0Y2EzSW9Nb2hfcFFoa1VHUmVYcWlNbUVsSENEeWJ0M29wWEpoTS03V2Rkdm11a3VNLU9OWF9NdW8wZFkwNEdfVHNxTWlGRGdCMmZMdXpQYmtLM0ZwclhsbkhvUjdidw?oc=5",
-   "chapeau": "Défense : le E5 veut une Europe qui « assume une plus grande responsabilité » au sein de l’OTAN Anadolu Ajansı",
-   "volet": "Presse",
-   "requetes": [
-    "industrie défense France Europe"
-   ]
-  },
-  {
-   "id": "ACT-33c422f171e4",
-   "titre": "Les ministres de la défense du groupe E5 réaffirment leur volonté d’œuvrer pour la sécurité de l’Europe au sein de l’OTAN",
-   "source": "Mer et Marine",
-   "site": "https://www.meretmarine.com",
-   "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXNRXzdzbTRhdG5YYmpPa0RUWmEzaUE4ckZsQUI1MTdPeGIwaEdEd2s1SWY3MThsTE16Ty1lUFNzdTFnU1c1aV93VTBCZ3NuVjZxc2hFMVpmX3EzMjkwUnhvYlJLazR6MVJlRWVHYV82NWcyTjRrcjJBRk1VbGNlQU91OUZ0d2p5aTdiVzg5SDh1VnJCYVdxYmx1R3Fibk5qMWtDSnRVdkF5ZHgyRHVhWU9JNVZBVC1QcHF5OEhwVFFPMXB5bkJnSFBDb0NhcFY1Wmc?oc=5",
-   "chapeau": "Les ministres de la défense du groupe E5 réaffirment leur volonté d’œuvrer pour la sécurité de l’Europe au sein de l’OTAN Mer et Marine",
+   "lien": "https://www.lesechos.fr/industrie-services/energie-environnement/nucleaire-passe-darmes-entre-marine-le-pen-et-le-gouvernement-sur-les-negociations-avec-bruxelles-pour-les-epr2-dedf-2259463",
+   "chapeau": "Nucléaire : passe d'armes entre Marine Le Pen et le gouvernement sur les négociations avec Bruxelles pour les EPR2 d'EDF Les Echos",
    "volet": "Presse",
    "requetes": [
     "industrie défense France Europe"
@@ -1270,24 +1437,11 @@
    "source": "Zone Militaire",
    "site": "https://www.opex360.com",
    "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQTktQlN4UEtBZW10eXkyMlhjOERlZFRGWW02cDVtLTNmNmk2emFYaGVkTmJIZHhQNHZhT1l3b016VEx2M1I3cnhCbUc2ZjQ1ZzNyVUhGVVJGRTJSUjZUdVAyd1lneVBNdU83SDc3elZDaTFyMmxZN29nSHpyQ3huUkpBelVEWFhXNExCZGFSWVk5a1paOVdubTBFSEU2MFVISV9mNlZBbmRDMGJzYndwa0xEb0lCT2xxczV0a05ONTNRdVY1VS1PcU5R?oc=5",
+   "lien": "https://www.opex360.com/2026/10/27/le-drone-de-combat-qui-accompagnera-le-rafale-f5-ne-sera-peut-etre-pas-de-conception-francaise/",
    "chapeau": "Le drone de combat qui accompagnera le Rafale F5 ne sera peut-être pas de conception française Zone Militaire",
    "volet": "Presse",
    "requetes": [
     "matériels défense programme armement France"
-   ]
-  },
-  {
-   "id": "ACT-eeec18fe273e",
-   "titre": "Euronaval 2026 : thématiques, temps forts et informations pratiques",
-   "source": "Ministère des Armées",
-   "site": "https://www.defense.gouv.fr",
-   "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaEM0SzROZGl5ZF8wNXdtdDAySjk2czdvTk9abkdGZEZFN0N4QklYRkdqNkF6a0VvdnowNDlTM0ttcnZZVzYtVkQxNGExbzNEMmdVWWFMdU9mdFZNNklzRDIwZnZjdlpXNC1sRXQ3QWJBMUxpZFhpeTB5a1RTenFGS0dpdGk2TUJ2MHRMUlZielk2WDRJOHQxSmNocFE4czNJRlE?oc=5",
-   "chapeau": "Euronaval 2026 : thématiques, temps forts et informations pratiques Ministère des Armées",
-   "volet": "Ministère des Armées / DGA",
-   "requetes": [
-    "site:defense.gouv.fr DGA"
    ]
   },
   {
@@ -1296,7 +1450,7 @@
    "source": "European Defence Agency",
    "site": "https://eda.europa.eu",
    "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcGVyNGpLcUdOeGtPRWJCSVp6dmw0Yl9LazBiaUN3NkRDaG9mb0hVZmlnUDRiTVB1LXNrWEhZM1FBaUhIT1F4VDRzeVJOOWtoa2l1VDRpOGFPWjdnTk9nbGZLUkdKV2tEdW9vQl9wOHotWEpEcFUwdURRdEdLRG9iaXMzeGIyenhrNUtrUGk3UW5pcFpYQlJXelp3ZkgtRHNqRVpVV2ZvdW1aZTFsN2I0dkg5NlJERnhxNnl2bThmdDF2Z0ZFRGtJRA?oc=5",
+   "lien": "https://eda.europa.eu/news-and-events/events/2027/01/27/default-calendar/european-defence-standardisation-2027---call-for-experts",
    "chapeau": "European Defence Standardisation - Call for experts 2027 European Defence Agency",
    "volet": "Agence européenne de défense",
    "requetes": [
@@ -1309,7 +1463,7 @@
    "source": "https://defence-industry-space.ec.europa.eu/",
    "site": "https://defence-industry-space.ec.europa.eu",
    "date": "2026-10-27",
-   "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMGlydUFiY3EySmFKTVNqNnVYUnlValJMWWl0NGtCWGYyUHlteHhKRGhQNWhIa016OWExYjM4eU1FaTB3MzIyMWxWT3Yyd1V4ME1xazhRT2xOS2ZhU1JRVVVFalp5VW9nN2pLOUJPLXdtbW4ybkhQTkgxNTV1QVpUUUhsa2g4MlNFRmozSXdpZG9JTXNZYjRKSm54Mkg0RXhoQlpJVEtIcGxJNVM5RlphdTRkSmptenowcVpBWmdxTnAyUFlyUXJjTWVSdW9KVFVjUWpIQUNtMUNiYjhmN21PUnV3aWI4TndKTlE?oc=5",
+   "lien": "https://defence-industry-space.ec.europa.eu/endr-conference-european-young-professionals-defence-summit-2026-malmo-sweden-27-28-october-2026-2026-10-27_en",
    "chapeau": "ENDR Conference ”European Young Professionals Defence Summit 2026”, Malmö (Sweden), 27 – 28 October 2026 https://defence-industry-space.ec.europa.eu/",
    "volet": "Commission européenne — DG Industrie de défense et espace",
    "requetes": [
