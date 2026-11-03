@@ -160,6 +160,31 @@ def titre_utile(t):
     return len(t) >= 25 and lettres >= 0.6 * len(t) and len(t.split()) >= 5
 
 
+def vrai_lien(lien):
+    """Remplace un lien Google Actualités (news.google.com/rss/articles/…) par l'adresse de l'article ; garde le lien d'origine en cas d'échec."""
+    m = re.match(r"https://news\.google\.com/(?:rss/)?articles/([^?]+)", lien or "")
+    if not m:
+        return lien
+    ident_g = m.group(1)
+    try:
+        ua = {"User-Agent": "Mozilla/5.0 (veille GMR DEFCOM)"}
+        page = urllib.request.urlopen(urllib.request.Request(
+            "https://news.google.com/rss/articles/%s" % ident_g, headers=ua), timeout=30).read().decode("utf-8", "replace")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page).group(1)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page).group(1)
+        req = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+               '"X","X",1,[1,1,1],1,1,null,0,0,null,0],"%s",%s,"%s"]' % (ident_g, ts, sg))
+        corps = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", req, None, "generic"]]])}).encode()
+        rep = urllib.request.urlopen(urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=corps,
+            headers=dict(ua, **{"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})), timeout=30).read().decode("utf-8", "replace")
+        donnees = json.loads(rep.split("\n\n", 1)[1])[:-2]
+        url = json.loads(donnees[0][2])[1]
+        return url if url.startswith("http") else lien
+    except Exception:
+        return lien
+
+
 def actualites():
     vus, resultats = {}, []
     requetes = [("Terme du directeur", t, "fr") for t in TERMES_DIRECTEUR] + list(SITES_OFFICIELS)
@@ -182,6 +207,9 @@ def actualites():
             resultats.append(el)
         time.sleep(2)
     resultats.sort(key=lambda e: e["date"], reverse=True)
+    for el in resultats:   # liens directs vers les articles (et non vers Google Actualités)
+        el["lien"] = vrai_lien(el["lien"])
+        time.sleep(0.5)
     return resultats
 
 
