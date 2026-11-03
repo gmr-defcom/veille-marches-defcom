@@ -368,7 +368,7 @@ def cmd_mail(args):
         corps_mail = (
             '<div style="%sbackground:#f3f4f2;padding:16px 0;"><table width="100%%" cellpadding="0" cellspacing="0" '
             'style="max-width:680px;margin:0 auto;background:#ffffff;border:1px solid #d9ddda;border-radius:8px;"><tr><td style="padding:22px 24px;%s">'
-            '<p style="margin:0;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A68A3E;font-weight:bold;">GMR DEFCOM · Veille hebdomadaire%s</p>'
+            '<p style="margin:0;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A68A3E;font-weight:bold;">GMR DEFCOM · Veille du lundi et du jeudi%s</p>'
             '<h1 style="%smargin:4px 0 6px;font-size:24px;color:#0F1A2E;">Veille de la commande publique de défense</h1>'
             '<p style="margin:0 0 14px;color:#5c6670;font-size:14px;">%s · cette semaine : %d actualités · %d marchés · %d décisions</p>'
             '<table width="100%%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#eef1f6" style="background-color:#eef1f6;border-radius:6px;padding:10px 14px;font-size:14px;line-height:1.6;color:#1B2A4A;%s">'
