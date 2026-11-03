@@ -1,24 +1,38 @@
 # -*- coding: utf-8 -*-
 """
-Outil de la veille hebdomadaire des marchés de défense — GMR DEFCOM.
+Outil de la veille hebdomadaire de la commande publique de défense — GMR DEFCOM.
 Utilisé par la tâche planifiée Claude de chaque professeur.
 
   python3 veille.py avis
-      Télécharge la collecte de la semaine (BOAMP + TED) depuis GitHub et écrit :
+      Télécharge la collecte des MARCHÉS de la semaine (BOAMP + TED) depuis GitHub et écrit :
         - avis.txt        : liste compacte et décodée des avis à examiner ;
         - avis_index.json : détails de chaque avis (lien, pays, date, source), par référence.
 
+  python3 veille.py veille
+      Télécharge la collecte des ACTUALITÉS, TEXTES et JURISPRUDENCE de la semaine et écrit :
+        - veille.txt        : liste compacte des éléments à examiner, par rubrique ;
+        - veille_index.json : détails de chaque élément (lien, date, source…), par référence.
+
   python3 veille.py mail articles.json --cle CLE [--site https://chairedefcom.fr] [--jours 45]
-      Fabrique le mail à partir des articles rédigés par Claude, avec un bouton
-      « Publier » signé par article. Écrit mail.html (et mail.txt en secours).
-      articles.json = liste de {"ref": "TED-700480-2026" ou "BOAMP-26-101062",
-                                "etiquette": "Appel d'offres" | "Attribution" | "Préinformation" | ...,
-                                "titre": "...", "texte": "..."}
+                    [--semaine "Semaine du …"] [--pied "…"]
+      Fabrique le mail à partir des fiches rédigées par Claude, en trois rubriques
+      (Actualités, Marchés, Jurisprudence), avec un bouton « Publier » signé par fiche.
+      Écrit mail.html (et mail.txt en secours).
+      articles.json = liste de {
+          "ref": référence lue dans avis.txt ou veille.txt (ex. "TED-700480-2026", "ACT-1a2b3c4d5e6f", "UE-62024CJ0583"),
+          "rubrique": "actualites" | "marches" | "jurisprudence",
+          "etiquette": "Appel d'offres" | "Attribution" | "Décret" | "Directive UE" | "Arrêt" | "Conclusions" | …,
+          "titre": "...", "texte": "...",
+          "theme": thème d'image, pour les actualités (voir THEMES),
+          "affaire": numéro d'affaire, pour la jurisprudence de l'Union (ex. "C-583/24") }
 """
-import base64, hashlib, hmac, html, json, re, sys, urllib.request
+import base64, hashlib, hmac, html, json, re, sys, urllib.request, zlib
 from datetime import date, timedelta
 
 SOURCE = "https://raw.githubusercontent.com/gmr-defcom/veille-marches-defcom/main/donnees/derniere-semaine.json"
+SOURCE_VEILLE = "https://raw.githubusercontent.com/gmr-defcom/veille-marches-defcom/main/donnees/veille-semaine.json"
+THEMES = ["naval", "aerien", "terrestre", "drones", "spatial", "cyber", "munitions", "industrie", "pme",
+          "europe", "dga-essais", "exportation", "budget", "institutions", "juridique"]
 
 PAYS = {"FRA": "France", "DEU": "Allemagne", "BEL": "Belgique", "NLD": "Pays-Bas", "LUX": "Luxembourg",
         "ITA": "Italie", "ESP": "Espagne", "PRT": "Portugal", "IRL": "Irlande", "DNK": "Danemark",
@@ -119,11 +133,86 @@ def cmd_avis():
     print("avis.txt écrit : %d avis à examiner (%d BOAMP écartés automatiquement)." % (len(index), ecartes))
 
 
+# ------------------------------------------------------------------ actualités, textes, jurisprudence
+def court(t, n):
+    t = re.sub(r"\s+", " ", t or "").strip()
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
+
+
+def cmd_veille():
+    d = json.loads(urllib.request.urlopen(SOURCE_VEILLE + "?t=" + str(date.today()), timeout=60).read().decode("utf-8"))
+    index, L = {}, []
+    p = d.get("periode", {})
+    L.append("COLLECTE DU %s (période du %s au %s)" % (d.get("genere_le", "?")[:10], p.get("du"), p.get("au")))
+    for nom, s in d.get("sources", {}).items():
+        L.append("- %s : %s%s" % (nom, s.get("statut"), (", %s retenus" % s.get("retenus")) if s.get("statut") == "ok"
+                                  else " — " + s.get("erreur", "")))
+
+    L.append("\n=== ACTUALITÉS (presse et sites officiels ; Claude en retient 8 à 12) ===")
+    for a in d.get("actualites", []):
+        index[a["id"]] = {"source": a.get("source", ""), "url": a.get("lien", ""), "pays": "", "date": a.get("date", ""),
+                          "rubrique": "actualites"}
+        chapeau = a.get("chapeau") or ""
+        if chapeau.lower().startswith((a.get("titre") or "").lower()[:40]):   # Google Actualités répète souvent le titre
+            chapeau = ""
+        L.append("[%s] %s | %s | %s | %s%s" % (a["id"], a.get("date"), a.get("volet"), a.get("source"), a.get("titre"),
+                                               (" | chapeau : " + court(chapeau, 220)) if chapeau else ""))
+
+    L.append("\n=== TEXTES PUBLIÉS AU JOURNAL OFFICIEL (rubrique Actualités) ===")
+    for t in d.get("textes", []):
+        index[t["id"]] = {"source": "JORF" if t.get("origine") == "JORF" else "JOUE", "url": t.get("lien", ""),
+                          "pays": "France" if t.get("origine") == "JORF" else "Union européenne",
+                          "date": t.get("date_publication") or t.get("date_signature", ""), "rubrique": "actualites"}
+        L.append("[%s] %s | %s | %s | %s%s" % (
+            t["id"], t.get("origine"), t.get("nature"),
+            ("publié le %s" % t["date_publication"]) if t.get("date_publication") else ("adopté le %s" % t.get("date_signature")),
+            t.get("titre"), (" | " + t["ministere"]) if t.get("ministere") else ""))
+
+    L.append("\n=== JURISPRUDENCE ===")
+    for j in d.get("jurisprudence", []):
+        jid = j["id"]
+        if jid.startswith("UE-"):
+            index[jid] = {"source": "CURIA / EUR-Lex", "url": j.get("lien", ""), "pays": "Union européenne",
+                          "date": j.get("date_decision", ""), "rubrique": "jurisprudence", "affaire": j.get("affaire", "")}
+            L.append("[%s] %s | %s | affaire %s | %s | cite : %s | %s" % (
+                jid, j.get("juridiction"), j.get("type"), j.get("affaire"), j.get("date_decision"),
+                ", ".join(j.get("textes_cites", [])), court(j.get("intitule"), 300)))
+        elif jid.startswith("CC-"):
+            index[jid] = {"source": "Conseil constitutionnel", "url": j.get("lien", ""), "pays": "France",
+                          "date": j.get("date_mise_en_ligne", ""), "rubrique": "jurisprudence"}
+            L.append("[%s] Conseil constitutionnel | %s | mis en ligne le %s | extrait : %s" % (
+                jid, j.get("intitule"), j.get("date_mise_en_ligne"), court(j.get("passage"), 600)))
+        else:
+            index[jid] = {"source": "Justice administrative", "url": j.get("lien", ""), "pays": "France",
+                          "date": j.get("date_decision", ""), "rubrique": "jurisprudence"}
+            L.append("[%s] %s | n° %s | décision du %s, mise en ligne le %s | %s %s | %s%s | critères : %s\n"
+                     "    DÉBUT : %s\n    PASSAGE : %s\n    DISPOSITIF : %s" % (
+                jid, j.get("juridiction"), j.get("numero"), j.get("date_decision"), j.get("date_mise_en_ligne"),
+                j.get("type"), j.get("formation"), ("ECLI " + j["ecli"]) if j.get("ecli") else "sans ECLI",
+                (" | publication " + j["publication_recueil"]) if j.get("publication_recueil") else "",
+                ", ".join(j.get("criteres", [])), court(j.get("debut"), 900), court(j.get("passage"), 700),
+                court(j.get("dispositif"), 700)))
+    if not d.get("jurisprudence"):
+        L.append("(aucune décision correspondant aux critères n'a été mise en ligne cette semaine)")
+    open("veille.txt", "w", encoding="utf-8").write("\n".join(L))
+    json.dump(index, open("veille_index.json", "w", encoding="utf-8"), ensure_ascii=False)
+    print("veille.txt écrit : %d actualités, %d textes, %d décisions." % (
+        len(d.get("actualites", [])), len(d.get("textes", [])), len(d.get("jurisprudence", []))))
+
+
 # ------------------------------------------------------------------ mail
+RUBRIQUES = [("actualites", "Actualités"), ("marches", "Marchés"), ("jurisprudence", "Jurisprudence")]
+MENTION_CONCLUSIONS = ("Conclusions de l'avocat général : il s'agit d'un avis indépendant rendu à la Cour, qui éclaire "
+                       "l'affaire mais ne la lie pas et ne préjuge pas de la décision à venir.")
+
+
 def lien_signe(article, cle, site):
-    d = base64.urlsafe_b64encode(json.dumps(article, ensure_ascii=False, separators=(",", ":")).encode()).decode().rstrip("=")
-    s = hmac.new(cle.encode(), d.encode(), hashlib.sha256).hexdigest()
-    return "%s/veille/publication/publier.php?d=%s&s=%s" % (site.rstrip("/"), d, s)
+    """Lien « Publier » : contenu compressé (deflate) puis encodé, et signé par la clé (HMAC-SHA256)."""
+    brut = json.dumps(article, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    c = zlib.compressobj(9, zlib.DEFLATED, -15)
+    z = base64.urlsafe_b64encode(c.compress(brut) + c.flush()).decode().rstrip("=")
+    s = hmac.new(cle.encode(), z.encode(), hashlib.sha256).hexdigest()
+    return "%s/veille/publication/publier.php?z=%s&s=%s" % (site.rstrip("/"), z, s)
 
 
 def jjmm(iso):
@@ -142,6 +231,18 @@ def bouton(href):
             '</a></td></tr></table>') % html.escape(href)
 
 
+def lire_index():
+    index = {}
+    for f in ("avis_index.json", "veille_index.json"):
+        try:
+            for k, v in json.load(open(f, encoding="utf-8")).items():
+                v.setdefault("rubrique", "marches")
+                index[k] = v
+        except FileNotFoundError:
+            pass
+    return index
+
+
 def cmd_mail(args):
     fichier = args[0]
     opts = dict(zip(args[1::2], args[2::2]))
@@ -149,51 +250,80 @@ def cmd_mail(args):
     jours = int(opts.get("--jours", "45"))
     actif = bool(cle) and not cle.startswith("<")
     articles = json.load(open(fichier, encoding="utf-8"))
-    index = json.load(open("avis_index.json", encoding="utf-8"))
+    index = lire_index()
     exp = (date.today() + timedelta(days=jours)).isoformat()
     F, G = "font-family:Arial,Helvetica,sans-serif;", "font-family:Georgia,serif;"
-    cartes, texte = [], []
-    for a in articles:
-        info = index.get(a["ref"], {})
-        meta = " · ".join(x for x in (jjmm(info.get("date", "")), (a.get("etiquette") or "").upper(),
-                                       info.get("pays", ""), "Source : " + info.get("source", "")) if x)
-        donnees = {"v": 1, "t": a["titre"], "x": a["texte"], "u": info.get("url", ""),
-                   "r": a.get("etiquette", ""), "p": info.get("pays", ""), "o": info.get("source", ""),
-                   "j": info.get("date", date.today().isoformat()), "exp": exp}
-        b = bouton(lien_signe(donnees, cle, site)) if actif else \
-            '<p style="%smargin:6px 0 0;font-size:12px;color:#8B2635;">Bouton « Publier » inactif : clé de publication non renseignée.</p>' % F
-        cartes.append(
-            '<table width="100%%" cellpadding="0" cellspacing="0" style="margin-top:16px;border:1px solid #d9ddda;border-radius:6px;"><tr><td style="padding:16px 18px;%s">'
-            '<p style="margin:0 0 6px;font-size:12px;color:#5c6670;">%s</p>'
-            '<p style="%smargin:0 0 8px;font-size:17px;font-weight:bold;color:#1b2127;line-height:1.3;">%s</p>'
-            '<p style="margin:0 0 8px;font-size:14px;line-height:1.55;color:#1b2127;">%s</p>'
-            '<p style="margin:0 0 10px;font-size:13px;"><a href="%s" style="color:#1f5673;">Voir l’avis</a></p>%s'
-            '</td></tr></table>' % (F, html.escape(meta), G, html.escape(a["titre"]),
-                                    html.escape(a["texte"]).replace("\n\n", "</p><p style=\"margin:0 0 8px;font-size:14px;line-height:1.55;color:#1b2127;\">"),
-                                    html.escape(info.get("url", "")), b))
-        texte.append("%s\n%s\n%s\nSource : %s\n" % (meta, a["titre"], a["texte"], info.get("url", "")))
+    P = "margin:0 0 8px;font-size:14px;line-height:1.55;color:#1b2127;"
+    blocs, texte, nb = [], [], {}
+    for code, libelle in RUBRIQUES:
+        liste = [a for a in articles if (a.get("rubrique") or index.get(a["ref"], {}).get("rubrique", "marches")) == code]
+        nb[code] = len(liste)
+        blocs.append('<h2 style="%smargin:26px 0 2px;font-size:20px;color:#0F1A2E;border-bottom:2px solid #C5A55A;'
+                     'padding-bottom:4px;">%s <span style="font:normal 13px Arial,sans-serif;color:#5c6670;">'
+                     '(%d)</span></h2>' % (G, libelle, len(liste)))
+        if not liste:
+            blocs.append('<p style="%s%scolor:#5c6670;margin-top:10px;">Rien à signaler cette semaine.</p>' % (F, P))
+            texte.append("== %s ==\nRien à signaler cette semaine.\n" % libelle.upper())
+            continue
+        texte.append("== %s ==" % libelle.upper())
+        for a in liste:
+            info = index.get(a["ref"], {})
+            etiquette = a.get("etiquette") or ""
+            corps = a["texte"]
+            if code == "jurisprudence" and "conclusion" in etiquette.lower() and MENTION_CONCLUSIONS not in corps:
+                corps += "\n\n" + MENTION_CONCLUSIONS
+            meta = " · ".join(x for x in (jjmm(info.get("date", "")), etiquette.upper(), info.get("pays", ""),
+                                           "Source : " + info.get("source", "") if info.get("source") else "") if x)
+            donnees = {"v": 2, "c": code, "t": a["titre"], "x": corps, "u": info.get("url", ""), "r": etiquette,
+                       "p": info.get("pays", ""), "o": info.get("source", ""),
+                       "j": info.get("date") or date.today().isoformat(), "exp": exp}
+            if code == "actualites":
+                donnees["i"] = a.get("theme") if a.get("theme") in THEMES else "institutions"
+            if a.get("affaire") or info.get("affaire"):
+                donnees["a"] = a.get("affaire") or info.get("affaire")
+            b = bouton(lien_signe(donnees, cle, site)) if actif else \
+                '<p style="%smargin:6px 0 0;font-size:12px;color:#8B2635;">Bouton « Publier » inactif : clé de publication non renseignée.</p>' % F
+            paras = "".join('<p style="%s">%s</p>' % (P, html.escape(x)) for x in corps.split("\n\n") if x.strip())
+            blocs.append(
+                '<table width="100%%" cellpadding="0" cellspacing="0" style="margin-top:14px;border:1px solid #d9ddda;border-radius:6px;">'
+                '<tr><td style="padding:16px 18px;%s">'
+                '<p style="margin:0 0 6px;font-size:12px;color:#5c6670;">%s%s</p>'
+                '<p style="%smargin:0 0 8px;font-size:17px;font-weight:bold;color:#1b2127;line-height:1.3;">%s</p>%s'
+                '<p style="margin:0 0 10px;font-size:13px;"><a href="%s" style="color:#1f5673;">Voir la source</a></p>%s'
+                '</td></tr></table>' % (F, html.escape(meta),
+                                         (" · Image : " + donnees["i"]) if "i" in donnees else "", G,
+                                         html.escape(a["titre"]), paras, html.escape(info.get("url", "")), b))
+            texte.append("%s\n%s\n%s\nSource : %s\n" % (meta, a["titre"], corps, info.get("url", "")))
     pied = opts.get("--pied", "")
-    corps = (
+    corps_mail = (
         '<div style="%sbackground:#f3f4f2;padding:16px 0;"><table width="100%%" cellpadding="0" cellspacing="0" '
         'style="max-width:680px;margin:0 auto;background:#ffffff;border:1px solid #d9ddda;border-radius:8px;"><tr><td style="padding:22px 24px;%s">'
         '<p style="margin:0;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A68A3E;font-weight:bold;">GMR DEFCOM · Veille hebdomadaire</p>'
-        '<h1 style="%smargin:4px 0 6px;font-size:24px;color:#0F1A2E;">Veille des marchés de défense</h1>'
-        '<p style="margin:0 0 14px;color:#5c6670;font-size:14px;">%s · %d avis sélectionnés</p>'
+        '<h1 style="%smargin:4px 0 6px;font-size:24px;color:#0F1A2E;">Veille de la commande publique de défense</h1>'
+        '<p style="margin:0 0 14px;color:#5c6670;font-size:14px;">%s · %d actualités · %d marchés · %d décisions</p>'
         '<table width="100%%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#eef1f6" style="background-color:#eef1f6;border-radius:6px;padding:10px 14px;font-size:14px;line-height:1.6;color:#1B2A4A;%s">'
-        'Cliquez sur <b style="color:#1e7a46;">✓ Publier</b> : la page de relecture du site s’ouvre, où vous pouvez modifier le titre et le texte, puis cliquez sur « Publier sur le site ». Ne rien faire = rien n’est publié.'
+        'Cliquez sur <b style="color:#1e7a46;">✓ Publier</b> : la page de relecture du site s’ouvre ; vous pouvez y modifier le titre, '
+        'le texte et l’image, puis cliquer sur « Publier sur le site ». Ne rien faire = rien n’est publié.'
         '</td></tr></table>%s'
         '<p style="margin:22px 0 0;font-size:12px;line-height:1.6;color:#5c6670;">%s'
         'Éclairages juridiques indicatifs, établis automatiquement : ils ne constituent pas un avis juridique.</p>'
-        '</td></tr></table></div>') % (F, F, G, html.escape(opts.get("--semaine", "Semaine")), len(articles), F,
-                                       "".join(cartes), (html.escape(pied) + "<br>") if pied else "")
-    open("mail.html", "w", encoding="utf-8").write(corps)
-    open("mail.txt", "w", encoding="utf-8").write("\n\n".join(texte))
-    print("mail.html écrit : %d articles, %d caractères, boutons %s." % (len(articles), len(corps), "actifs" if actif else "INACTIFS"))
+        '</td></tr></table></div>') % (F, F, G, html.escape(opts.get("--semaine", "Semaine")), nb["actualites"],
+                                       nb["marches"], nb["jurisprudence"], F, "".join(blocs),
+                                       (html.escape(pied) + "<br>") if pied else "")
+    open("mail.html", "w", encoding="utf-8").write(corps_mail)
+    open("mail.txt", "w", encoding="utf-8").write("\n".join(texte))
+    taille = len(corps_mail.encode("utf-8"))
+    print("mail.html écrit : %d fiches, %d octets (limite Gmail ≈ 100 000), boutons %s." % (
+        len(articles), taille, "actifs" if actif else "INACTIFS"))
+    if taille > 95000:
+        print("ATTENTION : mail proche de la limite de Gmail ; raccourcir les textes ou réduire le nombre de fiches.")
 
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "avis":
         cmd_avis()
+    elif len(sys.argv) >= 2 and sys.argv[1] == "veille":
+        cmd_veille()
     elif len(sys.argv) >= 3 and sys.argv[1] == "mail":
         cmd_mail(sys.argv[2:])
     else:
