@@ -1,0 +1,637 @@
+{
+ "genere_le": "2026-11-09T05:31:40+00:00",
+ "periode": {
+  "du": "2026-11-02",
+  "au": "2026-11-09"
+ },
+ "sources": {
+  "Actualités (Google Actualités)": {
+   "statut": "ok",
+   "retenus": 43,
+   "deja_transmis": 36
+  },
+  "Journal officiel (DILA)": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0,
+   "documents_lus": 107
+  },
+  "Journal officiel de l'Union": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 5
+  },
+  "Justice administrative": {
+   "statut": "ok",
+   "retenus": 1,
+   "deja_transmis": 0,
+   "documents_lus": 50550
+  },
+  "Conseil constitutionnel": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  },
+  "Cour de justice et Tribunal de l'UE": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  }
+ },
+ "actualites": [
+  {
+   "id": "ACT-cd62507183d2",
+   "titre": "Défense : l’Europe se réarme, Washington encaisse",
+   "source": "L'Essentiel de l'Éco",
+   "site": "https://lessentieldeleco.fr",
+   "date": "2026-11-08",
+   "lien": "https://lessentieldeleco.fr/9096-defense-leurope-se-rearme-washington-encaisse/",
+   "chapeau": "Défense : l’Europe se réarme, Washington encaisse L'Essentiel de l'Éco",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-a41aae7f8bd5",
+   "titre": "La Chine n'a jamais eu à le combattre mais l'URSS avait préparé un concept étonnant de « train-char » en cas de guerre avec le BTL-1",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-08",
+   "lien": "https://www.forum-militaire.fr/un-train-blinde-svoietique-pour-contrer-la-chine/",
+   "chapeau": "La Chine n'a jamais eu à le combattre mais l'URSS avait préparé un concept étonnant de « train-char » en cas de guerre avec le BTL-1 Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-5ce77aefa688",
+   "titre": "Patriot PAC-3 vs Aster 30B1NT : l’Europe peut-elle encore empêcher la paralysie de l’Ukraine cet hiver ? - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-08",
+   "lien": "https://meta-defense.fr/2026/11/08/patriot-pac-3-ukraine-frappes-russes/",
+   "chapeau": "Patriot PAC-3 vs Aster 30B1NT : l’Europe peut-elle encore empêcher la paralysie de l’Ukraine cet hiver ? Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-ced7a58f87ec",
+   "titre": "Arrowhead 140, FDI ou FREMM EVO : le retard des frégates ASWF oblige la Belgique à arbitrer rapidement parmi les frégates européennes - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-08",
+   "lien": "https://meta-defense.fr/2026/11/08/retard-programme-aswf-fregates-belgique/",
+   "chapeau": "Arrowhead 140, FDI ou FREMM EVO : le retard des frégates ASWF oblige la Belgique à arbitrer rapidement parmi les frégates européennes Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-aff3aa1887db",
+   "titre": "La France est au centre de toutes les attentions du Brésil, plus précisément Cherbourg pour son futur sous-marin nucléaire d'attaque : l'Álvaro Alberto",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-07",
+   "lien": "https://www.forum-militaire.fr/le-bresil-regarde-avec-beaucoup-dattention-ce-qui-se-passe-a-cherbourg-sur-son-futur-sous-marin-nucleaire-dattaque-lalvaro-alberto/",
+   "chapeau": "La France est au centre de toutes les attentions du Brésil, plus précisément Cherbourg pour son futur sous-marin nucléaire d'attaque : l'Álvaro Alberto Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-cbf73eb5de3c",
+   "titre": "La Russie dépensait des missiles hors de prix contre des drones à moins de 70 000 euros, elle vient de monter un canon sur un camion",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-07",
+   "lien": "https://www.forum-militaire.fr/la-russie-depensait-des-missiles-hors-de-prix-contre-des-drones-a-moins-de-70-000-euros-elle-vient-de-monter-un-canon-sur-un-camion/",
+   "chapeau": "La Russie dépensait des missiles hors de prix contre des drones à moins de 70 000 euros, elle vient de monter un canon sur un camion Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d69f4f9a114c",
+   "titre": "La France, la Suède et Chypre s’associent pour acheter un missile français de seulement 15 kg capable de détruire des blindés et d’être tiré depuis un bateau",
+   "source": "Lavoixdefrance.fr",
+   "site": "https://www.lavoixdefrance.fr",
+   "date": "2026-11-07",
+   "lien": "https://www.lavoixdefrance.fr/la-france-la-suede-et-chypre-sassocient-pour-acheter-un-missile-francais-de-seulement-15-kg-capable-de-detruire-des-blindes-et-detre-tire-depuis-un-bateau-21376/",
+   "chapeau": "La France, la Suède et Chypre s’associent pour acheter un missile français de seulement 15 kg capable de détruire des blindés et d’être tiré depuis un bateau Lavoixdefrance.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-bbc277f3a552",
+   "titre": "Les Rafale Marine indiens ouvrent la voie pour l'intégration d'armes nouvelles pour le programme MRFA - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-07",
+   "lien": "https://meta-defense.fr/2026/11/07/rafale-marine-armes-indiennes/",
+   "chapeau": "Les Rafale Marine indiens ouvrent la voie pour l'intégration d'armes nouvelles pour le programme MRFA Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-0a8420f2d1f1",
+   "titre": "Favoriser l’emploi des cadres par la BITD : l’Apec et la DGA signent une convention de partenariat",
+   "source": "Mer et Marine",
+   "site": "https://www.meretmarine.com",
+   "date": "2026-11-06",
+   "lien": "https://www.meretmarine.com/fr/defense/favoriser-l-emploi-des-cadres-par-la-bitd-l-apec-et-la-dga-signent-une-convention-de-partenariat",
+   "chapeau": "Favoriser l’emploi des cadres par la BITD : l’Apec et la DGA signent une convention de partenariat Mer et Marine",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-c692a0a8cdf2",
+   "titre": "La BITD française n'a pas encore tous les outils pour résister",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.latribune.fr/article/strategies/19009154399818/la-bitd-francaise-na-pas-encore-tous-les-outils-pour-resister",
+   "chapeau": "La BITD française n'a pas encore tous les outils pour résister La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-d278e3ee3ffe",
+   "titre": "Des amis sans avantages : pourquoi l’UE devrait proposer au Canada plus que de simples liens de défense informels",
+   "source": "Le Rubicon",
+   "site": "https://lerubicon.org",
+   "date": "2026-11-06",
+   "lien": "https://lerubicon.org/des-amis-sans-avantages-pourquoi-lue-devrait-proposer-au-canada-plus-que-de-simples-liens-de-defense-informels/",
+   "chapeau": "Des amis sans avantages : pourquoi l’UE devrait proposer au Canada plus que de simples liens de défense informels Le Rubicon",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-db27d1a7a17e",
+   "titre": "\"Vingt ans d'attente pour acquérir des Rafale\" : l'Ukraine, vitrine de l’industrie de défense française",
+   "source": "L'Express",
+   "site": "https://www.lexpress.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.lexpress.fr/secret-defense/vingt-ans-dattente-pour-acquerir-des-rafale-lukraine-vitrine-de-lindustrie-de-defense-francaise-U76PT365FRBO3JZXGWUP76YP64/",
+   "chapeau": "\"Vingt ans d'attente pour acquérir des Rafale\" : l'Ukraine, vitrine de l’industrie de défense française L'Express",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-bc803550a788",
+   "titre": "Face à la menace des drones, l'industrie navale de défense se met au Lego",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-06",
+   "lien": "https://www.france24.com/fr/info-en-continu/20261106-face-%C3%A0-la-menace-des-drones-l-industrie-navale-de-d%C3%A9fense-se-met-au-lego",
+   "chapeau": "Face à la menace des drones, l'industrie navale de défense se met au Lego France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f61bd3249592",
+   "titre": "SPÉCIAL EURONAVAL 2026 – Catherine Vautrin, ministre des Armées et des Anciens combattants : « Ne cédons pas aux sirènes de déclinisme. La France a su anticiper ».",
+   "source": "Theatrum Belli",
+   "site": "https://theatrum-belli.com",
+   "date": "2026-11-06",
+   "lien": "https://theatrum-belli.com/special-euronaval-2026-catherine-vautrin-ministre-des-armees-et-des-anciens-combattants-ne-cedons-pas-aux-sirenes-de-declinisme-la-france-a-su-anticiper/",
+   "chapeau": "SPÉCIAL EURONAVAL 2026 – Catherine Vautrin, ministre des Armées et des Anciens combattants : « Ne cédons pas aux sirènes de déclinisme. La France a su anticiper ». Theatrum Belli",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-cc645f31d089",
+   "titre": "Les armées françaises conçoivent leur propre drone naval kamikaze… en faisant la leçon aux industriels",
+   "source": "L'Usine Nouvelle",
+   "site": "https://www.usinenouvelle.com",
+   "date": "2026-11-06",
+   "lien": "https://www.usinenouvelle.com/aero-spatial/defense/les-armees-francaises-concoivent-leur-propre-drone-naval-kamikaze-en-faisant-la-lecon-aux-industriels.6YN7DOSGSNBUBIGHRWWQWH4RFU.html",
+   "chapeau": "Les armées françaises conçoivent leur propre drone naval kamikaze… en faisant la leçon aux industriels L'Usine Nouvelle",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-82a6d9a1a278",
+   "titre": "Israël, la Grèce et Chypre rejettent l’accord maritime turco-libyen et renforcent leur coopération militaire - Infos-Israel.News",
+   "source": "Infos-Israel.News",
+   "site": "https://infos-israel.news",
+   "date": "2026-11-06",
+   "lien": "https://infos-israel.news/israel-la-grece-et-chypre-rejettent-laccord-maritime-turco-libyen-et-renforcent-leur-cooperation-militaire/",
+   "chapeau": "Israël, la Grèce et Chypre rejettent l’accord maritime turco-libyen et renforcent leur coopération militaire Infos-Israel.News",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-660a193d4ae3",
+   "titre": "Jean-Baptiste Colas (Direction générale de l’armement (DGA)) | Décideurs engagés",
+   "source": "L'Hémicycle",
+   "site": "https://lhemicycle.com",
+   "date": "2026-11-06",
+   "lien": "https://lhemicycle.com/emissions/decideurs-engages/jean-baptiste-colas-direction-generale-de-larmement-dga/",
+   "chapeau": "Jean-Baptiste Colas (Direction générale de l’armement (DGA)) | Décideurs engagés L'Hémicycle",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-8f1813bc1c0d",
+   "titre": "Euronaval : C’est quoi ce nouveau missile de croisière naval Mk2 que l’armée française va commander",
+   "source": "Yahoo Actualités",
+   "site": "https://fr.news.yahoo.com",
+   "date": "2026-11-06",
+   "lien": "https://fr.news.yahoo.com/euronaval-c-nouveau-missile-croisi%C3%A8re-105252215.html",
+   "chapeau": "Euronaval : C’est quoi ce nouveau missile de croisière naval Mk2 que l’armée française va commander Yahoo Actualités",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-679ce2ae1fcc",
+   "titre": "La DGA commande des missiles EXOCET MM40 Block B3c au profit de la Marine nationale",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/dga-commande-missiles-exocet-mm40-block-b3c-au-profit-marine-nationale",
+   "chapeau": "La DGA commande des missiles EXOCET MM40 Block B3c au profit de la Marine nationale Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-66d4cfd550f6",
+   "titre": "Catherine Vautrin, ministre des Armées et des Anciens combattants, lance le pacte drones navals de défense",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/catherine-vautrin-ministre-armees-anciens-combattants-lance-pacte-drones-navals-defense",
+   "chapeau": "Catherine Vautrin, ministre des Armées et des Anciens combattants, lance le pacte drones navals de défense Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-fbf9e5dbd121",
+   "titre": "La DGA commande un nouveau standard du missile de croisière naval (MdCN)",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/dga-commande-nouveau-standard-du-missile-croisiere-naval-mdcn",
+   "chapeau": "La DGA commande un nouveau standard du missile de croisière naval (MdCN) Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-ca681ec1db57",
+   "titre": "Signature d’un accord-cadre entre Chypre, la France et la Suède pour l’acquisition de missiles Akeron MP",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/signature-dun-accord-cadre-entre-chypre-france-suede-lacquisition-missiles-akeron-mp",
+   "chapeau": "Signature d’un accord-cadre entre Chypre, la France et la Suède pour l’acquisition de missiles Akeron MP Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-fc088dfa8006",
+   "titre": "Guerre des mines : les drones français pourront explorer les fonds jusqu’à 300 mètres",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-06",
+   "lien": "https://armees.com/guerre-mines-drones-slam-f-300-metres-novembre-2026/",
+   "chapeau": "Guerre des mines : les drones français pourront explorer les fonds jusqu’à 300 mètres Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-84033b917f07",
+   "titre": "Doublement des capacités de défense antiaérienne des frégates de défense et d’intervention (FDI)",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/doublement-capacites-defense-antiaerienne-fregates-defense-dintervention-fdi",
+   "chapeau": "Doublement des capacités de défense antiaérienne des frégates de défense et d’intervention (FDI) Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-b27a7c9477c3",
+   "titre": "Guerre des mines : la DGA commande une capacité hauturière au profit de la marine nationale",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/guerre-mines-dga-commande-capacite-hauturiere-au-profit-marine-nationale",
+   "chapeau": "Guerre des mines : la DGA commande une capacité hauturière au profit de la marine nationale Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-8344e628c511",
+   "titre": "L’Agence de l’innovation de défense à EURONAVAL 2026 : l’innovation au service de la supériorité navale",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/aid/actualites/lagence-linnovation-defense-euronaval-2026-linnovation-au-service-superiorite-navale",
+   "chapeau": "L’Agence de l’innovation de défense à EURONAVAL 2026 : l’innovation au service de la supériorité navale Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-927de9df9208",
+   "titre": "Red Air : le Commissariat des armées concrétise un marché stratégique inédit au service de l'entraînement des forces armées",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-06",
+   "lien": "https://www.defense.gouv.fr/commissariat/actualites/red-air-commissariat-armees-concretise-marche-strategique-inedit-au-service-lentrainement",
+   "chapeau": "Red Air : le Commissariat des armées concrétise un marché stratégique inédit au service de l'entraînement des forces armées Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-92e74244b53a",
+   "titre": "Quelle place pour la coopération internationale dans la stratégie de la DGA ?",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-05",
+   "lien": "https://www.defense.gouv.fr/actualites/quelle-place-cooperation-internationale-strategie-dga",
+   "chapeau": "Quelle place pour la coopération internationale dans la stratégie de la DGA ? Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "matériels défense programme armement France",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-63a29e0152d8",
+   "titre": "A Euronaval, Marine Le Pen plaide pour davantage de frégates dans la flotte française - LCP-Assemblée nationale",
+   "source": "LCP-Assemblée nationale",
+   "site": "https://lcp.fr",
+   "date": "2026-11-05",
+   "lien": "https://lcp.fr/actualites/a-euronaval-marine-le-pen-plaide-pour-davantage-de-fregates-dans-la-flotte-francaise",
+   "chapeau": "A Euronaval, Marine Le Pen plaide pour davantage de frégates dans la flotte française LCP-Assemblée nationale",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-776d2e987b30",
+   "titre": "Intrusions, cyberattaques, espionnage... Le secteur aérospatial sur le pied de guerre",
+   "source": "Air&Cosmos",
+   "site": "https://air-cosmos.latribune.fr",
+   "date": "2026-11-05",
+   "lien": "https://air-cosmos.latribune.fr/article/strategies/30835029309605/intrusions-cyberattaques-espionnage-le-secteur-aerospatial-sur-le-pied-de-guerre",
+   "chapeau": "Intrusions, cyberattaques, espionnage... Le secteur aérospatial sur le pied de guerre Air&Cosmos",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-f024cdde1ef2",
+   "titre": "La Commission verse aujourd’hui 4,36 milliards d'euros à l'Ukraine au titre du prêt de soutien de 90 milliards d'euros",
+   "source": "European Commission",
+   "site": "https://france.representation.ec.europa.eu",
+   "date": "2026-11-05",
+   "lien": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-commission-verse-aujourdhui-436-milliards-deuros-lukraine-au-titre-du-pret-de-soutien-de-90-2026-11-05_fr",
+   "chapeau": "La Commission verse aujourd’hui 4,36 milliards d'euros à l'Ukraine au titre du prêt de soutien de 90 milliards d'euros European Commission",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-ad452b78d721",
+   "titre": "Ukraine : Bpifrance et la Commission européenne préparent 480 millions d’euros d’interventions pour les industriels de la défense",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
+   "date": "2026-11-05",
+   "lien": "https://refrance.fr/ukraine-bpifrance-et-la-commission-europeenne-preparent-480-millions-deuros-dinterventions-pour-les-industriels-de-la-defense/",
+   "chapeau": "Ukraine : Bpifrance et la Commission européenne préparent 480 millions d’euros d’interventions pour les industriels de la défense Revue économique de France",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-b6cfb5dc0f00",
+   "titre": "La Direction générale de l’armement signe un accord pour la commande de missiles Exocet dernière génération",
+   "source": "Le marin",
+   "site": "https://lemarin.ouest-france.fr",
+   "date": "2026-11-05",
+   "lien": "https://lemarin.ouest-france.fr/defense/la-direction-generale-de-larmement-signe-un-accord-pour-la-commande-de-missiles-exocet-derniere-generation-e913ffac-d8f8-11f1-b736-5b9907ef0b5a",
+   "chapeau": "La Direction générale de l’armement signe un accord pour la commande de missiles Exocet dernière génération Le marin",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-6eb6f59bfac2",
+   "titre": "European Cyber Week 2026 : le COMCYBER au grand rendez-vous de la cyber en France",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-05",
+   "lien": "https://www.defense.gouv.fr/comcyber/actualites/european-cyber-week-2026-comcyber-au-grand-rendez-vous-cyber-france",
+   "chapeau": "European Cyber Week 2026 : le COMCYBER au grand rendez-vous de la cyber en France Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-9d32ddf40800",
+   "titre": "SLAM-F : vers une dronisation de la Marine nationale dans la guerre des mines",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-05",
+   "lien": "https://www.defense.gouv.fr/actualites/slam-f-dronisation-marine-nationale-guerre-mines",
+   "chapeau": "SLAM-F : vers une dronisation de la Marine nationale dans la guerre des mines Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-27416c70cdd2",
+   "titre": "L’ambition de l’Europe d’être prête militairement en 2030 jugée \"à risque\" par la Commission",
+   "source": "Yahoo Actualités",
+   "site": "https://fr.news.yahoo.com",
+   "date": "2026-11-04",
+   "lien": "https://fr.news.yahoo.com/l-ambition-l-europe-d-180534711.html",
+   "chapeau": "L’ambition de l’Europe d’être prête militairement en 2030 jugée \"à risque\" par la Commission Yahoo Actualités",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a6d43a987425",
+   "titre": "Où va l'argent de l'Union européenne en France ?",
+   "source": "Touteleurope.eu",
+   "site": "https://www.touteleurope.eu",
+   "date": "2026-11-04",
+   "lien": "https://www.touteleurope.eu/fonctionnement-de-l-ue/budget-ou-va-l-argent-de-l-union-europeenne-en-france/",
+   "chapeau": "Où va l'argent de l'Union européenne en France ? Touteleurope.eu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a88235562382",
+   "titre": "Forefront Concept, le troisième projet militaire de Renault qui ancre le constructeur auto dans l’industrie de défense",
+   "source": "Challenges",
+   "site": "https://www.challenges.fr",
+   "date": "2026-11-04",
+   "lien": "https://www.challenges.fr/entreprise/defense/forefront-concept-le-troisieme-projet-militaire-de-renault-qui-ancre-le-constructeur-auto-dans-lindustrie-de-defense_646819",
+   "chapeau": "Forefront Concept, le troisième projet militaire de Renault qui ancre le constructeur auto dans l’industrie de défense Challenges",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-91ac61b94fab",
+   "titre": "La Commission présente son programme de travail pour 2027 en faveur d’une Europe plus forte et souveraine",
+   "source": "france.representation.ec.europa.eu",
+   "site": "https://france.representation.ec.europa.eu",
+   "date": "2026-11-04",
+   "lien": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-commission-presente-son-programme-de-travail-pour-2027-en-faveur-dune-europe-plus-forte-et-2026-11-04_fr",
+   "chapeau": "La Commission présente son programme de travail pour 2027 en faveur d’une Europe plus forte et souveraine france.representation.ec.europa.eu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-5c28d21e301c",
+   "titre": "[TYPE] DGA",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-04",
+   "lien": "https://www.defense.gouv.fr/sites/default/files/dga/Informations%20minimales%20%C3%A0%20transmettre.pdf",
+   "chapeau": "[TYPE] DGA Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-334a2953f84f",
+   "titre": "Armement européen sur Arte : des milliards investis pour dissuader la Russie, mais pour quelle défense ?",
+   "source": "Serie News",
+   "site": "https://www.serie-news.com",
+   "date": "2026-11-03",
+   "lien": "https://www.serie-news.com/tnt/arte/61766-armement-europeen-sur-arte-des-milliards-investis-pour-dissuader-la-russie-mais-pour-quelle-defense-03-11-2026/",
+   "chapeau": "Armement européen sur Arte : des milliards investis pour dissuader la Russie, mais pour quelle défense ? Serie News",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-eeec18fe273e",
+   "titre": "Euronaval 2026 : thématiques, temps forts et informations pratiques",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-03",
+   "lien": "https://www.defense.gouv.fr/evenements/euronaval-2026-thematiques-temps-forts-informations-pratiques",
+   "chapeau": "Euronaval 2026 : thématiques, temps forts et informations pratiques Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-525f320d07f5",
+   "titre": "Royaume-Uni et Allemagne vont développer ensemble l'IA militaire",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-02",
+   "lien": "https://fr.euronews.com/2026/11/02/royaume-uni-et-allemagne-vont-developper-ensemble-lia-militaire",
+   "chapeau": "Royaume-Uni et Allemagne vont développer ensemble l'IA militaire Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  }
+ ],
+ "textes": [],
+ "jurisprudence": [
+  {
+   "id": "JA-TA-2603691-2026-11-04",
+   "juridiction": "Tribunal Administratif de Clermont-Ferrand",
+   "niveau": "TA",
+   "numero": "2603691",
+   "date_decision": "2026-11-04",
+   "date_mise_en_ligne": "2026-11-06",
+   "type": "Ordonnance",
+   "formation": "",
+   "publication_recueil": "D",
+   "ecli": "",
+   "criteres": [
+    "L2352-1 CCP",
+    "R2352-1 CCP",
+    "R2361-11 CCP",
+    "R2361-9 CCP",
+    "marchés de défense ou de sécurité"
+   ],
+   "debut": "Vu la procédure suivante : Par une requête et un mémoire, enregistrés les 6 et 29 octobre 2026, la société Heliswiss Iberica, représentée par Me Berkani, demande au juge des référés, saisi sur le fondement des dispositions de l’article L. 551-1 du code de justice administrative : 1°) de suspendre l’exécution des décisions des 28 septembre et 1er octobre 2026 rejetant son offre initiale et refusant de l’admettre à la négociation, ainsi que toute décision se rapportant à la poursuite des négociations et à l’attribution de l’accord-cadre ayant pour objet la réalisation de travaux aéronautiques de peinture, de joints d'étanchement, de nettoyage et de décapage sur aéronefs et éléments déposés d'aéronefs au profit de l’Atelier Industriel de l’Aéronautique de Clermont-Ferrand, de son détachement d'Évreux et ses antennes de Phalsbourg et Orléans ainsi que, ponctuellement, sur des matériels non aéronautiques et sur des sites du ministère des armées ; 2°) d’enjoindre à l’État de réintégrer son offre initiale dans la procédure de passation de l’accord-cadre et de l’admettre à la phase de négociation, qui doit reprendre depuis son commencement avec l’ensemble des soumissionnaires, dans un délai de cinq jours à compter de la notification de l’ordonnance à intervenir, sous astreinte de 1 000 euros par jour de retard ; 3°) de mettre à la charge de l’État la somme de 5 000 euros sur le fondement de l’article L. 761-1 du code de justice administrative, ainsi que les éventuels dépens de l’inst",
+   "passage": " • le tribunal administratif de Clermont-Ferrand est compétent territorialement ; • elle dispose d’un intérêt à agir en tant que candidate évincée de l’accord-cadre ; • son éviction avant la phase de négociation est irrégulière et constitue un manquement aux obligations de publicité et de mise en concurrence de l’acheteur : l’article R. 2361-11 du code de la commande publique prévoit que l’acheteur doit négocier avec tous les soumissionnaires ; l’article R. 2152-1 du même code prévoit pour les procédures avec négociation que les offres irrégulières ou inacceptables peuvent devenir régulières ou acceptables au cours de la négociation ; cette solution, transposable aux marchés de défense ou de",
+   "dispositif": "de au titre des frais exposés par elle et non compris dans les dépens. Dans les circonstances de l’espèce, et eu égard aux précisions apportées par la ministre des armées et des anciens combattants sur les frais induits par ce litige pour ses services, il y a lieu de mettre à la charge de la société Heliswiss Iberica la somme de 1 000 euros au titre de l’article L. 761-1 du code de justice administrative. O R D O N N E : Article 1er : La requête de la société Heliswiss Iberica est rejetée. Article 2 : La société Heliswiss Iberica versera la somme de 1 000 euros à l’État sur le fondement de l’article L. 761-1 du code de justice administrative. Article 3 : La présente ordonnance sera notifiée à la société Heliswiss Iberica, à la ministre des armées et des anciens combattants et à l’Atelier Industriel de l’Aéronautique de Clermont-Ferrand. Fait à Clermont-Ferrand, le 4 novembre 2026. Le juge des référés, C. Bertolo La République mande et ordonne à la ministre des armées et des anciens combattants en ce qui la concerne ou à tous commissaires de justice à ce requis, en ce qui concerne les voies de droit commun contre les parties privées de pourvoir à l’exécution de la présente décision.",
+   "lien": "https://opendata.justice-administrative.fr/"
+  }
+ ]
+}
