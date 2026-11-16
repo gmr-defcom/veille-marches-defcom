@@ -1,0 +1,638 @@
+{
+ "genere_le": "2026-11-16T05:48:10+00:00",
+ "periode": {
+  "du": "2026-11-09",
+  "au": "2026-11-16"
+ },
+ "sources": {
+  "Actualités (Google Actualités)": {
+   "statut": "ok",
+   "retenus": 45,
+   "deja_transmis": 19
+  },
+  "Journal officiel (DILA)": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 1,
+   "documents_lus": 1028
+  },
+  "Journal officiel de l'Union": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 5
+  },
+  "Justice administrative": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0,
+   "documents_lus": 54805
+  },
+  "Conseil constitutionnel": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  },
+  "Cour de justice et Tribunal de l'UE": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  }
+ },
+ "actualites": [
+  {
+   "id": "ACT-2ea26ad24024",
+   "titre": "Cette fois-ci la France ne pourra pas en vouloir à la Pologne d’acheter américain vu qu’il n’existe pas d’option européenne pour des missiles longue portée",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-15",
+   "lien": "https://www.forum-militaire.fr/cette-fois-ci-la-france-ne-pourra-pas-en-vouloir-a-la-pologne-dacheter-americain-vu-quil-nexiste-pas-doption-europeenne-pour-des-missiles-longue-portee/",
+   "chapeau": "Cette fois-ci la France ne pourra pas en vouloir à la Pologne d’acheter américain vu qu’il n’existe pas d’option européenne pour des missiles longue portée Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0a707574b615",
+   "titre": "Made in France : quand l’industrie s’invite dans la présidentielle",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-15",
+   "lien": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/40131389785882/made-in-france-quand-l-industrie-s-invite-dans-la-presidentielle",
+   "chapeau": "Made in France : quand l’industrie s’invite dans la présidentielle La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-9b6b820774b1",
+   "titre": "Réarmement européen : comment les échecs des programmes de défense profitent aux États-Unis - https://horticulture-abadie-pyrenees.com/",
+   "source": "https://horticulture-abadie-pyrenees.com/",
+   "site": "https://horticulture-abadie-pyrenees.com",
+   "date": "2026-11-15",
+   "lien": "https://horticulture-abadie-pyrenees.com/interviews/20260421-23",
+   "chapeau": "Réarmement européen : comment les échecs des programmes de défense profitent aux États-Unis https://horticulture-abadie-pyrenees.com/",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-34aeeaccb868",
+   "titre": "Propos centristes. France –Concevoir les choix publics, économiques et financiers à hauteur d’enfant / L’école et la lutte contre les violences sexuelles et sexistes sur mineurs / Protéger l’Ukraine, c’est protéger le France / Violences contre les journalistes / Ma",
+   "source": "Le Centrisme",
+   "site": "http://www.lecentrisme.com",
+   "date": "2026-11-15",
+   "lien": "http://www.lecentrisme.com/2026/11/propos-centristes-france-concevoir-les.html",
+   "chapeau": "Propos centristes. France –Concevoir les choix publics, économiques et financiers à hauteur d’enfant / L’école et la lutte contre les violences sexuelles et sexistes sur mineurs / Protéger l’Ukraine, c’est protéger le France / Violences contre les journalistes / Ma Le Centrisme",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-8abcbba60f39",
+   "titre": "L'achat pour la France de navires d'assaut CB90 soumis au parlement suédois",
+   "source": "Mer et Marine",
+   "site": "https://www.meretmarine.com",
+   "date": "2026-11-15",
+   "lien": "https://www.meretmarine.com/fr/defense/l-achat-pour-la-france-de-navires-d-assaut-cb90-soumis-au-parlement-suedois",
+   "chapeau": "L'achat pour la France de navires d'assaut CB90 soumis au parlement suédois Mer et Marine",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-11de2877aced",
+   "titre": "On sait combien de remorqueurs pousseurs serviront à Cherbourg pour les sous-marins nucléaires",
+   "source": "Actu.fr",
+   "site": "https://actu.fr",
+   "date": "2026-11-15",
+   "lien": "https://actu.fr/normandie/cherbourg-en-cotentin_50129/on-sait-combien-de-remorqueurs-pousseurs-serviront-a-cherbourg-pour-les-sous-marins-nucleaires_65039776.html",
+   "chapeau": "On sait combien de remorqueurs pousseurs serviront à Cherbourg pour les sous-marins nucléaires Actu.fr",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-ac24188e799b",
+   "titre": "L’Allemagne prévoit 16 A400M tactiques supplémentaires",
+   "source": "AeroMorning.com",
+   "site": "https://aeromorning.com",
+   "date": "2026-11-15",
+   "lien": "https://aeromorning.com/lallemagne-prevoit-16-a400m-tactiques-supplementaires/",
+   "chapeau": "L’Allemagne prévoit 16 A400M tactiques supplémentaires AeroMorning.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-3188b6f31716",
+   "titre": "Pour une politique étrangère et une défense véritablement européennes",
+   "source": "Le Taurillon",
+   "site": "https://www.taurillon.org",
+   "date": "2026-11-14",
+   "lien": "https://www.taurillon.org/pour-une-politique-etrangere-et-une-defense-veritablement-europeennes",
+   "chapeau": "Pour une politique étrangère et une défense véritablement européennes Le Taurillon",
+   "volet": "Presse",
+   "requetes": [
+    "BITDE base industrielle technologique de défense européenne"
+   ]
+  },
+  {
+   "id": "ACT-114453a0e0ae",
+   "titre": "Avec l’ACF, la France va développer seule son nouvel avion de combat pour la 3ème fois - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-14",
+   "lien": "https://meta-defense.fr/2026/11/14/acf-france-seule-3e-fois-scaf/",
+   "chapeau": "Avec l’ACF, la France va développer seule son nouvel avion de combat pour la 3ème fois Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-e4e97b4e52df",
+   "titre": "La France commande 12 vedettes à un chantier français, en reçoit deux, et c’est la Suède qui propose de fournir les vingt suivantes",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-14",
+   "lien": "https://www.forum-militaire.fr/la-france-commande-12-vedettes-a-un-chantier-francais-en-recoit-deux-et-cest-la-suede-qui-propose-de-fournir-les-vingt-suivantes/",
+   "chapeau": "La France commande 12 vedettes à un chantier français, en reçoit deux, et c’est la Suède qui propose de fournir les vingt suivantes Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-c30d07780c6d",
+   "titre": "EcoDef Études n°288, \"L'impact de la mobilité et de la disponibilité sur le revenu des conjoints de militaires de l'armée de Terre\", novembre 2026",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.defense.gouv.fr/ssm/actualites/ecodef-etudes-ndeg288-limpact-mobilite-disponibilite-revenu-conjoints-militaires-larmee-terre",
+   "chapeau": "EcoDef Études n°288, \"L'impact de la mobilité et de la disponibilité sur le revenu des conjoints de militaires de l'armée de Terre\", novembre 2026 Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-fb90fa52a8b7",
+   "titre": "Pourquoi Nexeya est en cessation de paiement au moment du boom des marchés de l'aéronautique et de défense",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/1402563434278414/pourquoi-nexeya-est-en-cessation-de-paiement-au-moment-du-boom-des-marches-de-laeronautique-et-de-defense",
+   "chapeau": "Pourquoi Nexeya est en cessation de paiement au moment du boom des marchés de l'aéronautique et de défense La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-01feebde4349",
+   "titre": "\"Nous avons besoin de beaucoup de drones\", les ministres de l'Armée et de l'Industrie inaugurent une usine de drones de renseignement près de Cahors",
+   "source": "Brut",
+   "site": "https://www.brut.media",
+   "date": "2026-11-13",
+   "lien": "https://www.brut.media/fr/articles/les-ministres-vautrin-et-martin-inaugurent-une-usine-de-drones-de-renseignement-pres-de-cahors",
+   "chapeau": "\"Nous avons besoin de beaucoup de drones\", les ministres de l'Armée et de l'Industrie inaugurent une usine de drones de renseignement près de Cahors Brut",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-bc44e23cbf7f",
+   "titre": "Candidat à la présidentielle française : quelle vision de l’Europe porte Raphaël Glucksmann ?",
+   "source": "Le Taurillon",
+   "site": "https://www.taurillon.org",
+   "date": "2026-11-13",
+   "lien": "https://www.taurillon.org/candidat-a-la-presidentielle-francaise-quelle-vision-de-l-europe-porte",
+   "chapeau": "Candidat à la présidentielle française : quelle vision de l’Europe porte Raphaël Glucksmann ? Le Taurillon",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-19b46ce82bd2",
+   "titre": "À Dublin, l’Europe se lance dans la bataille de l’IA et sa filière militaire",
+   "source": "L'Humanité",
+   "site": "https://www.humanite.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.humanite.fr/monde/dublin/a-dublin-leurope-se-lance-dans-la-bataille-de-lia-et-sa-filiere-militaire",
+   "chapeau": "À Dublin, l’Europe se lance dans la bataille de l’IA et sa filière militaire L'Humanité",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-eb73260b9d7b",
+   "titre": "La Pologne en passe de devenir la plus grande armée d’Europe",
+   "source": "Epoch Times",
+   "site": "https://www.epochtimes.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.epochtimes.fr/la-pologne-en-passe-de-devenir-la-plus-grande-armee-deurope-3392557.html",
+   "chapeau": "La Pologne en passe de devenir la plus grande armée d’Europe Epoch Times",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-b4f11eb4b278",
+   "titre": "Défense : Une usine de drones de renseignement pour l’armée française inaugurée près de Cahors",
+   "source": "20 Minutes",
+   "site": "https://www.20minutes.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.20minutes.fr/societe/4262749-20261113-defense-usine-drones-renseignement-armee-francaise-inauguree-pres-cahors",
+   "chapeau": "Défense : Une usine de drones de renseignement pour l’armée française inaugurée près de Cahors 20 Minutes",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-8cea075f45a7",
+   "titre": "La France va commander 20 vedettes rapides CB90 auprès de la Suède",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-13",
+   "lien": "https://www.opex360.com/2026/11/13/la-france-va-commander-20-vedettes-rapides-cb90-aupres-de-la-suede/",
+   "chapeau": "La France va commander 20 vedettes rapides CB90 auprès de la Suède Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-ae173bd8c30e",
+   "titre": "Des drones Vector de l’armée allemande ont brièvement été cloués au sol par une attaque informatique",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-13",
+   "lien": "https://www.opex360.com/2026/11/13/des-drones-vector-de-larmee-allemande-ont-brievement-ete-cloues-au-sol-par-une-attaque-informatique/",
+   "chapeau": "Des drones Vector de l’armée allemande ont brièvement été cloués au sol par une attaque informatique Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-97632781b155",
+   "titre": "Cahors Sud : TEKEVER inaugure son usine « modèle » et présente le 1er système AR3 destiné aux forces armées françaises",
+   "source": "Medialot",
+   "site": "https://medialot.fr",
+   "date": "2026-11-13",
+   "lien": "https://medialot.fr/cahors-sud-tekever-inaugure-son-usine-modele-et-presente-le-1er-systeme-ar3-destine-aux-forces-armees-francaises/",
+   "chapeau": "Cahors Sud : TEKEVER inaugure son usine « modèle » et présente le 1er système AR3 destiné aux forces armées françaises Medialot",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-329ee6c5e88e",
+   "titre": "« Nous sommes ici pour longtemps », l’usine Tekever de Cahors inaugurée en présence de deux ministres",
+   "source": "Actu.fr",
+   "site": "https://actu.fr",
+   "date": "2026-11-13",
+   "lien": "https://actu.fr/occitanie/cahors_46042/nous-sommes-ici-pour-longtemps-lusine-tekever-de-cahors-inauguree-en-presence-de-deux-ministres_65053375.html",
+   "chapeau": "« Nous sommes ici pour longtemps », l’usine Tekever de Cahors inaugurée en présence de deux ministres Actu.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f428a7478631",
+   "titre": "Ces blindés coréens vont garder les 65 kilomètres qui relient les pays baltes à l'Alliance, un passage que ne traverse aucune route",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.forum-militaire.fr/ces-blindes-coreens-vont-garder-les-65-kilometres-qui-relient-les-pays-baltes-a-lalliance-un-passage-que-ne-traverse-aucune-route/",
+   "chapeau": "Ces blindés coréens vont garder les 65 kilomètres qui relient les pays baltes à l'Alliance, un passage que ne traverse aucune route Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-5bb97f053acd",
+   "titre": "«Nos parpaings sont les logiciels et les technologies» : du digital à l’IA, ce groupe breton bâtit sa voie depuis 25 ans - Ouest-France",
+   "source": "Ouest-France",
+   "site": "https://www.ouest-france.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.ouest-france.fr/bretagne/rennes-35000/nos-parpaings-sont-les-logiciels-et-les-technologies-du-digital-a-lia-ce-groupe-breton-batit-sa-voie-depuis-25-ans-29ecdd46-db51-11f1-a45f-49114163a350",
+   "chapeau": "«Nos parpaings sont les logiciels et les technologies» : du digital à l’IA, ce groupe breton bâtit sa voie depuis 25 ans Ouest-France",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-96c83156cedb",
+   "titre": "France demande à l'UE d'étudier le non-respect de l'accord algérien",
+   "source": "Daily Beirut",
+   "site": "https://dailybeirut.com",
+   "date": "2026-11-13",
+   "lien": "https://dailybeirut.com/fr/monde/france-demande-commission-europeenne-etudier-non-respect-accord-partenariat-alge/",
+   "chapeau": "France demande à l'UE d'étudier le non-respect de l'accord algérien Daily Beirut",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0c0f6650d2d6",
+   "titre": "EDA tests drones in Switzerland to support troops in urban combat",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-13",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/11/13/eda-tests-drones-in-switzerland-to-support-troops-in-urban-combat",
+   "chapeau": "EDA tests drones in Switzerland to support troops in urban combat European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-277bbabf8afd",
+   "titre": "From advanced sensors to Next-Generation Communications: How the European Defence Fund helps the European defence industry develop critical technologies - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-13",
+   "lien": "https://defence-industry-space.ec.europa.eu/advanced-sensors-next-generation-communications-how-european-defence-fund-helps-european-defence-2026-11-13_en",
+   "chapeau": "From advanced sensors to Next-Generation Communications: How the European Defence Fund helps the European defence industry develop critical technologies https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-dc371a57686e",
+   "titre": "Learning from Ukraine: Resilience by Design - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-13",
+   "lien": "https://defence-industry-space.ec.europa.eu/learning-ukraine-resilience-design-2026-11-13_en",
+   "chapeau": "Learning from Ukraine: Resilience by Design https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-5b6316730cee",
+   "titre": "Comment l'attractivité des territoires et l'industrie de défense redessinent la ville de demain ?",
+   "source": "www.icade.fr",
+   "site": "https://www.icade.fr",
+   "date": "2026-11-12",
+   "lien": "https://www.icade.fr/blog/les-articles/amenagement/attractivite-territoires-exemple-secteur-defense",
+   "chapeau": "Comment l'attractivité des territoires et l'industrie de défense redessinent la ville de demain ? www.icade.fr",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-600f396903e1",
+   "titre": "L’expansion de la \"K-Defense\" sur le théâtre européen : entre réarmement du continent et recompositions des équilibres industriels",
+   "source": "Fondation pour la Recherche Stratégique",
+   "site": "https://www.frstrategie.org",
+   "date": "2026-11-12",
+   "lien": "https://www.frstrategie.org/programmes/programme-coree-sur-securite-diplomatie/expansion-k-defense-sur-theatre-europeen-entre-rearmement-continent-recompositions-equilibres-industriels-2026",
+   "chapeau": "L’expansion de la \"K-Defense\" sur le théâtre européen : entre réarmement du continent et recompositions des équilibres industriels Fondation pour la Recherche Stratégique",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-2220e17e9c50",
+   "titre": "LFI et l’OTAN, la sortie qui pourrait affaiblir la crédibilité européenne de la France",
+   "source": "Atlantico",
+   "site": "https://atlantico.fr",
+   "date": "2026-11-12",
+   "lien": "https://atlantico.fr/article/decryptage/pulsions-de-rupture-avec-otan-ces-4-dangers-auquel-lfi-exposerait-la-france-avec-son-programme-olivier-passot-tsiporah-fried",
+   "chapeau": "LFI et l’OTAN, la sortie qui pourrait affaiblir la crédibilité européenne de la France Atlantico",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-b330fa989b23",
+   "titre": "Cet acteur de la défense européen ne cesse de grimper dans la hiérarchie du Vieux Continent au point d'en occuper la 8e place en 2026 : CSG",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-12",
+   "lien": "https://www.forum-militaire.fr/cet-acteur-de-la-defense-europeen-ne-cesse-de-grimper-dans-la-hierarchie-du-vieux-continent-au-point-den-occuper-la-8e-place-en-2026/",
+   "chapeau": "Cet acteur de la défense européen ne cesse de grimper dans la hiérarchie du Vieux Continent au point d'en occuper la 8e place en 2026 : CSG Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-e5dc9abfdf19",
+   "titre": "La tension monte dans l’industrie allemande",
+   "source": "Le Revenu",
+   "site": "https://www.lerevenu.com",
+   "date": "2026-11-12",
+   "lien": "https://www.lerevenu.com/actualite-economique/actualite-europe/la-tension-monte-dans-l-industrie-allemande/",
+   "chapeau": "La tension monte dans l’industrie allemande Le Revenu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-67b30be558fe",
+   "titre": "De Abu Dhabi à Dublin via Moscou: pourparlers de paix et querelle sur qui parle pour l’Europe",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-12",
+   "lien": "https://fr.euronews.com/2026/11/12/de-abu-dhabi-a-dublin-via-moscou-pourparlers-de-paix-et-querelle-sur-qui-parle-pour-leurop",
+   "chapeau": "De Abu Dhabi à Dublin via Moscou: pourparlers de paix et querelle sur qui parle pour l’Europe Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-9894d03d9634",
+   "titre": "SUPER ICE : comment les missiles israéliens prennent de vitesse l’industrie européenne - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-12",
+   "lien": "https://meta-defense.fr/2026/11/12/super-ice-missile-croisiere-israelien/",
+   "chapeau": "SUPER ICE : comment les missiles israéliens prennent de vitesse l’industrie européenne Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-323d084f0876",
+   "titre": "La FDI de plus en plus versatile et désormais proposée dans une version allongée",
+   "source": "Mer et Marine",
+   "site": "https://www.meretmarine.com",
+   "date": "2026-11-12",
+   "lien": "https://www.meretmarine.com/fr/defense/la-fdi-de-plus-en-plus-versatile-et-desormais-proposee-dans-une-version-allongee",
+   "chapeau": "La FDI de plus en plus versatile et désormais proposée dans une version allongée Mer et Marine",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-852ef6b72d1d",
+   "titre": "EDA Chief Executive visits Slovenia, signs UAS training programme",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-12",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/11/12/eda-chief-executive-visits-slovenia--signs-uas-training-programme",
+   "chapeau": "EDA Chief Executive visits Slovenia, signs UAS training programme European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-bf160a9e4f0c",
+   "titre": "À Toulon, l’université formalise sa double vocation civile et de défense",
+   "source": "Mer et Marine",
+   "site": "https://www.meretmarine.com",
+   "date": "2026-11-11",
+   "lien": "https://www.meretmarine.com/fr/formation-et-emploi/a-toulon-l-universite-formalise-sa-double-vocation-civile-et-de-defense",
+   "chapeau": "À Toulon, l’université formalise sa double vocation civile et de défense Mer et Marine",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-679331bf7abc",
+   "titre": "Rencontres de l'innovation Défense au Palais du Commerce et de la Mer de Toulon",
+   "source": "jds.fr",
+   "site": "https://www.jds.fr",
+   "date": "2026-11-10",
+   "lien": "https://www.jds.fr/toulon/manifestations/conferences/rencontres-de-l-innovation-defense-au-palais-du-commerce-et-de-la-mer-de-toulon-1835387_A",
+   "chapeau": "Rencontres de l'innovation Défense au Palais du Commerce et de la Mer de Toulon jds.fr",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-f586440e2c46",
+   "titre": "Réarmement européen : Hensoldt et Rheinmetall préparent-ils une surcapacité industrielle après 2035 ? - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-10",
+   "lien": "https://meta-defense.fr/2026/11/10/hensoldt-risque-surcapacites-2035/",
+   "chapeau": "Réarmement européen : Hensoldt et Rheinmetall préparent-ils une surcapacité industrielle après 2035 ? Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-1ec5393c86a6",
+   "titre": "Pour une montée en puissance de la production industrielle de défense | OTAN Sujet",
+   "source": "North Atlantic Treaty Organization | NATO",
+   "site": "https://www.nato.int",
+   "date": "2026-11-10",
+   "lien": "https://www.nato.int/fr/what-we-do/deterrence-and-defence/natos-role-in-defence-industry-production",
+   "chapeau": "Pour une montée en puissance de la production industrielle de défense | OTAN Sujet North Atlantic Treaty Organization | NATO",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-3ae04c0a8222",
+   "titre": "Défense. ArmorCheck lève 1M€ pour industrialiser son innovation",
+   "source": "Bretagne Économique",
+   "site": "https://www.bretagne-economique.com",
+   "date": "2026-11-10",
+   "lien": "https://www.bretagne-economique.com/actualites/defense-armorcheck-leve-1me-pour-industrialiser-son-innovation/",
+   "chapeau": "Défense. ArmorCheck lève 1M€ pour industrialiser son innovation Bretagne Économique",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-1303507b157a",
+   "titre": "Satellites militaires Iris : la DGA confie la réalisation à Airbus et Thales Alenia Space, mise en service du premier visée en 2033",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
+   "date": "2026-11-10",
+   "lien": "https://refrance.fr/satellites-militaires-iris-la-dga-confie-la-realisation-a-airbus-et-thales-alenia-space-mise-en-service-du-premier-visee-en-2033/",
+   "chapeau": "Satellites militaires Iris : la DGA confie la réalisation à Airbus et Thales Alenia Space, mise en service du premier visée en 2033 Revue économique de France",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-c754d6f553a9",
+   "titre": "Pacte drones, commandes, innovations : bilan très positif pour Euronaval 2026",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-09",
+   "lien": "https://www.defense.gouv.fr/actualites/pacte-drones-commandes-innovations-bilan-tres-positif-euronaval-2026",
+   "chapeau": "Pacte drones, commandes, innovations : bilan très positif pour Euronaval 2026 Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-dd835b860f3e",
+   "titre": "Airbus, Leonardo et BAE Systems portés par une commande de la DGA",
+   "source": "Boursorama",
+   "site": "https://www.boursorama.com",
+   "date": "2026-11-09",
+   "lien": "https://www.boursorama.com/bourse/actualites-amp/airbus-leonardo-et-bae-systems-portes-par-une-commande-de-la-dga-29792692d55f7420cc6b9e621c00c1d1",
+   "chapeau": "Airbus, Leonardo et BAE Systems portés par une commande de la DGA Boursorama",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-238c0c3c5765",
+   "titre": "« Avoir un diplôme ne suffit plus » : la défense renouvelle ses modes de recrutement - Ouest-France",
+   "source": "Ouest-France",
+   "site": "https://www.ouest-france.fr",
+   "date": "2026-11-09",
+   "lien": "https://www.ouest-france.fr/mer/avoir-un-diplome-ne-suffit-plus-la-defense-renouvelle-ses-modes-de-recrutement-e1b85ece-dc18-11f1-a45f-49114163a350",
+   "chapeau": "« Avoir un diplôme ne suffit plus » : la défense renouvelle ses modes de recrutement Ouest-France",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  }
+ ],
+ "textes": [],
+ "jurisprudence": []
+}
