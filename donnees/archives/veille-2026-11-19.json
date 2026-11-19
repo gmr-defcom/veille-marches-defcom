@@ -1,0 +1,872 @@
+{
+ "genere_le": "2026-11-19T13:41:57+00:00",
+ "periode": {
+  "du": "2026-11-12",
+  "au": "2026-11-19"
+ },
+ "sources": {
+  "Actualités (Google Actualités)": {
+   "statut": "ok",
+   "retenus": 62,
+   "deja_transmis": 14
+  },
+  "Journal officiel (DILA)": {
+   "statut": "ok",
+   "retenus": 1,
+   "deja_transmis": 0,
+   "documents_lus": 1187
+  },
+  "Journal officiel de l'Union": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 5
+  },
+  "Justice administrative": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0,
+   "documents_lus": 57738
+  },
+  "Conseil constitutionnel": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  },
+  "Cour de justice et Tribunal de l'UE": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  }
+ },
+ "actualites": [
+  {
+   "id": "ACT-cf20c3fc597d",
+   "titre": "Premier point d’étape de la feuille de route André Jubelin pour le développement de l’industrie de la défense dans le Var",
+   "source": "www.lamarseillaise.fr",
+   "site": "https://www.lamarseillaise.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.lamarseillaise.fr/societe/les-premieres-retombees-de-la-feuille-de-route-pour-la-defense-DI20934632",
+   "chapeau": "Premier point d’étape de la feuille de route André Jubelin pour le développement de l’industrie de la défense dans le Var www.lamarseillaise.fr",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-2428bd3cd630",
+   "titre": "25 ans d'armement : l'OCCAR, pilier de la défense européenne",
+   "source": "Presse Agence",
+   "site": "https://presseagence.fr",
+   "date": "2026-11-19",
+   "lien": "https://presseagence.fr/paris-defense-europeenne-loccar-celebre-25-ans-de-cooperation-en-matiere-darmement/",
+   "chapeau": "25 ans d'armement : l'OCCAR, pilier de la défense européenne Presse Agence",
+   "volet": "Presse",
+   "requetes": [
+    "BITDE base industrielle technologique de défense européenne"
+   ]
+  },
+  {
+   "id": "ACT-7b9ddb9efe95",
+   "titre": "Réarmement européen : la bataille boursière se gagnera au deuxième rang",
+   "source": "Boursorama",
+   "site": "https://www.boursorama.com",
+   "date": "2026-11-19",
+   "lien": "https://www.boursorama.com/bourse/actualites-amp/rearmement-europeen-la-bataille-boursiere-se-gagnera-au-deuxieme-rang-1358380890d72d36b8cd2e4079a9d5df",
+   "chapeau": "Réarmement européen : la bataille boursière se gagnera au deuxième rang Boursorama",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-ad655f553423",
+   "titre": "La Turquie réhausse son statut dans l'industrie de défense de l'Otan",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-19",
+   "lien": "https://www.france24.com/fr/info-en-continu/20261119-la-turquie-r%C3%A9hausse-son-statut-dans-l-industrie-de-d%C3%A9fense-de-l-otan",
+   "chapeau": "La Turquie réhausse son statut dans l'industrie de défense de l'Otan France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4a0e4eaa40cb",
+   "titre": "L'UE s'accorde sur huit domaines de coopération en matière de défense",
+   "source": "Nordic Defence Sector",
+   "site": "https://nordicdefencesector.com",
+   "date": "2026-11-19",
+   "lien": "https://nordicdefencesector.com/fr/article/eu-agrees-on-eight-areas-for-defence-cooperation",
+   "chapeau": "L'UE s'accorde sur huit domaines de coopération en matière de défense Nordic Defence Sector",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-710ef06f8273",
+   "titre": "Un investissement stratégique à 227 millions d’euros : le premier centre européen de maintenance des Patriot va s’installer en Pologne",
+   "source": "Challenges",
+   "site": "https://www.challenges.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.challenges.fr/entreprise/defense/un-investissement-strategique-a-227-millions-deuros-le-premier-centre-europeen-de-maintenance-des-patriot-va-sinstaller-en-pologne_647062",
+   "chapeau": "Un investissement stratégique à 227 millions d’euros : le premier centre européen de maintenance des Patriot va s’installer en Pologne Challenges",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-aaf1877d1e50",
+   "titre": "Qui est Fire Point, l'entreprise ukrainienne dont les drones et missiles ont joué un rôle dans l'attaque contre le pont de Crimée",
+   "source": "franceinfo",
+   "site": "https://www.franceinfo.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/qui-est-fire-point-l-entreprise-ukrainienne-dont-les-drones-et-missiles-ont-joue-un-role-dans-l-attaque-contre-le-pont-de-crimee_8287982.html",
+   "chapeau": "Qui est Fire Point, l'entreprise ukrainienne dont les drones et missiles ont joué un rôle dans l'attaque contre le pont de Crimée franceinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1366eefd07f6",
+   "titre": "En Allemagne, la crise automobile pousse les équipementiers vers la défense",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-19",
+   "lien": "https://www.france24.com/fr/info-en-continu/20261119-en-allemagne-la-crise-automobile-pousse-les-%C3%A9quipementiers-vers-la-d%C3%A9fense",
+   "chapeau": "En Allemagne, la crise automobile pousse les équipementiers vers la défense France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2c30c5649a19",
+   "titre": "France-Israël : l'urgence d'un réalisme d'Etat, chronique d'Arié Bensemhoun",
+   "source": "RadioJ",
+   "site": "https://radioj.media-j.com",
+   "date": "2026-11-19",
+   "lien": "https://radioj.media-j.com/article/75041/france-israel-lurgence-dun-realisme-detat-chronique-darie-bensemhoun",
+   "chapeau": "France-Israël : l'urgence d'un réalisme d'Etat, chronique d'Arié Bensemhoun RadioJ",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2c83d086bd8a",
+   "titre": "Le ministère des Armées a commandé 72 000 fusils d’assaut HK416F supplémentaires auprès d’Heckler & Koch",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-19",
+   "lien": "https://www.opex360.com/2026/11/19/le-ministere-des-armees-a-commande-72-000-fusils-dassaut-hk416f-supplementaires-aupres-dheckler-koch/",
+   "chapeau": "Le ministère des Armées a commandé 72 000 fusils d’assaut HK416F supplémentaires auprès d’Heckler & Koch Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "DGA appel offres marché programme"
+   ]
+  },
+  {
+   "id": "ACT-b035b3e1407c",
+   "titre": "Cartographie des formations de Défense, détection de foncier pour les entreprises et accompagnement des recrutements : la feuille de route Jubelin déroulée - Nice-Matin",
+   "source": "Nice-Matin",
+   "site": "https://www.nicematin.com",
+   "date": "2026-11-18",
+   "lien": "https://www.nicematin.com/societe/defense/cartographie-des-formations-de-defense-detection-de-foncier-pour-les-entreprises-et-accompagnement-des-recrutements-la-feuille-de-route-jubelin-deroulee-10763243",
+   "chapeau": "Cartographie des formations de Défense, détection de foncier pour les entreprises et accompagnement des recrutements : la feuille de route Jubelin déroulée Nice-Matin",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-874caedb93ff",
+   "titre": "Réarmement : le Sénat ouvre une mission d’information sur les PME de la défense",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
+   "date": "2026-11-18",
+   "lien": "https://refrance.fr/rearmement-le-senat-ouvre-une-mission-dinformation-sur-les-pme-de-la-defense/",
+   "chapeau": "Réarmement : le Sénat ouvre une mission d’information sur les PME de la défense Revue économique de France",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-fec8546a943d",
+   "titre": "L'Occar fête ses 25 ans : des systèmes d’armes « combat proven » au service de la souveraineté et de la défense européenne",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/loccar-fete-ses-25-ans-systemes-darmes-combat-proven-au-service-souverainete-defense-europeenne",
+   "chapeau": "L'Occar fête ses 25 ans : des systèmes d’armes « combat proven » au service de la souveraineté et de la défense européenne Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "BITDE base industrielle technologique de défense européenne",
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-1e56f1dc9d23",
+   "titre": "La Bulgarie commande 57 canons Caesar à KNDS France pour 3,27 milliards",
+   "source": "Enderi",
+   "site": "https://enderi.fr",
+   "date": "2026-11-18",
+   "lien": "https://enderi.fr/la-bulgarie-commande-57-canons-caesar-a-knds-france-pour-327-milliards/",
+   "chapeau": "La Bulgarie commande 57 canons Caesar à KNDS France pour 3,27 milliards Enderi",
+   "volet": "Presse",
+   "requetes": [
+    "BITDE base industrielle technologique de défense européenne",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-8ce2b392b8a3",
+   "titre": "Une Note de la FRS sur l’expansion de la « K-Defense » sur le théâtre européen",
+   "source": "Lignes de défense",
+   "site": "https://lignesdedefense.ouest-france.fr",
+   "date": "2026-11-18",
+   "lien": "https://lignesdedefense.ouest-france.fr/une-note-de-la-frs-sur-lexpansion-de-la-k-defense-sur-le-theatre-europeen/",
+   "chapeau": "Une Note de la FRS sur l’expansion de la « K-Defense » sur le théâtre européen Lignes de défense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-27457b9585de",
+   "titre": "Sommet UE-Royaume-Uni à Bruxelles : un projet révèle les limites du rapprochement post-Brexit",
+   "source": "Yahoo Actualités",
+   "site": "https://fr.news.yahoo.com",
+   "date": "2026-11-18",
+   "lien": "https://fr.news.yahoo.com/sommet-ue-royaume-uni-%C3%A0-131154117.html",
+   "chapeau": "Sommet UE-Royaume-Uni à Bruxelles : un projet révèle les limites du rapprochement post-Brexit Yahoo Actualités",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f8e3c0d6aa31",
+   "titre": "La France détient un maillon absolument vital à toute la chaîne américaine de missiles Patriot avec la seule usine produisant ce tissu complexe : le Raycarb C2®B",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.forum-militaire.fr/la-france-detient-un-maillon-absolument-vital-a-toute-la-chaine-americaine-de-missiles-patriot-avec-la-seule-usine-produisant-ce-tissu-complexe-le-raycarb-c2b/",
+   "chapeau": "La France détient un maillon absolument vital à toute la chaîne américaine de missiles Patriot avec la seule usine produisant ce tissu complexe : le Raycarb C2®B Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-12d99da04d81",
+   "titre": "Dans le Radar du Diploweb. Octobre 2026",
+   "source": "Diploweb.com",
+   "site": "https://www.diploweb.com",
+   "date": "2026-11-18",
+   "lien": "https://www.diploweb.com/Dans-le-Radar-du-Diploweb-Octobre-2026.html",
+   "chapeau": "Dans le Radar du Diploweb. Octobre 2026 Diploweb.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-cda41d4d86af",
+   "titre": "Missiles, défense antiaérienne, cloud : huit coopérations militaires retenues par l’Europe",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-18",
+   "lien": "https://armees.com/agence-europeenne-defense-card-2026-huit-cooperations-missiles-cloud/",
+   "chapeau": "Missiles, défense antiaérienne, cloud : huit coopérations militaires retenues par l’Europe Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-ba2b4d998c91",
+   "titre": "OTAN, défense, euro : l’Europe peut-elle encore décider de son propre destin ?",
+   "source": "AgoraVox le média citoyen",
+   "site": "https://www.agoravox.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.agoravox.fr/tribune-libre/article/otan-defense-euro-l-europe-peut-273766",
+   "chapeau": "OTAN, défense, euro : l’Europe peut-elle encore décider de son propre destin ? AgoraVox le média citoyen",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-9565289f9995",
+   "titre": "La ministre des armées et des anciens combattants inaugure l’usine de Tekever à Cahors",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/ministre-armees-anciens-combattants-inaugure-lusine-tekever-cahors",
+   "chapeau": "La ministre des armées et des anciens combattants inaugure l’usine de Tekever à Cahors Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-37d9eb0ba24b",
+   "titre": "La France confirme son soutien au projet HYDIS",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/france-confirme-son-soutien-au-projet-hydis",
+   "chapeau": "La France confirme son soutien au projet HYDIS Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-f0a88ec91730",
+   "titre": "6 ans de retard pour livrer le premier appareil, puis l'abandon : la France remplace son drone national par un modèle livrable en trois mois",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.forum-militaire.fr/6-ans-de-retard-pour-livrer-le-premier-appareil-puis-labandon-la-france-remplace-son-drone-national-par-un-modele-livrable-en-trois-mois/",
+   "chapeau": "6 ans de retard pour livrer le premier appareil, puis l'abandon : la France remplace son drone national par un modèle livrable en trois mois Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-59a2ef908768",
+   "titre": "Armée française : 72 000 nouveaux fusils HK416F commandés",
+   "source": "Presse Agence",
+   "site": "https://presseagence.fr",
+   "date": "2026-11-18",
+   "lien": "https://presseagence.fr/paris-defense-72-000-fusils-dassaut-hk416f-supplementaires-pour-larmee-francaise/",
+   "chapeau": "Armée française : 72 000 nouveaux fusils HK416F commandés Presse Agence",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-5da88e885323",
+   "titre": "KNDS : la Bulgarie commande 57 Caesar et double sa portée d’artillerie",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-18",
+   "lien": "https://armees.com/caesar-155mm-bulgarie-portee-contre-batterie-otan/",
+   "chapeau": "KNDS : la Bulgarie commande 57 Caesar et double sa portée d’artillerie Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-a55d6cf5e8d4",
+   "titre": "Catherine Vautrin inaugure l’usine de Tekever de Cahors, symbole de la souveraineté industrielle européenne",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.defense.gouv.fr/actualites/catherine-vautrin-inaugure-lusine-tekever-cahors-symbole-souverainete-industrielle-europeenne",
+   "chapeau": "Catherine Vautrin inaugure l’usine de Tekever de Cahors, symbole de la souveraineté industrielle européenne Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-55f3b94c75d6",
+   "titre": "European Cyber Week : \" Dans le cyberespace, 2027 sera certainement l’année des ruptures technologiques et de ruptures conventionnelles majeures» (GDA Emmanuel Naëgelen, COMCYBER)",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.defense.gouv.fr/comcyber/actualites/european-cyber-week-cyberespace-2027-sera-certainement-lannee-ruptures-technologiques-ruptures",
+   "chapeau": "European Cyber Week : \" Dans le cyberespace, 2027 sera certainement l’année des ruptures technologiques et de ruptures conventionnelles majeures» (GDA Emmanuel Naëgelen, COMCYBER) Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-644825b71eeb",
+   "titre": "Six Member States plan joint CBRN surveillance procurement through EDA",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-18",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/11/18/six-member-states-plan-joint-cbrn-surveillance-procurement-through-eda",
+   "chapeau": "Six Member States plan joint CBRN surveillance procurement through EDA European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-e9b312d156cb",
+   "titre": "EDA to launch knowledge-sharing platform for sustainable energy by end-2026",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-18",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/11/18/eda-to-launch-knowledge-sharing-platform-for-sustainable-energy-by-end-2026",
+   "chapeau": "EDA to launch knowledge-sharing platform for sustainable energy by end-2026 European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-23acd9de034f",
+   "titre": "EDF D-STORM project launches first open call for cascade funding - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-18",
+   "lien": "https://defence-industry-space.ec.europa.eu/edf-d-storm-project-launches-first-open-call-cascade-funding-2026-11-18_en",
+   "chapeau": "EDF D-STORM project launches first open call for cascade funding https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-e902eba985b7",
+   "titre": "Transparence salariale et PME dans l’économie de la défense : la délégation aux entreprises lance deux nouvelles missions d’information",
+   "source": "Sénat",
+   "site": "https://www.senat.fr",
+   "date": "2026-11-17",
+   "lien": "https://www.senat.fr/salle-de-presse/communiques-de-presse/presse/17-11-2026/transparence-salariale-et-pme-dans-leconomie-de-la-defense-la-dae-lance-deux-missions-dinformation.html",
+   "chapeau": "Transparence salariale et PME dans l’économie de la défense : la délégation aux entreprises lance deux nouvelles missions d’information Sénat",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-9853bc4d2b8b",
+   "titre": "La France réaffirme son soutien au projet européen HYDIS², dédié à la défense contre les missiles hypersoniques",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-17",
+   "lien": "https://www.opex360.com/2026/11/17/la-france-reaffirme-son-soutien-au-projet-europeen-hydis%C2%B2-dedie-a-la-defense-contre-les-missiles-hypersoniques/",
+   "chapeau": "La France réaffirme son soutien au projet européen HYDIS², dédié à la défense contre les missiles hypersoniques Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-93972d0d5ddc",
+   "titre": "Pourquoi l’Europe veut se débarrasser de Palantir d’ici 2028",
+   "source": "Enderi",
+   "site": "https://enderi.fr",
+   "date": "2026-11-17",
+   "lien": "https://enderi.fr/pourquoi-leurope-veut-se-debarrasser-de-palantir-dici-2028/",
+   "chapeau": "Pourquoi l’Europe veut se débarrasser de Palantir d’ici 2028 Enderi",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-38aae1282a80",
+   "titre": "Les métiers de la défense et de l'industrie recrutent : 300 postes à pourvoir dans les Hautes-Pyrénées",
+   "source": "NRPyrenees.fr",
+   "site": "https://www.nrpyrenees.fr",
+   "date": "2026-11-17",
+   "lien": "https://www.nrpyrenees.fr/2026/11/17/les-metiers-de-la-defense-et-de-lindustrie-recrutent-300-postes-a-pourvoir-dans-les-hautes-pyrenees-13657221.php",
+   "chapeau": "Les métiers de la défense et de l'industrie recrutent : 300 postes à pourvoir dans les Hautes-Pyrénées NRPyrenees.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2f4c9f70c7ce",
+   "titre": "L'industrie européenne peine toujours à retrouver son élan",
+   "source": "Le Revenu",
+   "site": "https://www.lerevenu.com",
+   "date": "2026-11-17",
+   "lien": "https://www.lerevenu.com/actualite-economique/actualite-europe/l-industrie-europeenne-peine-toujours-a-retrouver-/",
+   "chapeau": "L'industrie européenne peine toujours à retrouver son élan Le Revenu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-8b866e8ee293",
+   "titre": "Artillerie : La Bulgarie confirme son intention d’acquérir 57 CAESAr auprès de la France",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-17",
+   "lien": "https://www.opex360.com/2026/11/17/artillerie-la-bulgarie-confirme-son-intention-dacquerir-57-caesar-aupres-de-la-france/",
+   "chapeau": "Artillerie : La Bulgarie confirme son intention d’acquérir 57 CAESAr auprès de la France Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-8cce17adab77",
+   "titre": "Terres rares, défense... En Malaisie, Emmanuel Macron scelle un \"partenariat stratégique\"",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-17",
+   "lien": "https://www.france24.com/fr/asie-pacifique/20261117-d%C3%A9fense-terres-rares-emmanuel-macron-annonce-un-partenariat-strat%C3%A9gique-avec-la-malaisie",
+   "chapeau": "Terres rares, défense... En Malaisie, Emmanuel Macron scelle un \"partenariat stratégique\" France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2d468937604c",
+   "titre": "Le prochain budget de l’UE pourrait changer la donne pour l’industrie de la défense, estime le patron de Patria",
+   "source": "Mezha.net",
+   "site": "https://mezha.net",
+   "date": "2026-11-17",
+   "lien": "https://mezha.net/fr/news/mezha-7a9c0d7474495420af6bfe12_le-prochain-budget-de-l-ue/",
+   "chapeau": "Le prochain budget de l’UE pourrait changer la donne pour l’industrie de la défense, estime le patron de Patria Mezha.net",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-891f5328a9af",
+   "titre": "Avec le Comac CE-25A, la Chine tient la corde dans la course au premier avion électrique commercial",
+   "source": "Les Echos",
+   "site": "https://www.lesechos.fr",
+   "date": "2026-11-17",
+   "lien": "https://www.lesechos.fr/industrie-services/air-defense/avec-le-comac-ce-25a-la-chine-tient-la-corde-dans-la-course-au-premier-avion-electrique-commercial-2263049",
+   "chapeau": "Avec le Comac CE-25A, la Chine tient la corde dans la course au premier avion électrique commercial Les Echos",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-6962e8023bb4",
+   "titre": "Drones intercepteurs : la DGA accélère les acquisitions, entre expérimentations et premiers déploiements",
+   "source": "Mer et Marine",
+   "site": "https://www.meretmarine.com",
+   "date": "2026-11-17",
+   "lien": "https://www.meretmarine.com/fr/defense/drones-intercepteurs-la-dga-accelere-les-acquisitions-entre-experimentations-et-premiers",
+   "chapeau": "Drones intercepteurs : la DGA accélère les acquisitions, entre expérimentations et premiers déploiements Mer et Marine",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-3cfbe8370dc5",
+   "titre": "La Suède, le Royaume-Uni et l'Ukraine signent un accord sur la fourniture d'armements pour le Gripen",
+   "source": "Nordic Defence Sector",
+   "site": "https://nordicdefencesector.com",
+   "date": "2026-11-17",
+   "lien": "https://nordicdefencesector.com/fr/article/sweden-uk-and-ukraine-sign-agreement-on-gripen-weapons-supply",
+   "chapeau": "La Suède, le Royaume-Uni et l'Ukraine signent un accord sur la fourniture d'armements pour le Gripen Nordic Defence Sector",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-d3e8c5414221",
+   "titre": "Défense européenne : huit pistes communes, du cloud militaire à l’alerte spatiale",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-17",
+   "lien": "https://armees.com/defense-europeenne-card-2026-huit-cooperations-cloud-alerte-spatiale/",
+   "chapeau": "Défense européenne : huit pistes communes, du cloud militaire à l’alerte spatiale Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-c75f44d2b0f1",
+   "titre": "La Bulgarie prévoit l’achat de 57 canons Caesar français",
+   "source": "Le Journal des Français",
+   "site": "https://lejdf.fr",
+   "date": "2026-11-17",
+   "lien": "https://lejdf.fr/la-bulgarie-prevoit-l-achat-de-57-canons-caesar-francais-e76766/",
+   "chapeau": "La Bulgarie prévoit l’achat de 57 canons Caesar français Le Journal des Français",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-266c8b298f97",
+   "titre": "Bamako, nouveau terrain de la lutte d’influence, ou pourquoi le commandant de l’AFRICOM s’est rendu au salon de l’armement au Mali",
+   "source": "maliweb",
+   "site": "https://www.maliweb.net",
+   "date": "2026-11-17",
+   "lien": "https://www.maliweb.net/armee/bamako-nouveau-terrain-de-la-lutte-dinfluence-ou-pourquoi-le-3121586.html",
+   "chapeau": "Bamako, nouveau terrain de la lutte d’influence, ou pourquoi le commandant de l’AFRICOM s’est rendu au salon de l’armement au Mali maliweb",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-0e17614ba0eb",
+   "titre": "Catherine Vautrin à la rencontre des appelés du service national au 126e RI de Brive",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-17",
+   "lien": "https://www.defense.gouv.fr/actualites/catherine-vautrin-rencontre-appeles-du-service-national-au-126e-ri-brive",
+   "chapeau": "Catherine Vautrin à la rencontre des appelés du service national au 126e RI de Brive Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-e5545aa29f5f",
+   "titre": "EU Ministers endorse eight collaborative opportunities, from cruise missiles to a secure defence cloud",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-17",
+   "lien": "https://eda.europa.eu/news-and-events/news/2026/11/17/2026-defence-review--eu-ministers-endorse-eight-collaborative-opportunities--from-cruise-missiles-to-a-secure-defence-cloud",
+   "chapeau": "EU Ministers endorse eight collaborative opportunities, from cruise missiles to a secure defence cloud European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-e1000fa2ce3c",
+   "titre": "Séquence industrie-défense pour la Semaine de l'industrie - pyrenees-atlantiques.gouv.fr",
+   "source": "pyrenees-atlantiques.gouv.fr",
+   "site": "https://www.pyrenees-atlantiques.gouv.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.pyrenees-atlantiques.gouv.fr/Actualites/Sequence-industrie-defense-pour-la-Semaine-de-l-industrie",
+   "chapeau": "Séquence industrie-défense pour la Semaine de l'industrie pyrenees-atlantiques.gouv.fr",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-fe45b30d48d4",
+   "titre": "La région Paca adopte une feuille de route pour la formation et l'emploi dans l'industrie de la défense",
+   "source": "AEF info",
+   "site": "https://www.aefinfo.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.aefinfo.fr/depeche/759954-la-region-paca-adopte-une-feuille-de-route-pour-la-formation-et-lemploi-dans-lindustrie-de-la-defense",
+   "chapeau": "La région Paca adopte une feuille de route pour la formation et l'emploi dans l'industrie de la défense AEF info",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-63086a931d95",
+   "titre": "Semaine de l'industrie : des jeunes filles découvrent les métiers du numérique, de l'environnement et des télécoms",
+   "source": "Imaz Press",
+   "site": "https://imazpress.com",
+   "date": "2026-11-16",
+   "lien": "https://imazpress.com/toute-l-actu/jeunes-filles-decouvrent-metiers-du-numerique-de-lenvironnement-et-des-telecoms",
+   "chapeau": "Semaine de l'industrie : des jeunes filles découvrent les métiers du numérique, de l'environnement et des télécoms Imaz Press",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-9b61c49f05e9",
+   "titre": "Semaine de l'industrie x Elles bougent : des jeunes filles découvrent les métiers du numérique, de l'environnement et des télécoms",
+   "source": "Imaz Press",
+   "site": "https://imazpress.com",
+   "date": "2026-11-16",
+   "lien": "https://imazpress.com/actus-reunion/jeunes-filles-decouvrent-metiers-du-numerique-de-lenvironnement-et-des-telecoms",
+   "chapeau": "Semaine de l'industrie x Elles bougent : des jeunes filles découvrent les métiers du numérique, de l'environnement et des télécoms Imaz Press",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-69677dfcc646",
+   "titre": "IA et data centers : piliers de l’industrie militaire et de l’impérialisme - Contretemps",
+   "source": "Contretemps - Revue de critique communiste",
+   "site": "https://www.contretemps.eu",
+   "date": "2026-11-16",
+   "lien": "https://www.contretemps.eu/ia-et-data-centers-piliers-de-lindustrie-militaire-et-de-limperialisme/",
+   "chapeau": "IA et data centers : piliers de l’industrie militaire et de l’impérialisme Contretemps - Revue de critique communiste",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-7a1640701b45",
+   "titre": "Face à la menace de missiles capables de se déplacer à plus de Mach 5 et de modifier leur trajectoire en vol, l'Europe veut se doter de son propre système de défense",
+   "source": "ladepeche.fr",
+   "site": "https://www.ladepeche.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.ladepeche.fr/2026/11/16/face-a-la-menace-de-missiles-capables-de-se-deplacer-a-plus-de-mach-5-et-de-modifier-leur-trajectoire-en-vol-leurope-veut-se-doter-de-son-propre-13655566.php",
+   "chapeau": "Face à la menace de missiles capables de se déplacer à plus de Mach 5 et de modifier leur trajectoire en vol, l'Europe veut se doter de son propre système de défense ladepeche.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f80d8c41e4c2",
+   "titre": "Un enjeu majeur pour l'industrie de défense française : qui va sauver le dernier fabricant français de corps d'obus",
+   "source": "ladepeche.fr",
+   "site": "https://www.ladepeche.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.ladepeche.fr/2026/11/16/un-enjeu-majeur-pour-lindustrie-de-defense-francaise-qui-va-sauver-le-dernier-fabricant-francais-de-corps-dobus-13655206.php",
+   "chapeau": "Un enjeu majeur pour l'industrie de défense française : qui va sauver le dernier fabricant français de corps d'obus ladepeche.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-e7cd8d5b8a66",
+   "titre": "Le Pen rencontre l'ambassadeur d'Ukraine en France, propose à Kyiv un soutien autre que financier",
+   "source": "Boursorama",
+   "site": "https://www.boursorama.com",
+   "date": "2026-11-16",
+   "lien": "https://www.boursorama.com/bourse/actualites-amp/le-pen-rencontre-l-ambassadeur-d-ukraine-en-france-propose-a-kyiv-un-soutien-autre-que-financier-edaebb622113150bd1e59c5f1032c6c5",
+   "chapeau": "Le Pen rencontre l'ambassadeur d'Ukraine en France, propose à Kyiv un soutien autre que financier Boursorama",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4e2a9089b111",
+   "titre": "Ukraine : Marine Le Pen veut changer la nature de l'aide française à Kiev",
+   "source": "L'Express",
+   "site": "https://www.lexpress.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.lexpress.fr/monde/europe/ukraine-marine-le-pen-veut-changer-la-nature-de-laide-francaise-a-kiev-YIPQHFO6UBGUXPHO2DTQ7N7EXA/",
+   "chapeau": "Ukraine : Marine Le Pen veut changer la nature de l'aide française à Kiev L'Express",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-c122fd1eec99",
+   "titre": "Olivier Beaurenaut prend la direction générale du Pôle SAFE",
+   "source": "Sophianet",
+   "site": "https://www.sophianet.com",
+   "date": "2026-11-16",
+   "lien": "https://www.sophianet.com/article/olivier-beaurenaut-direction-generale-pole-safe",
+   "chapeau": "Olivier Beaurenaut prend la direction générale du Pôle SAFE Sophianet",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-54dc58877ae9",
+   "titre": "Olivier Beaurenaut rejoint le Pôle SAFE en qualité de directeur général",
+   "source": "Aerobuzz",
+   "site": "https://www.aerobuzz.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.aerobuzz.fr/breves-industrie/olivier-beaurenaut-rejoint-le-pole-safe-en-qualite-de-directeur-general/",
+   "chapeau": "Olivier Beaurenaut rejoint le Pôle SAFE en qualité de directeur général Aerobuzz",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-20fbd2d27451",
+   "titre": "L’armée de Terre va recevoir au moins cinq systèmes de drones tactiques Tekever AR5",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-16",
+   "lien": "https://www.opex360.com/2026/11/16/larmee-de-terre-va-recevoir-au-moins-cinq-systemes-de-drones-tactiques-tekever-ar5/",
+   "chapeau": "L’armée de Terre va recevoir au moins cinq systèmes de drones tactiques Tekever AR5 Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "DGA appel offres marché programme"
+   ]
+  },
+  {
+   "id": "ACT-851863f4b58f",
+   "titre": "Première flotte mondiale de ce transporteur, l'Allemagne en commande seize de plus parce que dix-huit des siens ne peuvent pas voler en zone menacée",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-16",
+   "lien": "https://www.forum-militaire.fr/premiere-flotte-mondiale-de-ce-transporteur-lallemagne-en-commande-seize-de-plus-parce-que-dix-huit-des-siens-ne-peuvent-pas-voler-en-zone-menacee/",
+   "chapeau": "Première flotte mondiale de ce transporteur, l'Allemagne en commande seize de plus parce que dix-huit des siens ne peuvent pas voler en zone menacée Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-9f273e321a1d",
+   "titre": "Untitled",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-16",
+   "lien": "https://eda.europa.eu/docs/default-source/applicants/web-version---2026-card-report-rev1.pdf",
+   "chapeau": "Untitled European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-4e47ee6ca6fd",
+   "titre": "L’innovation au service des opérations spéciales",
+   "source": "colsbleus",
+   "site": "https://www.colsbleus.defense.gouv.fr",
+   "date": "2026-11-13",
+   "lien": "https://www.colsbleus.defense.gouv.fr/fr/linnovation-au-service-des-operations-speciales",
+   "chapeau": "L’innovation au service des opérations spéciales colsbleus",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-244e44bdeff0",
+   "titre": "Emmanuel Macron attendu en Irlande pour défendre des principes de sécurité européenne",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-12",
+   "lien": "https://atlasinfo.fr/emmanuel-macron-attendu-en-irlande-pour-defendre-des-principes-de-securite-europeenne",
+   "chapeau": "Emmanuel Macron attendu en Irlande pour défendre des principes de sécurité européenne Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  }
+ ],
+ "textes": [
+  {
+   "id": "JORF-TRST2629077A",
+   "origine": "JORF",
+   "nature": "ARRETE",
+   "titre": "Arrêté du 6 novembre 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers (n° 1408)",
+   "date_publication": "2026-11-19",
+   "date_signature": "2026-11-06",
+   "ministere": "Ministère du travail et des solidarités",
+   "nor": "TRST2629077A",
+   "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055103025"
+  }
+ ],
+ "jurisprudence": []
+}
