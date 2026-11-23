@@ -1,0 +1,541 @@
+{
+ "genere_le": "2026-11-23T15:08:13+00:00",
+ "periode": {
+  "du": "2026-11-16",
+  "au": "2026-11-23"
+ },
+ "sources": {
+  "Actualités (Google Actualités)": {
+   "statut": "ok",
+   "retenus": 37,
+   "deja_transmis": 40
+  },
+  "Journal officiel (DILA)": {
+   "statut": "ok",
+   "retenus": 1,
+   "deja_transmis": 1,
+   "documents_lus": 1353
+  },
+  "Journal officiel de l'Union": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 5
+  },
+  "Justice administrative": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0,
+   "documents_lus": 59805
+  },
+  "Conseil constitutionnel": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  },
+  "Cour de justice et Tribunal de l'UE": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  }
+ },
+ "actualites": [
+  {
+   "id": "ACT-b145cdc6337e",
+   "titre": "Défense : la France, l’Allemagne, l’Italie, la Suède et la Pologne s’associent pour créer un centre international dédié à l’intelligence artificielle militaire à Rennes",
+   "source": "L'Usine Nouvelle",
+   "site": "https://www.usinenouvelle.com",
+   "date": "2026-11-23",
+   "lien": "https://www.usinenouvelle.com/aero-spatial/defense/defense-la-france-lallemagne-litalie-la-suede-et-la-pologne-sassocient-pour-creer-un-centre-international-dedie-a-lintelligence-artificielle-militaire-a-rennes.EQXU6AOHTJCXLAEHIN64ULBRKI.html",
+   "chapeau": "Défense : la France, l’Allemagne, l’Italie, la Suède et la Pologne s’associent pour créer un centre international dédié à l’intelligence artificielle militaire à Rennes L'Usine Nouvelle",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2a945b1c16a2",
+   "titre": "Fonds de compétitivité : comment l'argent de l'Europe devrait enrichir des groupes extra-communautaires, notamment américains",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.latribune.fr/article/defense-aerospatiale/defense/1485109435708/fonds-de-competitivite-comment-largent-de-leurope-devrait-enrichir-des-groupes-extra-communautaires-notamment-americains",
+   "chapeau": "Fonds de compétitivité : comment l'argent de l'Europe devrait enrichir des groupes extra-communautaires, notamment américains La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-b200b803231c",
+   "titre": "L'Europe doit se trouver un nouveau \"grand malade\": l'Allemagne sort de sa crise et va même dépasser la France pour la première fois... depuis 2017",
+   "source": "BFM",
+   "site": "https://www.bfmtv.com",
+   "date": "2026-11-23",
+   "lien": "https://www.bfmtv.com/economie/l-europe-doit-se-trouver-un-nouveau-grand-malade-l-allemagne-sort-de-sa-crise-et-va-meme-depasser-la-france-pour-la-premiere-fois-depuis-2017_AV-202611230096.html",
+   "chapeau": "L'Europe doit se trouver un nouveau \"grand malade\": l'Allemagne sort de sa crise et va même dépasser la France pour la première fois... depuis 2017 BFM",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-df3269d4925f",
+   "titre": "Emmanuel Macron à Toulouse chez Airbus : derrière la défense de son bilan économique, une réindustrialisation qui s’essouffle",
+   "source": "ladepeche.fr",
+   "site": "https://www.ladepeche.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.ladepeche.fr/2026/11/23/emmanuel-macron-a-toulouse-chez-airbus-derriere-la-defense-de-son-bilan-economique-une-reindustrialisation-qui-sessouffle-13665899.php",
+   "chapeau": "Emmanuel Macron à Toulouse chez Airbus : derrière la défense de son bilan économique, une réindustrialisation qui s’essouffle ladepeche.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-085879a40d98",
+   "titre": "EDF-funded EUROGUARD vessel launched in Estonia - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-23",
+   "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0wxUW9JTlhWYlBXVUFwQ2xrRkdYZVhqMjRiWnRtT2ozOEZ4MHZBZTlCa1liSzl5V01iVUg3TmpGR0JrLURZRklac19qT3ktdDhUT2k0RHpwRkcxQkdOUy1ha3gzZE1CR1FKYzlqblE4ZFlEbUlkN2pMUzhQNjFaZnM0QTdVeHlfNUlzVXRvTE1NamkyR2ZqbDVScEhQbmhqWFdULQ?oc=5",
+   "chapeau": "EDF-funded EUROGUARD vessel launched in Estonia https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-696836b1892d",
+   "titre": "ENDR Conference “From Lab to Field: Deep Tech Dual-Use Innovation for Defence”, Eindhoven (Netherlands), 25 - 26 november 2026 - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-23",
+   "lien": "https://defence-industry-space.ec.europa.eu/endr-conference-lab-field-deep-tech-dual-use-innovation-defence-eindhoven-netherlands-25-26-november-2026-11-25_en",
+   "chapeau": "ENDR Conference “From Lab to Field: Deep Tech Dual-Use Innovation for Defence”, Eindhoven (Netherlands), 25 - 26 november 2026 https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-16411a61d649",
+   "titre": "Israël : une croissance de 4,5 % portée par la tech malgré la guerre. Quelles leçons pour l'Europe",
+   "source": "Euronews.com",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-22",
+   "lien": "https://fr.euronews.com/2026/11/22/israel-une-croissance-de-45-tiree-par-le-high-tech-lecon-pour-leurope",
+   "chapeau": "Israël : une croissance de 4,5 % portée par la tech malgré la guerre. Quelles leçons pour l'Europe Euronews.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1c2020f3a2ca",
+   "titre": "RENCONTRE. Iryna Terekh, la trentenaire ukrainienne qui frappe la Russie en profondeur - Ouest-France",
+   "source": "Ouest-France",
+   "site": "https://www.ouest-france.fr",
+   "date": "2026-11-22",
+   "lien": "https://www.ouest-france.fr/europe/ukraine/rencontre-iryna-terekh-la-trentenaire-ukrainienne-qui-frappe-la-russie-en-profondeur-f2ba2006-e42c-11f1-a3b1-0c6de532ce7d",
+   "chapeau": "RENCONTRE. Iryna Terekh, la trentenaire ukrainienne qui frappe la Russie en profondeur Ouest-France",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-6b7ac59ed7f8",
+   "titre": "Results of your search on (page 1/1)",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-22",
+   "lien": "https://www.defense.gouv.fr/en/search?f%5B0%5D=organisme%3AACADEM&f%5B1%5D=organisme%3ABEA-%C3%89&f%5B2%5D=type_de_contenu%3Aauthority",
+   "chapeau": "Results of your search on (page 1/1) Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-4d634ab32168",
+   "titre": "Dans la défense, le rapprochement entre le Canada et l’Union européenne prend corps",
+   "source": "Le Monde.fr",
+   "site": "https://www.lemonde.fr",
+   "date": "2026-11-21",
+   "lien": "https://www.lemonde.fr/international/article/2026/11/21/dans-la-defense-le-rapprochement-entre-le-canada-et-l-union-europeenne-prend-corps_6814009_3210.html",
+   "chapeau": "Dans la défense, le rapprochement entre le Canada et l’Union européenne prend corps Le Monde.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-cb1d5d67a8c6",
+   "titre": "Défense européenne : pourquoi la Grèce se tourne vers Israël et l’Europe de l’Est vers Washington ? - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-21",
+   "lien": "https://meta-defense.fr/2026/11/21/grece-europe-est-europe-defense/",
+   "chapeau": "Défense européenne : pourquoi la Grèce se tourne vers Israël et l’Europe de l’Est vers Washington ? Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-b3f695c624e7",
+   "titre": "La Belgique valide sa participation au programme d’Engin du génie de combat, lancé par la France",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-21",
+   "lien": "https://www.opex360.com/2026/11/21/la-belgique-valide-sa-participation-au-programme-dengin-du-genie-de-combat-lance-par-la-france/",
+   "chapeau": "La Belgique valide sa participation au programme d’Engin du génie de combat, lancé par la France Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-2f93a3ea8969",
+   "titre": "Etude sur les transformations et transactions dans l'industrie de défense européenne",
+   "source": "KPMG International",
+   "site": "https://kpmg.com",
+   "date": "2026-11-20",
+   "lien": "https://kpmg.com/fr/fr/media/press-releases/2026/11/etude-transformations-transactions-industrie-de-defense-europeenne.html",
+   "chapeau": "Etude sur les transformations et transactions dans l'industrie de défense européenne KPMG International",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-ef581c43cf9d",
+   "titre": "Le Maroc veut investir près de 365 millions d'euros pour développer son industrie de défense",
+   "source": "RFI",
+   "site": "https://www.rfi.fr",
+   "date": "2026-11-20",
+   "lien": "https://www.rfi.fr/fr/afrique/20261120-le-maroc-veut-investir-pr%C3%A8s-de-365-millions-d-euros-pour-d%C3%A9velopper-son-industrie-de-d%C3%A9fense",
+   "chapeau": "Le Maroc veut investir près de 365 millions d'euros pour développer son industrie de défense RFI",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-3387fa016d05",
+   "titre": "Maroc : une feuille de route à 366 M€ pour une industrie de défense locale d'ici 2035",
+   "source": "Euronews",
+   "site": "https://fr.euronews.com",
+   "date": "2026-11-20",
+   "lien": "https://fr.euronews.com/2026/11/20/maroc-une-feuille-de-route-a-366-m-pour-une-industrie-de-defense-locale-dici-2035",
+   "chapeau": "Maroc : une feuille de route à 366 M€ pour une industrie de défense locale d'ici 2035 Euronews",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2da927acea16",
+   "titre": "Industrie, Energie, Alimentation, Santé, Savoirs : la grande soirée de l’indépendance - Région Occitanie / Pyrénées-Méditerranée",
+   "source": "Région Occitanie / Pyrénées-Méditerranée",
+   "site": "https://www.laregion.fr",
+   "date": "2026-11-20",
+   "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHkzNmQyV1lMR3FDUzVaZlFFY3poQ2QtZVJlcWh4NVNXbWlWZTJrRTl5QlVtQkU1ckdJa0ItdVdQZHo2bHhQUG95cmZwR1JwNDFBVE9TM2RuN2hmMHlzNFlzcmxLbWZTMjNTbGF2NXNGOTR4a2xpY3ZIZHVBenNnaFV4WTFMRWtrT2VfdU1aNHdyMWw5eVkwZGNUOU5yRjhlWkR6YjFn?oc=5",
+   "chapeau": "Industrie, Energie, Alimentation, Santé, Savoirs : la grande soirée de l’indépendance Région Occitanie / Pyrénées-Méditerranée",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-51a51fb771c7",
+   "titre": "Obus de 155 mm : la DGA adresse à KNDS Ammo France une double commande",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-20",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/obus-155-mm-dga-adresse-knds-ammo-france-double-commande",
+   "chapeau": "Obus de 155 mm : la DGA adresse à KNDS Ammo France une double commande Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-66a4bffa4334",
+   "titre": "La DGA notifie une nouvelle commande de 72 000 fusils d’assaut à l’entreprise Heckler & Koch France",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-20",
+   "lien": "https://www.defense.gouv.fr/dga/actualites/dga-notifie-nouvelle-commande-72-000-fusils-dassaut-lentreprise-heckler-koch-france",
+   "chapeau": "La DGA notifie une nouvelle commande de 72 000 fusils d’assaut à l’entreprise Heckler & Koch France Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-55e60fea5a6e",
+   "titre": "Armement : la France veut multiplier sa production d'obus par cinq, mais un problème se profile",
+   "source": "La Nouvelle Tribune",
+   "site": "https://lanouvelletribune.info",
+   "date": "2026-11-20",
+   "lien": "https://lanouvelletribune.info/2026/11/armement-la-france-veut-multiplier-sa-production-dobus-par-cinq-mais-un-probleme-se-profile/",
+   "chapeau": "Armement : la France veut multiplier sa production d'obus par cinq, mais un problème se profile La Nouvelle Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-17944995c90a",
+   "titre": "Le BEA-É en visite à DGA Techniques aérospatiales : au cœur de l’expertise et des essais",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-20",
+   "lien": "https://www.defense.gouv.fr/bea-e/actualites/bea-e-visite-dga-techniques-aerospatiales-au-coeur-lexpertise-essais",
+   "chapeau": "Le BEA-É en visite à DGA Techniques aérospatiales : au cœur de l’expertise et des essais Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-6d81be873180",
+   "titre": "SOFEX 2026",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.defense.gouv.fr/sitta/sofex-2026",
+   "chapeau": "SOFEX 2026 Ministère des Armées",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-5abdcb3ad4c1",
+   "titre": "Une fenêtre de tir pour le Maroc",
+   "source": "lopinion.ma",
+   "site": "https://lopinion.ma",
+   "date": "2026-11-19",
+   "lien": "https://lopinion.ma/lopinion/une-fenetre-de-tir-pour-le-maroc_a33558?articleId=d3315e14-6ff8-4255-801b-eeda00c267dd",
+   "chapeau": "Une fenêtre de tir pour le Maroc lopinion.ma",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-d34a4fb5f4a0",
+   "titre": "Industrie de défense : les régions renforcent leur soutien aux PME et aux start-up",
+   "source": "Banque des Territoires",
+   "site": "https://www.banquedesterritoires.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.banquedesterritoires.fr/industrie-de-defense-les-regions-renforcent-leur-soutien-aux-pme-et-aux-start?pk_campaign=newsletter_quotidienne&pk_kwd=2026-11-19&pk_source=Actualit%C3%A9s_Localtis&pk_medium=newsletter_quotidienne",
+   "chapeau": "Industrie de défense : les régions renforcent leur soutien aux PME et aux start-up Banque des Territoires",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4ce26957a528",
+   "titre": "Missiles, radars, avions de chasse : comment l'Europe répond aux menaces de Poutine en Ukraine",
+   "source": "Les Echos",
+   "site": "https://www.lesechos.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.lesechos.fr/monde/europe/missiles-radars-avions-de-chasse-leurope-renforce-son-soutien-militaire-a-lukraine-2263651",
+   "chapeau": "Missiles, radars, avions de chasse : comment l'Europe répond aux menaces de Poutine en Ukraine Les Echos",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2bf5ee4bf3b3",
+   "titre": "L’armée française commande 72 000 nouveaux fusils d’assaut à Heckler & Koch",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-19",
+   "lien": "https://armees.com/dga-commande-72000-fusils-hk416f-heckler-koch-19-novembre-2026-1733/",
+   "chapeau": "L’armée française commande 72 000 nouveaux fusils d’assaut à Heckler & Koch Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-1ffab9dec0f3",
+   "titre": "Le Falcon 10X de Dassault et l'Eurodrone pourront-ils sauver le programme PATMAR français ? - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-19",
+   "lien": "https://meta-defense.fr/2026/11/19/cout-a321xlr-falcon-10x-patmar-france/",
+   "chapeau": "Le Falcon 10X de Dassault et l'Eurodrone pourront-ils sauver le programme PATMAR français ? Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-7a6f986f872b",
+   "titre": "Fusils HK416F : 72 000 armes supplémentaires commandées pour les forces françaises",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-19",
+   "lien": "https://armees.com/hk416f-72000-fusils-supplementaires-commande-dga-novembre-2026/",
+   "chapeau": "Fusils HK416F : 72 000 armes supplémentaires commandées pour les forces françaises Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-a88612156a3a",
+   "titre": "CND : Opération montée en gamme pour les cadres du numérique de défense",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.defense.gouv.fr/cnd/actualites/cnd-operation-montee-gamme-cadres-du-numerique-defense",
+   "chapeau": "CND : Opération montée en gamme pour les cadres du numérique de défense Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-4c42a85fece8",
+   "titre": "European Defence Fund – D-STORM first open call for cascade funding - defence-industry-space.ec.europa.eu",
+   "source": "defence-industry-space.ec.europa.eu",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-19",
+   "lien": "https://defence-industry-space.ec.europa.eu/document/download/e0659cc2-5fa6-41a4-a77c-d640dac896a2_en?filename=D-STORM_factsheet.pdf",
+   "chapeau": "European Defence Fund – D-STORM first open call for cascade funding defence-industry-space.ec.europa.eu",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-59cec5216faa",
+   "titre": "Sénat : Olivier Rietmann lance deux missions pour les entreprises",
+   "source": "Presse Agence",
+   "site": "https://presseagence.fr",
+   "date": "2026-11-18",
+   "lien": "https://presseagence.fr/paris-olivier-rietmann-lever-les-obstacles-au-developpement-des-entreprises/",
+   "chapeau": "Sénat : Olivier Rietmann lance deux missions pour les entreprises Presse Agence",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-c282a6ccf3cc",
+   "titre": "Premier point d'étape sur les actions menées",
+   "source": "Les services de l’État dans le Var",
+   "site": "https://www.var.gouv.fr",
+   "date": "2026-11-18",
+   "lien": "https://www.var.gouv.fr/Actions-de-l-Etat/Feuille-de-route-Andre-Jubelin/Premier-point-d-etape-sur-les-actions-menees",
+   "chapeau": "Premier point d'étape sur les actions menées Les services de l’État dans le Var",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2af2b881c7ce",
+   "titre": "Le Maroc fait appel aux MRE pour bâtir son industrie militaire",
+   "source": "Bladi.net",
+   "site": "https://www.bladi.net",
+   "date": "2026-11-18",
+   "lien": "https://www.bladi.net/maroc-appel-mre-batir-industrie-militaire,125065.html",
+   "chapeau": "Le Maroc fait appel aux MRE pour bâtir son industrie militaire Bladi.net",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-ad5b27bb0843",
+   "titre": "EU Defence in Action - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-18",
+   "lien": "https://defence-industry-space.ec.europa.eu/eu-defence-industry/eu-defence-action_en",
+   "chapeau": "EU Defence in Action https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-217abbb982b9",
+   "titre": "Les ministres de l’UE font de la sécurité d’approvisionnement un préalable à la préparation de défense 2030",
+   "source": "Anadolu Ajansı",
+   "site": "https://www.aa.com.tr",
+   "date": "2026-11-17",
+   "lien": "https://www.aa.com.tr/fr/politique/les-ministres-de-l-ue-font-de-la-s%C3%A9curit%C3%A9-d-approvisionnement-un-pr%C3%A9alable-%C3%A0-la-pr%C3%A9paration-de-d%C3%A9fense-2030/4128320",
+   "chapeau": "Les ministres de l’UE font de la sécurité d’approvisionnement un préalable à la préparation de défense 2030 Anadolu Ajansı",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a84beb960320",
+   "titre": "Terres rares, défense, menaces hybrides: France et Malaisie approfondissent leur 'partenariat stratégique'",
+   "source": "tv5monde",
+   "site": "https://information.tv5monde.com",
+   "date": "2026-11-17",
+   "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZEZza3Q4bVExYWdvRm9seEJoMEpucmtiY19TbWt3by1RZ2xqQnBlMTZsajlmR0RpRGZyai05WUZkUGoySnk2ak5rYjY0MG5GY2w5bnMzVnJTb1F6V09sVjZ3VVhTSkM0UmhuU3c0b2QzYnJBRG94V3BEOGFjOERzR0l1QkRaT0ptSHlLQUNxSEk1Nzg2SExSa1VmbVFfb0RSS1dXc0N0bWVsdllxLTV3VHFIWE11dG9kY2xjOHVOTDNVWjVoLWc1bEg5UHl6NUt6TjdaaTQ0SGxPLU80RVpQU2Jxb0kydw?oc=5",
+   "chapeau": "Terres rares, défense, menaces hybrides: France et Malaisie approfondissent leur 'partenariat stratégique' tv5monde",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-eeb312a0b900",
+   "titre": "Avec 57 exemplaires en Bulgarie, le Caesar de KNDS renforce son statut de standard Européen - Meta-Defense",
+   "source": "Meta-Defense",
+   "site": "https://meta-defense.fr",
+   "date": "2026-11-17",
+   "lien": "https://meta-defense.fr/2026/11/17/bulgarie-achat-57-canons-caesar/",
+   "chapeau": "Avec 57 exemplaires en Bulgarie, le Caesar de KNDS renforce son statut de standard Européen Meta-Defense",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-77e593db88be",
+   "titre": "4th CF SEDSS IV Plenary Conference",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-17",
+   "lien": "https://eda.europa.eu/news-and-events/events/2026/11/17/default-calendar/4th-cf-sedss-conference",
+   "chapeau": "4th CF SEDSS IV Plenary Conference European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  }
+ ],
+ "textes": [
+  {
+   "id": "JORF-INTQ2607127A",
+   "origine": "JORF",
+   "nature": "ARRETE",
+   "titre": "Arrêté du 20 novembre 2026 relatif aux autorisations interministérielles d'études et de recherches portant sur les produits explosifs autres que ceux relevant de la réglementation des matériels de guerre, armes et munitions",
+   "date_publication": "2026-11-22",
+   "date_signature": "2026-11-20",
+   "ministere": "Ministère de l'intérieur",
+   "nor": "INTQ2607127A",
+   "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055119260"
+  }
+ ],
+ "jurisprudence": []
+}
