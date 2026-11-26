@@ -1,0 +1,1100 @@
+{
+ "genere_le": "2026-11-26T14:10:59+00:00",
+ "periode": {
+  "du": "2026-11-19",
+  "au": "2026-11-26"
+ },
+ "sources": {
+  "Actualités (Google Actualités)": {
+   "statut": "ok",
+   "retenus": 81,
+   "deja_transmis": 20
+  },
+  "Journal officiel (DILA)": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 2,
+   "documents_lus": 1653
+  },
+  "Journal officiel de l'Union": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 5
+  },
+  "Justice administrative": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0,
+   "documents_lus": 62655
+  },
+  "Conseil constitutionnel": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  },
+  "Cour de justice et Tribunal de l'UE": {
+   "statut": "ok",
+   "retenus": 0,
+   "deja_transmis": 0
+  }
+ },
+ "actualites": [
+  {
+   "id": "ACT-ed37202fc0ba",
+   "titre": "Industrie de défense: le Maroc dans la construction de sa souveraineté stratégique",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-26",
+   "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1QtU0hOcTN1ZHFsejF1OG1aUGZTclFGUWxVcU9OX252QXVsLWhVWGh6LTFHS055THVxem00WGI5TjZwSjh0b2Q1UW85SXBQaFBsWjdsck1wamVHdTBrUVVJVFpBYW1XeXllRkhTOHo5bElQMHpWRm1YTHgtX2E5YVdZZlpjWWFfSG5Nc2NEd1NwY1A5dHdNSTVWOVcySl80b3NPdw?oc=5",
+   "chapeau": "Industrie de défense: le Maroc dans la construction de sa souveraineté stratégique Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-e1dd690eaef4",
+   "titre": "Le fonds français Ciclad rachète Selva et installe aux commandes Pierre-Guillaume Phélut - Ouest-France",
+   "source": "Ouest-France",
+   "site": "https://agence-api.ouest-france.fr",
+   "date": "2026-11-26",
+   "lien": "https://agence-api.ouest-france.fr/industrie/electronique-et-domotique/le-fonds-francais-ciclad-rachete-selva-et-installe-aux-commandes-pierre-guillaume-phelut-253538c4-e980-11f1-86c1-70195b4d2e52",
+   "chapeau": "Le fonds français Ciclad rachète Selva et installe aux commandes Pierre-Guillaume Phélut Ouest-France",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-02d2ecc9fa4b",
+   "titre": "OPINION. « La recherche duale, un investissement pour la France de demain »",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-26",
+   "lien": "https://www.latribune.fr/article/idees/69780224009751/opinion-la-recherche-duale-un-investissement-pour-la-france-de-demain",
+   "chapeau": "OPINION. « La recherche duale, un investissement pour la France de demain » La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-726cc7c34924",
+   "titre": "Quand les voyages de presse financés par la Turquie passent sous les radars de la HATVP",
+   "source": "La Lettre",
+   "site": "https://www.lalettre.fr",
+   "date": "2026-11-26",
+   "lien": "https://www.lalettre.fr/fr/politique_lobbying/2026/11/26/quand-les-voyages-de-presse-finances-par-la-turquie-passent-sous-les-radars-de-la-hatvp,110937809-art",
+   "chapeau": "Quand les voyages de presse financés par la Turquie passent sous les radars de la HATVP La Lettre",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-aa3759c5a33a",
+   "titre": "Ryad Mezzour : « Nous voulons nous intégrer aux priorités de nos alliés et devenir un acteur complémentaire en matière de souveraineté et de défense »",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-26",
+   "lien": "https://www.latribune.fr/article/afrique/68772955400337/ryad-mezzour-nous-voulons-nous-integrer-aux-priorites-de-nos-allies-et-devenir-un-acteur-complementaire-en-matiere-de-souverainete-et-de-defense",
+   "chapeau": "Ryad Mezzour : « Nous voulons nous intégrer aux priorités de nos alliés et devenir un acteur complémentaire en matière de souveraineté et de défense » La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4bc55420053c",
+   "titre": "France / Industrie : la pression sur les coûts s’intensifie",
+   "source": "Le Revenu",
+   "site": "https://www.lerevenu.com",
+   "date": "2026-11-26",
+   "lien": "https://www.lerevenu.com/actualite-economique/france/france-industrie-la-pression-sur-les-couts-s-intensifie",
+   "chapeau": "France / Industrie : la pression sur les coûts s’intensifie Le Revenu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-454c6dd4a16c",
+   "titre": "Les Experts : Industrie, la France face à la concurrence chinoise - 26/11",
+   "source": "BFM",
+   "site": "https://www.bfmtv.com",
+   "date": "2026-11-26",
+   "lien": "https://www.bfmtv.com/economie/replay-emissions/les-experts/video-les-experts-industrie-la-france-face-a-la-concurrence-chinoise-26-11_VN-202611260486.html",
+   "chapeau": "Les Experts : Industrie, la France face à la concurrence chinoise - 26/11 BFM",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0a04fd34f0d9",
+   "titre": "Le patronat marocain mobilise ses fédérations pour l’industrie de défense",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-26",
+   "lien": "https://atlasinfo.fr/le-patronat-marocain-mobilise-ses-federations-pour-lindustrie-de-defense",
+   "chapeau": "Le patronat marocain mobilise ses fédérations pour l’industrie de défense Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1ec50d731bb5",
+   "titre": "Demain dans vos agendas : Décarbonation, export, Maroc, beauté, défense, Brésil",
+   "source": "Le Moci",
+   "site": "https://www.lemoci.com",
+   "date": "2026-11-26",
+   "lien": "https://www.lemoci.com/actualites/breves/demain-dans-vos-agendas-decarbonation-export-maroc-beaute-defense-bresil/",
+   "chapeau": "Demain dans vos agendas : Décarbonation, export, Maroc, beauté, défense, Brésil Le Moci",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1cdbef95f186",
+   "titre": "Guerre en Ukraine. Base militaire russe bombardée, des missiles balistiques frappent Kiev… Le point sur la nuit - Ouest-France",
+   "source": "Ouest-France",
+   "site": "https://www.ouest-france.fr",
+   "date": "2026-11-26",
+   "lien": "https://www.ouest-france.fr/europe/ukraine/guerre-en-ukraine-base-militaire-russe-bombardee-des-missiles-balistiques-frappent-kiev-le-point-sur-la-nuit-42fe3d44-e893-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "chapeau": "Guerre en Ukraine. Base militaire russe bombardée, des missiles balistiques frappent Kiev… Le point sur la nuit Ouest-France",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-55a376ccac49",
+   "titre": "137 Rafale, 41 A400M et 15 Phénix : voilà à quoi ressemblera l’armée de l’Air française en 2030",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-26",
+   "lien": "https://www.forum-militaire.fr/137-rafale-41-a400m-et-15-phenix-voila-a-quoi-ressemblera-larmee-de-lair-francaise-en-2030/",
+   "chapeau": "137 Rafale, 41 A400M et 15 Phénix : voilà à quoi ressemblera l’armée de l’Air française en 2030 Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-03b99ac07db2",
+   "titre": "Ligue des champions (5è journée) : le PSG stoppé dans son élan par l’AS Rome (2-2)",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-26",
+   "lien": "https://atlasinfo.fr/ligue-des-champions-5e-journee-le-psg-stoppe-dans-son-elan-par-las-rome-2-2",
+   "chapeau": "Ligue des champions (5è journée) : le PSG stoppé dans son élan par l’AS Rome (2-2) Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a112af827975",
+   "titre": "Industrie de défense : la CGEM enrôle ses fédérations derrière l’« Offre Maroc »",
+   "source": "Le Desk",
+   "site": "https://ledesk.ma",
+   "date": "2026-11-26",
+   "lien": "https://ledesk.ma/encontinu/industrie-de-defense-la-cgem-enrole-ses-federations-derriere-l-offre-maroc/",
+   "chapeau": "Industrie de défense : la CGEM enrôle ses fédérations derrière l’« Offre Maroc » Le Desk",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-7618eb87fa79",
+   "titre": "Le Maroc veut faire de l’industrie de défense un nouveau moteur industriel",
+   "source": "Journal Du Canada",
+   "site": "https://www.journalducanada.com",
+   "date": "2026-11-26",
+   "lien": "https://www.journalducanada.com/le-maroc-veut-faire-de-lindustrie-de-defense-un-nouveau-moteur-industriel-10814-2026/",
+   "chapeau": "Le Maroc veut faire de l’industrie de défense un nouveau moteur industriel Journal Du Canada",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a27877c663cb",
+   "titre": "Factsheets",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-26",
+   "lien": "https://eda.europa.eu/publications-and-data/factsheets/factsheet--study-on-eu-maritime-transport-capacity",
+   "chapeau": "Factsheets European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-1605c9e4175f",
+   "titre": "\"Comme une entreprise privée, nous avons une politique de grands comptes\" (Laurence Hurni, France Travail)",
+   "source": "AEF info",
+   "site": "https://www.aefinfo.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.aefinfo.fr/depeche/760867-comme-une-entreprise-privee-nous-avons-avec-une-politique-de-grands-comptes-laurence-hurni-france-travail",
+   "chapeau": "\"Comme une entreprise privée, nous avons une politique de grands comptes\" (Laurence Hurni, France Travail) AEF info",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-ada911864330",
+   "titre": "Nimesis lève 550 000 € et ouvre son capital aux particuliers",
+   "source": "Le Journal des Entreprises",
+   "site": "https://www.lejournaldesentreprises.com",
+   "date": "2026-11-25",
+   "lien": "https://www.lejournaldesentreprises.com/article/nimesis-leve-550-000-eu-et-ouvre-son-capital-aux-particuliers-2148691",
+   "chapeau": "Nimesis lève 550 000 € et ouvre son capital aux particuliers Le Journal des Entreprises",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-aad6b49da4c2",
+   "titre": "Un nouveau sous-marin nucléaire bat tous les records : la France accélère pour les admissions de ses Barracuda",
+   "source": "Actu.fr",
+   "site": "https://actu.fr",
+   "date": "2026-11-25",
+   "lien": "https://actu.fr/normandie/cherbourg-en-cotentin_50129/un-nouveau-sous-marin-nucleaire-bat-tous-les-records-la-france-accelere-pour-les-admissions-de-ses-barracuda_65093713.html",
+   "chapeau": "Un nouveau sous-marin nucléaire bat tous les records : la France accélère pour les admissions de ses Barracuda Actu.fr",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-08feab7f6a45",
+   "titre": "Passeports européens : une vulnérabilité majeure pour le contre-espionnage français",
+   "source": "Enderi",
+   "site": "https://enderi.fr",
+   "date": "2026-11-25",
+   "lien": "https://enderi.fr/passeports-europeens-une-vulnerabilite-majeure-pour-le-contre-espionnage-francais/",
+   "chapeau": "Passeports européens : une vulnérabilité majeure pour le contre-espionnage français Enderi",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-099322a111f5",
+   "titre": "Armement : pourquoi l’industrie de défense se tourne de plus en plus vers l’automobile",
+   "source": "lejdd.fr",
+   "site": "https://www.lejdd.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.lejdd.fr/Societe/armement-pourquoi-lindustrie-de-defense-se-tourne-de-plus-en-plus-vers-lautomobile-189675",
+   "chapeau": "Armement : pourquoi l’industrie de défense se tourne de plus en plus vers l’automobile lejdd.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f8da420e6c7e",
+   "titre": "Sabotages russes : l'avertissement du MI5 aux entreprises de défense britanniques",
+   "source": "L'Express",
+   "site": "https://www.lexpress.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.lexpress.fr/secret-defense/sabotages-russes-lavertissement-du-mi5-aux-entreprises-de-defense-britanniques-74USNH7QXFC43EH7K3XBRQBJCU/",
+   "chapeau": "Sabotages russes : l'avertissement du MI5 aux entreprises de défense britanniques L'Express",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-fa8d8068a74c",
+   "titre": "Défense : la grande peur du réarmement allemand",
+   "source": "lejdd.fr",
+   "site": "https://www.lejdd.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.lejdd.fr/International/defense-la-grande-peur-du-rearmement-allemand-189702",
+   "chapeau": "Défense : la grande peur du réarmement allemand lejdd.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-de1d17b86100",
+   "titre": "Mégatendance en Bourse : l'Europe à l'épreuve de ses dépendances",
+   "source": "Investir Les Echos",
+   "site": "https://investir.lesechos.fr",
+   "date": "2026-11-25",
+   "lien": "https://investir.lesechos.fr/marches-indices/enquetes/megatendance-en-bourse-leurope-a-lepreuve-de-ses-dependances-2264609",
+   "chapeau": "Mégatendance en Bourse : l'Europe à l'épreuve de ses dépendances Investir Les Echos",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-62962e29c9d3",
+   "titre": "Industrie pharmaceutique – Un marché de référence en Europe - Etudes économiques",
+   "source": "Etudes économiques - Crédit Agricole",
+   "site": "https://etudes-economiques.credit-agricole.com",
+   "date": "2026-11-25",
+   "lien": "https://etudes-economiques.credit-agricole.com/fr/industrie-pharmaceutique-un-marche-de-reference-en-europe",
+   "chapeau": "Industrie pharmaceutique – Un marché de référence en Europe Etudes économiques - Crédit Agricole",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-22ae859f75a1",
+   "titre": "\"Il y a un piège dans lequel tombe la majorité des industriels de la défense\" : le diagnostic de Mouad M’Ghari, patron d’Harmattan AI",
+   "source": "L'Express",
+   "site": "https://www.lexpress.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.lexpress.fr/secret-defense/il-y-a-un-piege-dans-lequel-tombe-la-majorite-des-industriels-de-la-defense-le-diagnostic-de-mouad-2UNIDQWHSZHFLPCZPDWPBTZZQ4/",
+   "chapeau": "\"Il y a un piège dans lequel tombe la majorité des industriels de la défense\" : le diagnostic de Mouad M’Ghari, patron d’Harmattan AI L'Express",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-213abb67743e",
+   "titre": "Sans eux, votre voiture électrique ne roule pas : la France va stocker des minerais critiques comme on stocke du pétrole - Presse-citron",
+   "source": "Presse-citron",
+   "site": "https://www.presse-citron.net",
+   "date": "2026-11-25",
+   "lien": "https://www.presse-citron.net/voiture-electrique-france-stocker-minerais-critiques/",
+   "chapeau": "Sans eux, votre voiture électrique ne roule pas : la France va stocker des minerais critiques comme on stocke du pétrole Presse-citron",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-36765ef91cab",
+   "titre": "Allemagne : Berlin presse l'industrie d'accélérer dans l'intelligence artificielle",
+   "source": "Le Revenu",
+   "site": "https://www.lerevenu.com",
+   "date": "2026-11-25",
+   "lien": "https://www.lerevenu.com/actualite-economique/actualite-europe/allemagne-berlin-presse-l-industrie-d-accelerer-dans-l-intelligence-artificielle",
+   "chapeau": "Allemagne : Berlin presse l'industrie d'accélérer dans l'intelligence artificielle Le Revenu",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-ce8ab57c0e0c",
+   "titre": "Industrie de défense et de sécurité: signature de deux conventions-cadres devant le Roi pour développer l’«Offre Maroc",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-25",
+   "lien": "https://atlasinfo.fr/industrie-de-defense-et-de-securite-signature-de-deux-conventions-cadres-devant-le-roi-pour-developper-loffre-maroc",
+   "chapeau": "Industrie de défense et de sécurité: signature de deux conventions-cadres devant le Roi pour développer l’«Offre Maroc Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-26b893c59099",
+   "titre": "Menace russe : Londres associe les industriels de défense à la sécurité nationale",
+   "source": "Politique Matin",
+   "site": "https://www.politiquematin.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.politiquematin.fr/menace-russe-londres-industriels-defense-securite",
+   "chapeau": "Menace russe : Londres associe les industriels de défense à la sécurité nationale Politique Matin",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-72c63a5adcdd",
+   "titre": "Terres rares : la France met sa souveraineté en stock",
+   "source": "UP Magazine",
+   "site": "https://up-magazine.info",
+   "date": "2026-11-25",
+   "lien": "https://up-magazine.info/terres-rares-france-stocks-strategiques-dependance-chine/",
+   "chapeau": "Terres rares : la France met sa souveraineté en stock UP Magazine",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-faecfc5f7736",
+   "titre": "Matières premières critiques : le CESE préconise de mutualiser les stocks au niveau européen",
+   "source": "Sud Ouest",
+   "site": "https://www.sudouest.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.sudouest.fr/international/matieres-premieres-critiques-le-cese-preconise-de-mutualiser-les-stocks-au-niveau-europeen-31666575.php",
+   "chapeau": "Matières premières critiques : le CESE préconise de mutualiser les stocks au niveau européen Sud Ouest",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-4f7df4af5977",
+   "titre": "Le Maroc s'oriente vers une industrie de défense nationale à fort impact local et à vocation d'exportation",
+   "source": "Atalayar",
+   "site": "https://www.atalayar.com",
+   "date": "2026-11-25",
+   "lien": "https://www.atalayar.com/fr/politique/maroc-soriente-vers-une-industrie-defense-nationale-fort-impact-local-et-vocation-dexportation/20261125230305230782.html",
+   "chapeau": "Le Maroc s'oriente vers une industrie de défense nationale à fort impact local et à vocation d'exportation Atalayar",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-531d09c62011",
+   "titre": "Présidentielle en France: “Aujourd’hui le racisme est quelque chose qui ne devrait plus arriver\"( Teddy Riner)",
+   "source": "Atlasinfo",
+   "site": "https://atlasinfo.fr",
+   "date": "2026-11-25",
+   "lien": "https://atlasinfo.fr/presidentielle-en-france-aujourdhui-le-racisme-est-quelque-chose-qui-ne-devrait-plus-arriver-teddy-riner",
+   "chapeau": "Présidentielle en France: “Aujourd’hui le racisme est quelque chose qui ne devrait plus arriver\"( Teddy Riner) Atlasinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-805857a75e18",
+   "titre": "Industrie de la défense : 22 MMDH de conventions signées",
+   "source": "Medias24",
+   "site": "https://medias24.com",
+   "date": "2026-11-25",
+   "lien": "https://medias24.com/2026/11/25/deux-conventions-signees-pour-22-mmdh-comment-letat-veut-faire-financer-lindustrie-de-la-defense-par-lepargne-nationale-1795225/",
+   "chapeau": "Industrie de la défense : 22 MMDH de conventions signées Medias24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-5cb394f97ee3",
+   "titre": "« C'est plus important que la composition d'un futur gouvernement » : le RN à l'offensive dans la haute fonction publique",
+   "source": "Les Echos",
+   "site": "https://www.lesechos.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.lesechos.fr/elections/presidentielle/cest-plus-important-que-la-composition-dun-futur-gouvernement-le-rn-a-loffensive-dans-la-haute-fonction-publique-2264446",
+   "chapeau": "« C'est plus important que la composition d'un futur gouvernement » : le RN à l'offensive dans la haute fonction publique Les Echos",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-5467de7fa322",
+   "titre": "Armée de Terre : Le Véhicule blindé d’aide à l’engagement vient de franchir une étape... mais sans garantie sur son avenir",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-25",
+   "lien": "https://www.opex360.com/2026/11/25/armee-de-terre-le-vehicule-blinde-daide-a-lengagement-vient-de-franchir-une-etape-mais-sans-garantie-sur-son-avenir/",
+   "chapeau": "Armée de Terre : Le Véhicule blindé d’aide à l’engagement vient de franchir une étape... mais sans garantie sur son avenir Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-febd9949c4e4",
+   "titre": "CORRESPONDANT RECHANGES DE GRANDE PREVOYANCE F/H",
+   "source": "Ministère des Armées",
+   "site": "https://contractuels.civils.defense.gouv.fr",
+   "date": "2026-11-25",
+   "lien": "https://contractuels.civils.defense.gouv.fr/offresdemploi/correspondant-rechanges-de-grande-prevoyance-f-h",
+   "chapeau": "CORRESPONDANT RECHANGES DE GRANDE PREVOYANCE F/H Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-0e900a9cf675",
+   "titre": "[Defcast] Commander la plus grande base aérienne de France",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-25",
+   "lien": "https://www.defense.gouv.fr/actualites/defcast-commander-plus-grande-base-aerienne-france",
+   "chapeau": "[Defcast] Commander la plus grande base aérienne de France Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-5b4b64d837cd",
+   "titre": "Sustainable Finance for the Space Sector: What We Learned - https://defence-industry-space.ec.europa.eu/",
+   "source": "https://defence-industry-space.ec.europa.eu/",
+   "site": "https://defence-industry-space.ec.europa.eu",
+   "date": "2026-11-25",
+   "lien": "https://defence-industry-space.ec.europa.eu/sustainable-finance-space-sector-what-we-learned-2026-11-25_en",
+   "chapeau": "Sustainable Finance for the Space Sector: What We Learned https://defence-industry-space.ec.europa.eu/",
+   "volet": "Commission européenne — DG Industrie de défense et espace",
+   "requetes": [
+    "site:defence-industry-space.ec.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-299625a3842e",
+   "titre": "Comment Rabat structure sa base industrielle et technologique de défense",
+   "source": "Conflits : Revue de Géopolitique",
+   "site": "https://www.revueconflits.com",
+   "date": "2026-11-24",
+   "lien": "https://www.revueconflits.com/comment-rabat-structure-sa-base-industrielle-et-technologique-de-defense/",
+   "chapeau": "Comment Rabat structure sa base industrielle et technologique de défense Conflits : Revue de Géopolitique",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense",
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-957796acf279",
+   "titre": "L’Europe appelée à être plus offensive pour la défense de son industrie maritime",
+   "source": "Le marin",
+   "site": "https://lemarin.ouest-france.fr",
+   "date": "2026-11-24",
+   "lien": "https://lemarin.ouest-france.fr/industries-navales/leurope-appelee-a-etre-plus-offensive-pour-la-defense-de-son-industrie-maritime-75b3b16a-e7f8-11f1-9b33-2f81462d3339",
+   "chapeau": "L’Europe appelée à être plus offensive pour la défense de son industrie maritime Le marin",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-208e7874a3b5",
+   "titre": "Arthur D. Little s’entoure de quatre anciens généraux pour muscler son expertise défense",
+   "source": "Consultor",
+   "site": "https://www.consultor.fr",
+   "date": "2026-11-24",
+   "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2diUTV1eGpLNlZpVmVJeV9GanlkeUlXZUlGcWwzX0ZEYUdPREtsZjJoV3dRRUtnOWVXZkxXd18zUzV0bW92eFgtSjlOREF3bzc3WlZkZFROXy1ubXpzd0pEcU4yZmFzLTR0dWI2d3FvNTR1aE83MW1uX2J6NGhXNURqZUJicDhFVmt1UGJBRUVYT1RSZXVob29sOXdEVjUzMExLYk51dV9CRi13REFZbEpaUDRfLXBIMnNZeA?oc=5",
+   "chapeau": "Arthur D. Little s’entoure de quatre anciens généraux pour muscler son expertise défense Consultor",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-308a36600d4c",
+   "titre": "Ouvrant les fonds de défense à tous les pays tiers, le mandat du PE sur le Fonds européen pour la compétitivité est confirmé",
+   "source": "Agence Europe",
+   "site": "https://agenceurope.eu",
+   "date": "2026-11-24",
+   "lien": "https://agenceurope.eu/index.php/fr/bulletin/article/13990/8",
+   "chapeau": "Ouvrant les fonds de défense à tous les pays tiers, le mandat du PE sur le Fonds européen pour la compétitivité est confirmé Agence Europe",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2b47e8bbdcc8",
+   "titre": "« Les terres rares sont devenues une arme économique » : la France se dote de stocks stratégiques pour contrer le chantage chinois et sécuriser son industrie.",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-24",
+   "lien": "https://www.latribune.fr/article/entreprises-finance/industrie/5729519376206814/terres-rares-pourquoi-la-france-va-se-doter-de-stocks-strategiques-et-de-garanties-de-prix",
+   "chapeau": "« Les terres rares sont devenues une arme économique » : la France se dote de stocks stratégiques pour contrer le chantage chinois et sécuriser son industrie. La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-079da33c4078",
+   "titre": "«On n’est pas du tout dans une réindustrialisation» en France, estime Anthony Morlet-Lavidalie",
+   "source": "Europe 1",
+   "site": "https://www.europe1.fr",
+   "date": "2026-11-24",
+   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS2R6a1FFcXhFREt1c2NBLVJmVC1kVFdleGtBaE5VRzAtNG1tSlo0TV9TdXc4Tk5YeFF6VTRaQV8tcXNUUEgya1lJanYzOGRERkpaOFhIenVUR0ZFSl9RT3VXNlh3VWNUQmJmX0hiMjVyNTBzem5iejA0TnlUZG9ZYVR2QXdmQ28xcHJNZm1adzI0V19Ib1F4NmtvbzdYMXV5bzVoaWppZ2Z3MmZjb21yNVhiWklYd3QxZlozQTkwNTFKQlJwc3NETTd30gHPAUFVX3lxTE5tbmhBd0tMcFFwQUx1dlNlcUJwbVdoMGhRbldZX1NfTlB3TFVTSnRuazlzdWNDUEF3YURvWnRvQ2xCVlEzckJvUm14cVVyd3E3N3gtNUo5SE9JRzE1a2trZHh1RXZnT2xiNER4b1FLcDZ0bnRhdDIySmR1Y3NkYU1WaWw1Wlg3TVhBanVMMjdpUVFwb0M3cUY2TC1STXlISkV1by1zT0QxcTNyM2s3UFRrTHUteUVraG9sUTFya1plVjRyWDdrczM2LTIwLWlaWQ?oc=5",
+   "chapeau": "«On n’est pas du tout dans une réindustrialisation» en France, estime Anthony Morlet-Lavidalie Europe 1",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-503a01554533",
+   "titre": "Pourquoi BMW s’allie à un géant de l’armement pour réduire sa dépendance à la Chine",
+   "source": "L'Automobile Magazine",
+   "site": "https://www.automobile-magazine.fr",
+   "date": "2026-11-24",
+   "lien": "https://www.automobile-magazine.fr/toute-l-actualite/article/53961-pourquoi-bmw-s-allie-a-un-geant-de-l-armement-pour-reduire-sa-dependance-a-la-chine",
+   "chapeau": "Pourquoi BMW s’allie à un géant de l’armement pour réduire sa dépendance à la Chine L'Automobile Magazine",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d316c5fd0c98",
+   "titre": "Matériaux critiques : la France veut desserrer le nœud coulant chinois en constituant des stocks",
+   "source": "l'Opinion",
+   "site": "https://www.lopinion.fr",
+   "date": "2026-11-24",
+   "lien": "https://www.lopinion.fr/economie/materiaux-critiques-la-france-veut-desserrer-le-n%C5%93ud-coulant-chinois-en-constituant-des-stocks",
+   "chapeau": "Matériaux critiques : la France veut desserrer le nœud coulant chinois en constituant des stocks l'Opinion",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-83ccb9b90017",
+   "titre": "Vague de grèves dans toute l’Europe : préparez une grève générale européenne !",
+   "source": "World Socialist Web Site",
+   "site": "https://www.wsws.org",
+   "date": "2026-11-24",
+   "lien": "https://www.wsws.org/fr/articles/2026/11/24/pers-n24.html",
+   "chapeau": "Vague de grèves dans toute l’Europe : préparez une grève générale européenne ! World Socialist Web Site",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-72acce3dcc95",
+   "titre": "Airbus : entre innovations, enjeux industriels et ambitions stratégiques",
+   "source": "Europe Infos",
+   "site": "https://www.europe-infos.fr",
+   "date": "2026-11-24",
+   "lien": "https://www.europe-infos.fr/actualites/12241/airbus-entre-innovations-enjeux-industriels-et-ambitions-strategiques/",
+   "chapeau": "Airbus : entre innovations, enjeux industriels et ambitions stratégiques Europe Infos",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-565395288fdb",
+   "titre": "Murtra se rend à Toulouse à la plénière d’automne de l’ERT aux côtés des grands dirigeants industriels européens",
+   "source": "Demócrata",
+   "site": "https://www.democrata.es",
+   "date": "2026-11-24",
+   "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRGlEaE9ZUjlXN2dXUVJTVWMzSnp1enVVTzhuVXE0eTJYNDhVaWhoLXhRVkxMWjJKZERyRTlLRzJmVWVFUGpxV0tzSk1FZHFDNy15MTVXX3UzdGVUbXVUOXJpRmJOdVN5Sk5BVjhGaVJjaVVUNWZTNkcxd2VlcHh2RzFvUlBRVndvaUNBZ3VjMjJmZ2owczhXSDd2eEp2dTRqeGw2RjlwOEJxWUhjalYwY2djd0RSTjRRUklkYndqMElLR2ZlUXNKU3dyZ3BZaDVSd0U3SkdUeTc2d0xjUnk2c00yUWLSAeoBQVVfeXFMT2FoeXZIVkF0S0FmbzR1QmVaZmk0cjJmS2lrbmJtdmdRb1REc0lXU1ViYWtyaXNFc0FDN3Y0VkVtRGwxX0JkUlo1QlZEWTUzbzN6dmI0Zkg1bWFmZDllTE1qNm9iOFh1eHU3UzVVZ3VMVy1zRjJHSm9WVlhQTnNfUGNTVk9McDBxZERydU5OTnQxX19fR2ROTDdCLUJSYVJDYXAtcFV1aTJKMWtuSzRvY2VGdUtTdGxXaldobUJXeENNb293VmxCX19NQWdESWxnbE84WklJUTRvYXBtcUVYeWZER1Q5UHhnVzVR?oc=5",
+   "chapeau": "Murtra se rend à Toulouse à la plénière d’automne de l’ERT aux côtés des grands dirigeants industriels européens Demócrata",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-9cd5082a561c",
+   "titre": "Minerais critiques : la riposte française à l’emprise chinoise",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-24",
+   "lien": "https://armees.com/minerais-critiques-france-2027-emmanuel-macron-pilotee-strategiques-stocks/",
+   "chapeau": "Minerais critiques : la riposte française à l’emprise chinoise Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-713910eac519",
+   "titre": "La Section technique de l’armée de Terre évalue de nouveaux équipements de protection contre les menaces NRBC",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-24",
+   "lien": "https://www.opex360.com/2026/11/24/la-section-technique-de-larmee-de-terre-evalue-de-nouveaux-equipements-de-protection-contre-les-menaces-nrbc/",
+   "chapeau": "La Section technique de l’armée de Terre évalue de nouveaux équipements de protection contre les menaces NRBC Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-971d08ffaa13",
+   "titre": "POINT DE VUE-De la puissance motrice à la puissance de feu, le Japon entraîne les équipementiers automobiles d",
+   "source": "Boursorama",
+   "site": "https://www.boursorama.com",
+   "date": "2026-11-24",
+   "lien": "https://www.boursorama.com/bourse/actualites-amp/point-de-vue-de-la-puissance-motrice-a-la-puissance-de-feu-le-japon-entraine-les-equipementiers-automobiles-dans-un-vaste-programme-de-rearmement-d652b40b61574eb30a384514835a3d6f",
+   "chapeau": "POINT DE VUE-De la puissance motrice à la puissance de feu, le Japon entraîne les équipementiers automobiles d Boursorama",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-aea5820b70e8",
+   "titre": "European Cyber Week 2026 : le COMCYBER appelle à renforcer la puissance d'action collective face aux cybermenaces",
+   "source": "Ministère des Armées",
+   "site": "https://www.defense.gouv.fr",
+   "date": "2026-11-24",
+   "lien": "https://www.defense.gouv.fr/comcyber/actualites/european-cyber-week-2026-comcyber-appelle-renforcer-puissance-daction-collective-face-aux",
+   "chapeau": "European Cyber Week 2026 : le COMCYBER appelle à renforcer la puissance d'action collective face aux cybermenaces Ministère des Armées",
+   "volet": "Ministère des Armées / DGA",
+   "requetes": [
+    "site:defense.gouv.fr DGA"
+   ]
+  },
+  {
+   "id": "ACT-a29954d24a02",
+   "titre": "European Defence Matters",
+   "source": "European Defence Agency",
+   "site": "https://eda.europa.eu",
+   "date": "2026-11-24",
+   "lien": "https://eda.europa.eu/ScriptResource.axd?d=tnjsL9H2V4vjJ0zJ3LkOxd_AqrXsDs-zHgfXOfpSlXS0nrBQ_3adugt0EZnjvrukf4p7r9Ik-N8A68c-GNkdaq6BOfsNHlYV4o6JQN9vh_41",
+   "chapeau": "European Defence Matters European Defence Agency",
+   "volet": "Agence européenne de défense",
+   "requetes": [
+    "site:eda.europa.eu"
+   ]
+  },
+  {
+   "id": "ACT-b2bc097e31f1",
+   "titre": "Arnaud Marthey désigné rapporteur d’une mission sénatoriale sur les PME et la défense",
+   "source": "maCommune.info",
+   "site": "https://www.macommune.info",
+   "date": "2026-11-23",
+   "lien": "https://www.macommune.info/arnaud-marthey-designe-rapporteur-dune-mission-senatoriale-sur-les-pme-et-la-defense/",
+   "chapeau": "Arnaud Marthey désigné rapporteur d’une mission sénatoriale sur les PME et la défense maCommune.info",
+   "volet": "Presse",
+   "requetes": [
+    "BITD base industrielle technologique de défense"
+   ]
+  },
+  {
+   "id": "ACT-9cf3b2dda876",
+   "titre": "Face aux bouleversements géopolitiques, l’Europe doit renforcer sa défense et son autonomie",
+   "source": "RCF",
+   "site": "https://www.rcf.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.rcf.fr/articles/economie-et-societe/face-aux-bouleversements-geopolitiques-leurope-doit-renforcer-sa",
+   "chapeau": "Face aux bouleversements géopolitiques, l’Europe doit renforcer sa défense et son autonomie RCF",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0b2499bce4bc",
+   "titre": "\"La France est confrontée à de forts vents de face\" : malgré les alertes, ces patrons qui investissent des millions pour l'usine France.",
+   "source": "La Tribune",
+   "site": "https://www.latribune.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.latribune.fr/article/entreprises-finance/industrie/1880040158449/souverainete-industrielle-ces-patrons-dusine-qui-misent-encore-sur-le-made-in-france",
+   "chapeau": "\"La France est confrontée à de forts vents de face\" : malgré les alertes, ces patrons qui investissent des millions pour l'usine France. La Tribune",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-a9b15697573e",
+   "titre": "Terres rares : Emmanuel Macron annonce que la France va se doter de \"stocks stratégiques\"",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-23",
+   "lien": "https://www.france24.com/fr/france/20261123-terres-rares-macron-annonce-france-doter-stocks-strat%C3%A9giques",
+   "chapeau": "Terres rares : Emmanuel Macron annonce que la France va se doter de \"stocks stratégiques\" France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-33e6c8c0d041",
+   "titre": "La France va se doter de \"stocks stratégiques\" de terres rares et \"métaux prioritaires\", annonce l'Elysée",
+   "source": "franceinfo",
+   "site": "https://www.franceinfo.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.franceinfo.fr/economie/industrie/la-france-va-se-doter-de-stocks-strategiques-de-terres-rares-et-metaux-prioritaires-annonce-l-elysee_8296749.html",
+   "chapeau": "La France va se doter de \"stocks stratégiques\" de terres rares et \"métaux prioritaires\", annonce l'Elysée franceinfo",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-08a7387b54e4",
+   "titre": "Le comité d’entreprise allemand d’Airbus exige le lancement immédiat d’un projet d’avion de combat de 6e génération",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-23",
+   "lien": "https://www.opex360.com/2026/11/23/le-comite-dentreprise-allemand-dairbus-exige-le-lancement-immediat-dun-projet-davion-de-combat-de-6e-generation/",
+   "chapeau": "Le comité d’entreprise allemand d’Airbus exige le lancement immédiat d’un projet d’avion de combat de 6e génération Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-60018668d3f3",
+   "titre": "Industrie : la France va se doter de « stocks stratégiques » de minerais critiques dès 2027",
+   "source": "Sud Ouest",
+   "site": "https://www.sudouest.fr",
+   "date": "2026-11-23",
+   "lien": "https://www.sudouest.fr/france/industrie-la-france-va-se-doter-de-stocks-strategiques-de-minerais-critiques-31630520.php",
+   "chapeau": "Industrie : la France va se doter de « stocks stratégiques » de minerais critiques dès 2027 Sud Ouest",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-d08000e8db40",
+   "titre": "Industrie de défense : ce que l’Europe simplifie dès maintenant, et ce qui attendra 2028",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-23",
+   "lien": "https://armees.com/industrie-defense-ue-simplification-calendrier-2026-2028/",
+   "chapeau": "Industrie de défense : ce que l’Europe simplifie dès maintenant, et ce qui attendra 2028 Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-2c1836d1e596",
+   "titre": "L’offensive aéronautique de Washington contre la Chine",
+   "source": "AeroMorning.com",
+   "site": "https://aeromorning.com",
+   "date": "2026-11-23",
+   "lien": "https://aeromorning.com/loffensive-aeronautique-de-washington-contre-la-chine/",
+   "chapeau": "L’offensive aéronautique de Washington contre la Chine AeroMorning.com",
+   "volet": "Presse",
+   "requetes": [
+    "KNDS Thales Airbus Defence Safran Dassault Naval Group"
+   ]
+  },
+  {
+   "id": "ACT-c2565ab5a3a4",
+   "titre": "Budget européen : Costa propose 34,5 milliards de moins pour la sécurité, la défense et l’espace",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-22",
+   "lien": "https://armees.com/budget-ue-2028-2034-costa-securite-defense-espace-22-novembre-2026-0833/",
+   "chapeau": "Budget européen : Costa propose 34,5 milliards de moins pour la sécurité, la défense et l’espace Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-33485604fa64",
+   "titre": "MBDA : Exocet, MdCN Mk2, Aster, HYDIS, la DGA commande",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
+   "date": "2026-11-22",
+   "lien": "https://refrance.fr/mbda-missiles-dga-exocet-mdcn-aster-hydis/",
+   "chapeau": "MBDA : Exocet, MdCN Mk2, Aster, HYDIS, la DGA commande Revue économique de France",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-d3d903a9f050",
+   "titre": "Natacha Polony présidentielle 2027 : programme, sondages et actualité",
+   "source": "L'Hémicycle",
+   "site": "https://lhemicycle.com",
+   "date": "2026-11-21",
+   "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BMEdwWm1CRDZxdURZX3kwTllLdHBEWnVabFQ5NU85a0dFTjBZUWRtM0Y3YjZpNkhwQVc5Tm02VmJzNjlhY1dfOXY3TmxNWXA1RkxMZUlCaTBkbTA?oc=5",
+   "chapeau": "Natacha Polony présidentielle 2027 : programme, sondages et actualité L'Hémicycle",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-f662d790dee3",
+   "titre": "Nicolas Dupont-Aignan présidentielle 2027 : programme, sondages et actualité",
+   "source": "L'Hémicycle",
+   "site": "https://lhemicycle.com",
+   "date": "2026-11-21",
+   "lien": "https://lhemicycle.com/candidat/nicolas-dupont-aignan/",
+   "chapeau": "Nicolas Dupont-Aignan présidentielle 2027 : programme, sondages et actualité L'Hémicycle",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-e583076e8b52",
+   "titre": "La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR",
+   "source": "Zone Militaire",
+   "site": "https://www.opex360.com",
+   "date": "2026-11-21",
+   "lien": "https://www.opex360.com/2026/11/21/la-france-et-le-royaume-uni-preparent-une-feuille-de-route-pour-developper-le-successeur-du-missile-air-air-meteor/",
+   "chapeau": "La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR Zone Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-d6ac40f7efda",
+   "titre": "La Finlande achète des explosifs pour 462 millions d'euros",
+   "source": "Nordic Defence Sector",
+   "site": "https://nordicdefencesector.com",
+   "date": "2026-11-20",
+   "lien": "https://nordicdefencesector.com/fr/article/finland-buys-explosives-for-462-million-euros",
+   "chapeau": "La Finlande achète des explosifs pour 462 millions d'euros Nordic Defence Sector",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-18183a733c74",
+   "titre": "La caisse de ce char européen a été dessinée pour l'armée indonésienne et testée chez elle, avant de recevoir un canon italien de 120 mm",
+   "source": "Forum Militaire",
+   "site": "https://www.forum-militaire.fr",
+   "date": "2026-11-20",
+   "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUTlsdXV5RExBcXhselFVTFBYLWZrZlBRRXhWdW1iMWVuRDg3ODJtT2hPRnc0b0hyU281eWZhcjg0TFl6alhSdC05ZXZ2cXR1SHQ3ZU5LREo3OFhvN0NEdW5xel9zZ2ZsZ0ZLUHEwck1SRGM0aldoTVVnd3BoZ0ZXZGpMdGtaNHg3VFF5WWJkejBEUWduSEFUY1hWQk43R3FIOFZZS0JVRUYwdUY5WG5HTTM5TXN5U3J6SHhabGNWcU9EdlIxQ0MxRUlQQVpSN2ZVOXRWNGh0cTV5NGdXYmMxQzFJLWZLNlpsQWlzbFBwc1BsZldJYmpmeVJn?oc=5",
+   "chapeau": "La caisse de ce char européen a été dessinée pour l'armée indonésienne et testée chez elle, avant de recevoir un canon italien de 120 mm Forum Militaire",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-747dad4adc10",
+   "titre": "Avec cette fusion franco-norvégienne, l'Europe donne naissance à KDTC, son nouveau champion high-tech des réseaux cryptés haut de gamme",
+   "source": "Media24.fr",
+   "site": "https://media24.fr",
+   "date": "2026-11-20",
+   "lien": "https://media24.fr/2026/11/20/avec-cette-fusion-franco-norvegienne-leurope-donne-naissance-a-kdtc-son-nouveau-champion-high-tech-des-reseaux-cryptes-haut-de-gamme/",
+   "chapeau": "Avec cette fusion franco-norvégienne, l'Europe donne naissance à KDTC, son nouveau champion high-tech des réseaux cryptés haut de gamme Media24.fr",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-0bd8d8d809ad",
+   "titre": "EUROGUARD : l’Europe finance à hauteur de 65 millions d’euros un prototype naval semi-autonome",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-20",
+   "lien": "https://armees.com/euroguard-navire-semi-autonome-estonie-financement-europeen-2026/",
+   "chapeau": "EUROGUARD : l’Europe finance à hauteur de 65 millions d’euros un prototype naval semi-autonome Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1e0e15d41b40",
+   "titre": "L'armée française commande 72 000 fusils HK416F de plus, et cette fois avec des silencieux",
+   "source": "Clubic.com",
+   "site": "https://www.clubic.com",
+   "date": "2026-11-20",
+   "lien": "https://www.clubic.com/actualite-640183-l-armee-francaise-commande-72-000-fusils-hk416f-de-plus-et-cette-fois-avec-des-silencieux.html",
+   "chapeau": "L'armée française commande 72 000 fusils HK416F de plus, et cette fois avec des silencieux Clubic.com",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-63aad102ec75",
+   "titre": "Occar : 25 ans de coopération, 28 programmes et le SAMP/T NG en vedette",
+   "source": "Revue économique de France",
+   "site": "https://refrance.fr",
+   "date": "2026-11-20",
+   "lien": "https://refrance.fr/occar-25-ans-de-cooperation-28-programmes-et-le-samp-t-ng-en-vedette/",
+   "chapeau": "Occar : 25 ans de coopération, 28 programmes et le SAMP/T NG en vedette Revue économique de France",
+   "volet": "Presse",
+   "requetes": [
+    "DGA direction générale armement"
+   ]
+  },
+  {
+   "id": "ACT-80c462e43278",
+   "titre": "Aide à l’Ukraine : combien chaque Français paie vraiment",
+   "source": "L'Essentiel de l'Éco",
+   "site": "https://lessentieldeleco.fr",
+   "date": "2026-11-20",
+   "lien": "https://lessentieldeleco.fr/9597-aide-a-lukraine-combien-chaque-francais-paie-vraiment/",
+   "chapeau": "Aide à l’Ukraine : combien chaque Français paie vraiment L'Essentiel de l'Éco",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-8746ae66e598",
+   "titre": "Financement européen de la défense : ce que les 23,9 milliards d’euros de STEP couvrent vraiment",
+   "source": "Armees.com",
+   "site": "https://armees.com",
+   "date": "2026-11-20",
+   "lien": "https://armees.com/defense-step-bilan-2025-239-milliards-financement-technologies-20-novembre-2026/",
+   "chapeau": "Financement européen de la défense : ce que les 23,9 milliards d’euros de STEP couvrent vraiment Armees.com",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  },
+  {
+   "id": "ACT-a4773199fa7a",
+   "titre": "Macron demande aux alliés de l'Ukraine de \"rouvrir la question de son adhésion à l'Otan\"",
+   "source": "France 24",
+   "site": "https://www.france24.com",
+   "date": "2026-11-19",
+   "lien": "https://www.france24.com/fr/europe/20261119-macron-demande-alli%C3%A9s-ukraine-rouvrir-question-son-adh%C3%A9sion-otan",
+   "chapeau": "Macron demande aux alliés de l'Ukraine de \"rouvrir la question de son adhésion à l'Otan\" France 24",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-1ecfcb75a572",
+   "titre": "LA MALAISIE REMET A KNDS UNE LETTRE D’INTENTION POUR L’ACQUISITION DE SYSTÈMES D’ARTILLERIE LÉGERS 105LG",
+   "source": "KNDS Group",
+   "site": "https://knds.com",
+   "date": "2026-11-19",
+   "lien": "https://knds.com/fr/communiques-de-presse/la-malaisie-remet-a-knds-une-lettre-d-intention-pour-l-acquisition-de-systemes-d-artillerie-legers-105-lg",
+   "chapeau": "LA MALAISIE REMET A KNDS UNE LETTRE D’INTENTION POUR L’ACQUISITION DE SYSTÈMES D’ARTILLERIE LÉGERS 105LG KNDS Group",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-accdb0f260c7",
+   "titre": "Dépendance numérique : un rapport alerte sur le manque d'autonomie de la France et de l'UE",
+   "source": "TradingView",
+   "site": "https://fr.tradingview.com",
+   "date": "2026-11-19",
+   "lien": "https://fr.tradingview.com/news/afp:c1bc36d9e90db:0/",
+   "chapeau": "Dépendance numérique : un rapport alerte sur le manque d'autonomie de la France et de l'UE TradingView",
+   "volet": "Presse",
+   "requetes": [
+    "industrie défense France Europe"
+   ]
+  },
+  {
+   "id": "ACT-8a90d08fe7ff",
+   "titre": "Budget de l'armée 2027 : LFI surenchérit dans le militarisme au nom de « l'autonomie de la France »",
+   "source": "Revolution Permanente",
+   "site": "https://www.revolutionpermanente.fr",
+   "date": "2026-11-19",
+   "lien": "https://www.revolutionpermanente.fr/Budget-de-l-armee-2027-LFI-surencherit-dans-le-militarisme-au-nom-de-l-autonomie-de-la-France",
+   "chapeau": "Budget de l'armée 2027 : LFI surenchérit dans le militarisme au nom de « l'autonomie de la France » Revolution Permanente",
+   "volet": "Presse",
+   "requetes": [
+    "matériels défense programme armement France"
+   ]
+  }
+ ],
+ "textes": [],
+ "jurisprudence": []
+}
